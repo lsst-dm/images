@@ -55,10 +55,12 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     \node (ps) [psbox, right=1.5cm of pm] {\textbf{  Project Scientist}\\ \u{Z}eljko Ivezi\'c};
     \node (pdocu) [mbox, right=2.5cm of ps, text width=45mm] {\textbf{LSST Documentalist}\\ Robert McKercher};
 
-    \node (udmpm) [below=37mm of dmpm, text width=0mm]{};
-    \node (udmpm1) [below=8mm of dmpm, text width=0mm]{};
+    \node (udmpm) [below=41mm of dmpm, text width=0mm]{};
+    \node (udmpm1) [below=20.5mm of dmpm, text width=0mm]{};
+    \node (udmpm2) [below=100mm of dmpm, text width=0mm]{};
+
 % SYSTEM EN4G
-            \node (sysengg) [mbox, text width=50mm, rectangle split, rectangle split parts=2, left=4.1cm of udmpm.north]
+            \node (sysengg) [mbox, text width=50mm, rectangle split, rectangle split parts=2, left=3.1cm of udmpm.north]
                 {
                 Systems Engineering
                 \nodepart{second} \vspace{60mm}
@@ -81,7 +83,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     
 
     %\node (al) [below=69mm of dmpm, text width=0mm]{};
-    \dmnode[below=85mm of dmpm]{suit}{SUIT} {Xiuqin Wu  }{ David Ciardi } ;
+    \dmnode[left=1mm of udmpm2.north]{suit}{SUIT} {Xiuqin Wu  }{ David Ciardi } ;
     \dmnode[base left=2mm of suit]{das}{Data Access Services}{Fritz Mueller}{Mario Juric}  ;
     %\dmnode[left=2mm of das, text width=43mm]{drp}{Data Release/Alert Production}{John Swinbank}{DRP:Jim Bosch,  Alerts:Eric Bellm}  ;
 
