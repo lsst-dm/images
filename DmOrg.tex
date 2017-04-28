@@ -82,10 +82,10 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
     %\node (al) [below=69mm of dmpm, text width=0mm]{};
     \dmnode[below=85mm of dmpm]{suit}{SUIT} {Xiuqin Wu  }{ David Ciardi } ;
-    \dmnode[left=2mm of suit]{das}{Data Access Services}{Fritz Mueller}{Mario Juric}  ;
+    \dmnode[base left=2mm of suit]{das}{Data Access Services}{Fritz Mueller}{Mario Juric}  ;
     %\dmnode[left=2mm of das, text width=43mm]{drp}{Data Release/Alert Production}{John Swinbank}{DRP:Jim Bosch,  Alerts:Eric Bellm}  ;
 
-    \node (drp) [mbox, text width=36mm, rectangle split, rectangle split parts=2, left=2mm of das]
+    \node (drp) [mbox, text width=36mm, rectangle split, rectangle split parts=2, base left=2mm of das]
          {
 	  Data Release/Alert Production
 	  \nodepart{second} \vspace{30mm}
@@ -98,9 +98,9 @@ Eric Bellm};
 
 
     %\dmnode[left=2mm of drp]{alerts}{Alert Production}{Simon Krughoff}{ Eric Bellm}  ;
-    \dmnode[right=2mm of suit]{square}{SQuaRE} {Frossie Economou}{ Simon Krughof} ;
-    \dmnode[right=2mm of square,text width=40mm]{infra}{Infrastructure \& Processing} { Margaret Gelman   }{ Robert Gruendl, Don Petravick} ;
-    \dmnode[right=2mm of infra]{lhn}{LHN \& Base Site} { Jeff Kantor }{ Mario Juric } ;
+    \dmnode[base right=2mm of suit]{square}{SQuaRE} {Frossie Economou}{ Simon Krughof} ;
+    \dmnode[base right=2mm of square,text width=40mm]{infra}{Infrastructure \& Processing} { Margaret Gelman   }{ Robert Gruendl, Don Petravick} ;
+    \dmnode[base right=2mm of infra]{lhn}{LHN \& Base Site} { Jeff Kantor }{ Mario Juric } ;
 
 
 
