@@ -51,7 +51,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     \node (dmpm) [divbox, above=-2.5cm of dm.north] {\textbf{DM Project Manager} William O'Mullane};
     \node (dmdpm) [divbox, left=1.5cm of dmpm] {\textbf{DM Deputy Manager} John Swinbank};
     \node (pm) [divbox, above=.5cm of dm] {\textbf{ Project Manager} Victor Krabendam};
-    \node (dmps) [psbox, right=1.5cm of dmpm, minimum height=12mm] {\textbf{ DM Project Scientist}\\ Mario Juri\'c};
+    \node (dmps) [psbox, right=1.5cm of dmpm, minimum height=12mm] {\textbf{ DM Subsystem Scientist}\\ Mario Juri\'c};
     \node (ps) [psbox, right=1.5cm of pm, minimum height=12mm] {\textbf{  Project Scientist}\\ \u{Z}eljko Ivezi\'c};
     \node (pdocu) [mbox, right=3.5cm of ps, text width=35mm, minimum height=12mm] {\textbf{LSST Documentalist}\\ Robert McKercher};
 
@@ -70,7 +70,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     \node (syseng) [mbox, below=1mm of pipe, text width=39mm] {\textbf{ System Engineer}\\ Tim Jenness };
     \node (softarc) [mbox, below=1mm of syseng, text width=39mm] {\textbf{ Software Architect}\\ Kian Tat Lim };
     \node (sysarc) [mbox, below=1mm of softarc, text width=39mm] {\textbf{ Operations Architect}\\ Don Petravick  };
-    \node (reqeng) [psbox, below=1mm of sysarc, text width=39mm] {\textbf{Interface Scientist}\\ Gregory Dubois-Felsmann  };
+    \node (reqeng) [pobox, below=1mm of sysarc, text width=39mm] {\textbf{Interface Scientist}\\ Gregory Dubois-Felsmann  };
 %%%% end SYSENG
 
     \node (cm) [mbox, right=3.1cm of udmpm1.north , text width=45mm] {\textbf{Configuration Manager }\\???};
@@ -94,7 +94,14 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
     %\dmnode[left=2mm of drp]{alerts}{Alert Production}{Simon Krughoff}{ Eric Bellm}  ;
     \dmnode[base right=2mm of suit]{square}{SQuaRE} {Frossie Economou}{ Simon Krughoff } ;
-    \dmnode[base right=2mm of square,text width=40mm]{infra}{Infrastructure \& Processing} { Margaret Gelman }{ Robert Gruendl, Don Petravick} ;
+    
+    \node (infra) [mbox, text width=42mm, rectangle split, rectangle split parts=2, base right=2mm of square]
+         {Infrastructure \& Processing \strut
+          \nodepart{second} \vspace{32mm}};
+         \node(infrat) [mbox,minimum height=9mm, below=8mm of {infra}.north, text width=34mm] {\parbox[height=6mm]{0pt}{}{\small \bf T/CAM}\\ Margaret Gelman };
+    \node(infrapo) [pobox, below=2pt of infrat,text width=34mm]{{\small \bf Infrastructure  Owner}\\ Don Petravick};
+    \node(procpo) [psbox, below=2pt of infrapo,text width=34mm]{{\small \bf Proc Systems  Owner}\\ Robert Gruendl };
+
     \dmnode[base right=2mm of infra]{lhn}{LHN \& Base Site} { Jeff Kantor }{ Mario Juric } ;
 
  %% GROUPS ..
@@ -104,6 +111,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     \node (tct) [mbox, left=1cm of syseng.west , text width=45mm] {\textbf{DMCCB (was TCT) }};
 
    \draw[line] (dmps.east) --  (dmsg.west);
+   \draw[line] (dmps.north) --  (ps.south);
    \draw[line] (dmlt.east) --  (man.west);
    \draw[line] (tct.east) --  (syseng.west);
 
