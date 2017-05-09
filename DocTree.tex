@@ -12,10 +12,10 @@
 \usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
 \usetikzlibrary{backgrounds,calc}
 
-\usepackage[paperwidth=31cm,paperheight=155mm,
+\usepackage[paperwidth=24cm,paperheight=15cm,
 left=-2mm,top=3mm,bottom=0mm,right=0mm,
-noheadfoot,marginparwidth=0pt,includemp=false,
-textwidth=30cm,textheight=50mm]{geometry}
+noheadfoot,marginparwidth=0pt,includemp=false
+]{geometry}
 
 
 \newcommand\showpage{%
@@ -53,7 +53,8 @@ textwidth=30cm,textheight=50mm]{geometry}
 	\node (dmreq) [docbox, above=5mm of scireq.north] { DM System Requirements  LSE-61 (DMSR)};
 	\node (svtp) [docbox, left=60mm of dmreq.west] { DM  Validation \& Test Plan LDM-503 (SVTP)};
     \node (pmp) [docbox, right=10mm of dmreq.east] { DM PMP LDM-294};
-    \node (vcd) [docboxm, right=20mm of pmp.east] { DM Verification Control (VCD)};
+    \node (crd) [docboxm, text width=38mm,  right=20mm of pmp.east] {Config/Release/Deploy Management };
+    \node (vcd) [docboxm, above=5mm of crd.north] { DM Verification Control (VCD)};
 
     \node (compz) [docboxm, above=5mm of dmreq.north] { Component Z Requirements LDM-XXX};
     \node (compx) [docboxm, left=20mm of compz] { Component X Requirements LDM-XXX};
@@ -101,7 +102,8 @@ textwidth=30cm,textheight=50mm]{geometry}
    \draw[dline] (suitt.north) to (suittr.south);
 
    \draw[pline] (pmp.west) -|  (dmreq.east);
-   \draw[pline] (pmp.east) -|  (vcd.west);
+   \draw[pline] (pmp.east) -- (vcd.west);
+   \draw[pline] (pmp.east) -|  (crd.west);
 
    
 
