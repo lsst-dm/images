@@ -95,12 +95,16 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     %\dmnode[left=2mm of drp]{alerts}{Alert Production}{Simon Krughoff}{ Eric Bellm}  ;
     \dmnode[base right=2mm of suit]{square}{SQuaRE} {Frossie Economou}{ Simon Krughoff } ;
     
-    \node (infra) [mbox, text width=42mm, rectangle split, rectangle split parts=2, base right=2mm of square]
-         {Infrastructure \& Processing \strut
-          \nodepart{second} \vspace{32mm}};
-         \node(infrat) [mbox,minimum height=9mm, below=8mm of {infra}.north, text width=34mm] {\parbox[height=6mm]{0pt}{}{\small \bf T/CAM}\\ Margaret Gelman };
-    \node(infrapo) [pobox, below=2pt of infrat,text width=34mm]{{\small \bf Infrastructure  Owner}\\ Don Petravick};
-    \node(procpo) [psbox, below=2pt of infrapo,text width=34mm]{{\small \bf Proc Systems  Owner}\\ Robert Gruendl };
+    \node (infra) [mbox, text width=36mm, rectangle split, rectangle split parts=2, base right=2mm of square]
+         {Data Facility \strut
+          \nodepart{second} \vspace{31mm}};
+%         \node(infrat) [mbox,minimum height=9mm, below=8mm of {infra}.north, text width=34mm] {\parbox[height=6mm]{0pt}{}{\small \bf T/CAM}\\ Margaret Gelman };
+%    \node(infrapo) [pobox, below=2pt of infrat,text width=34mm]{{\small \bf Infrastructure  Owner}\\ Don Petravick};
+%    \node(procpo) [psbox, below=2pt of infrapo,text width=34mm]{{\small \bf Proc Systems  Owner}\\ Robert Gruendl };
+
+         \node(dft) [mbox,minimum height=9mm, below=8mm of {infra}.north, text width=32mm] {\parbox[height=6mm]{0pt}{}{\small \bf T/CAM}\\Margaret Gelman };
+         \node(infrapo) [pobox,minimum height=9mm, below=2pt of dft, text width=32mm] {{\small \bf Infrastructure Owner}\\ Don Petravick};
+         \node(procpo) [psbox,minimum height=9mm, below=2pt of infrapo, text width=32mm] {{\small \bf Proc Systems Owner}\\ Robert Gruendl};
 
     \dmnode[base right=2mm of infra]{lhn}{LHN \& Base Site} { Jeff Kantor }{ Mario Juric } ;
 
