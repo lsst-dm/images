@@ -33,8 +33,8 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
                 \strut #3
                 \nodepart{second} \vspace{31mm}
                 };
-             \node({#2}t) [mbox,minimum height=9mm, below=8mm of {#2}.north, text width=32mm] {\parbox[height=6mm]{0pt}{}{\small \bf T/CAM}\\ #4};
-             \node({#2}s) [psbox,minimum height=9mm, below=2pt of {#2}t, text width=32mm] {{\small \bf Product Owner}\\ #5};
+             \node({#2}t) [mbox,minimum height=9mm, below=8mm of {#2}.north, text width=32mm] {\parbox[height=6mm]{0pt}{}{\small \bf T/CAM}\\\strut#4};
+             \node({#2}s) [psbox,minimum height=9mm, below=2pt of {#2}t, text width=32mm] {{\small \bf Product Owner}\\\strut#5};
         }
 
 
@@ -80,33 +80,26 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
 
     %\node (al) [below=69mm of dmpm, text width=0mm]{};
-    \dmnode[left=1mm of udmpm2.north]{suit}{SUIT} {Xiuqin Wu  }{ Gregory Dubois-Felsmann} ;
-    \dmnode[base left=2mm of suit]{das}{Data Access Services}{Fritz Mueller}{Mario Juric}  ;
-    %\dmnode[left=2mm of das, text width=43mm]{drp}{Data Release/Alert Production}{John Swinbank}{DRP:Jim Bosch,  Alerts:Eric Bellm}  ;
+    \dmnode[left=1mm of udmpm2.north]{suit}{SUIT}{Xiuqin Wu}{Gregory Dubois-Felsmann} ;
+    \dmnode[base left=2mm of suit]{das}{Data Access Services}{Fritz Mueller}{Mario Juric}
 
     \node (drp) [mbox, text width=36mm, rectangle split, rectangle split parts=2, base left=2mm of das]
-         {Science Pipelines \strut
-          \nodepart{second} \vspace{31mm}};
+         {Science Pipelines \strut \nodepart{second} \vspace{31mm}};
 
-         \node(drpt) [mbox,minimum height=9mm, below=8mm of {drp}.north, text width=32mm] {\parbox[height=6mm]{0pt}{}{\small \bf T/CAM}\\John Swinbank };
-         \node(drps) [psbox,minimum height=9mm, below=2pt of drpt, text width=32mm] {{\small \bf DRP Owner}\\ Jim Bosch};
-         \node(alerts) [psbox,minimum height=9mm, below=2pt of drps, text width=32mm] {{\small \bf Alerts Owner}\\ Eric Bellm};
+         \node(drpt) [mbox,minimum height=9mm, below=8mm of {drp}.north, text width=32mm] {\parbox[height=6mm]{0pt}{}{\small \bf T/CAM}\\\strut John Swinbank };
+         \node(drps) [psbox,minimum height=9mm, below=2pt of drpt, text width=32mm] {{\small \bf DRP Owner}\\\strut Jim Bosch};
+         \node(alerts) [psbox,minimum height=9mm, below=2pt of drps, text width=32mm] {{\small \bf Alerts Owner}\\\strut Eric Bellm};
 
-    %\dmnode[left=2mm of drp]{alerts}{Alert Production}{Simon Krughoff}{ Eric Bellm}  ;
-    \dmnode[base right=2mm of suit]{square}{SQuaRE} {Frossie Economou}{ Simon Krughoff } ;
-    
+    \dmnode[base right=2mm of suit]{square}{SQuaRE} {\strut Frossie Economou}{ Simon Krughoff } ;
+
     \node (infra) [mbox, text width=36mm, rectangle split, rectangle split parts=2, base right=2mm of square]
-         {Data Facility \strut
-          \nodepart{second} \vspace{31mm}};
-%         \node(infrat) [mbox,minimum height=9mm, below=8mm of {infra}.north, text width=34mm] {\parbox[height=6mm]{0pt}{}{\small \bf T/CAM}\\ Margaret Gelman };
-%    \node(infrapo) [pobox, below=2pt of infrat,text width=34mm]{{\small \bf Infrastructure  Owner}\\ Don Petravick};
-%    \node(procpo) [psbox, below=2pt of infrapo,text width=34mm]{{\small \bf Proc Systems  Owner}\\ Robert Gruendl };
+         {Data Facility \strut \nodepart{second} \vspace{31mm}};
 
-         \node(dft) [mbox,minimum height=9mm, below=8mm of {infra}.north, text width=32mm] {\parbox[height=6mm]{0pt}{}{\small \bf T/CAM}\\Margaret Gelman };
-         \node(infrapo) [pobox,minimum height=9mm, below=2pt of dft, text width=32mm] {{\small \bf Infrastructure Owner}\\ Don Petravick};
-         \node(procpo) [psbox,minimum height=9mm, below=2pt of infrapo, text width=32mm] {{\small \bf Proc Systems Owner}\\ Robert Gruendl};
+         \node(dft) [mbox,minimum height=9mm, below=8mm of {infra}.north, text width=32mm] {\parbox[height=6mm]{0pt}{}{\small \bf T/CAM}\\\strut Margaret Gelman };
+         \node(infrapo) [pobox,minimum height=9mm, below=2pt of dft, text width=32mm] {{\small \bf Infrastructure Owner}\\\strut Don Petravick};
+         \node(procpo) [psbox,minimum height=9mm, below=2pt of infrapo, text width=32mm] {{\small \bf Proc Systems Owner}\\\strut Robert Gruendl};
 
-    \dmnode[base right=2mm of infra]{lhn}{LHN \& Base Site} { Jeff Kantor }{ Mario Juric } ;
+    \dmnode[base right=2mm of infra]{lhn}{LHN \& Base Site}{Jeff Kantor}{Mario Juric} ;
 
  %% GROUPS ..
 
