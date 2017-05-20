@@ -12,7 +12,7 @@
 \usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
 \usetikzlibrary{backgrounds,calc}
 
-\usepackage[paperwidth=24cm,paperheight=15cm,
+\usepackage[paperwidth=30cm,paperheight=15cm,
 left=-2mm,top=3mm,bottom=0mm,right=0mm,
 noheadfoot,marginparwidth=0pt,includemp=false
 ]{geometry}
@@ -33,6 +33,13 @@ noheadfoot,marginparwidth=0pt,includemp=false
 
 
 	\node (scireq) [docbox] { LSST  Science Requirements LPM-17 (SRD)};
+	\node (daicd) [docboxicd, left=11cm of scireq] { DM Data Acq ICD LSE-68 };
+	\node (camicd) [docboxicd, above=0.2cm of daicd] { DM Camera ICD LSE-69 };
+	\node (csicd) [docboxicd, above=0.2cm of camicd] { DM Telescope Control Sys ICD LSE-75 };
+	\node (sumicd) [docboxicd, above=0.2cm of csicd] { DM Summit Infra ICD LSE-76 };
+	\node (baseicd) [docboxicd, above=0.2cm of sumicd] { DM Base Infra ICD LSE-77 };
+	\node (epoicd) [docboxicd, above=0.2cm of baseicd] { DM EPO ICD LSE-131 };
+	\node (auxicd) [docboxicd, above=0.2cm of epoicd] { DM Telescope Aux  ICD LSE-140 };
     \node (sysreq) [docbox, right = 1cm of scireq] { LSST  System Requirements LSE-29 (LSR)};
     \node (oss) [docbox, right = 1cm of sysreq] { Observatory System Spec LSE-30 (OSS) };
 %  LEGEND
@@ -49,6 +56,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
 	\draw[tline] (legend3) to (legend3r);
 	\node(ttext) [right= 2mm of legend3r] {Test and Validation};
         \node (nf) [docboxm, left=5mm of legend2] { NOT FOUND YET };
+	\node (icd) [docboxicd, left=5mm of nf] { Interface Control Document (ICD) };
 %%%
 	\node (dmreq) [docbox, above=5mm of scireq.north] { DM System Requirements  LSE-61 (DMSR)};
 	\node (svtp) [docbox, left=60mm of dmreq.west] { DM  Validation \& Test Plan LDM-503 (SVTP)};
@@ -105,7 +113,14 @@ noheadfoot,marginparwidth=0pt,includemp=false
    \draw[pline] (pmp.east) -- (vcd.west);
    \draw[pline] (pmp.east) -|  (crd.west);
 
-   
+ %icds 
+   \draw[dline] (scireq.west) -- (daicd.east);
+   \draw[dline] (scireq.west)  -- ++(-10,0)  -| ++(0,1.5) --  (camicd.east);
+   \draw[dline] (scireq.west)  -- ++(-10,0)  -| ++(0,2.9) -- (csicd.east);
+   \draw[dline] (scireq.west) -- ++(-10,0)  -| ++(0,4.3) -- (sumicd.east);
+   \draw[dline] (scireq.west) -- ++(-10,0)  -| ++(0,5.8) -- (baseicd.east);
+   \draw[dline] (scireq.west) -- ++(-10,0)  -| ++(0,7.2) -- (epoicd.east);
+   \draw[dline] (scireq.west) -- ++(-10,0)  -| ++(0,8.7) -- (auxicd.east);
 
 \end{tikzpicture}
 \end{document}
