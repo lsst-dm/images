@@ -55,9 +55,9 @@ noheadfoot,marginparwidth=0pt,includemp=false
 	\node(legend3r) [right=1cm of legend3] {};
 	\draw[tline] (legend3) to (legend3r);
 	\node(ttext) [right= 2mm of legend3r] {Test and Validation};
-        \node (nf) [docboxm, left=5mm of legend2] { NOT FOUND YET };
+        \node (nf) [docboxm, left=5mm of legend2] { Comming in 2018};
 	\node (icd) [docboxicd, left=5mm of nf] { Interface Control Document (ICD) };
-	\node (upd) [docboxu, left=5mm of nf] { Needs Update};
+	\node (upd) [docboxu, left=5mm of icd] { Needs Update};
 %%%
 	\node (dmreq) [docbox, above=5mm of scireq.north] { DM System Requirements  LSE-61 (DMSR)};
 	\node (svtp) [docbox, left=60mm of dmreq.west] { DM  Validation \& Test Plan LDM-503 (SVTP)};
@@ -79,6 +79,8 @@ noheadfoot,marginparwidth=0pt,includemp=false
 
     \node (plt) [docboxm, above=29mm of plc] { L2 Pipelines Test Spec };
     \node (qservt) [docboxu, above=29mm of qservc] { Qserv Test Spec };
+
+
     \node (suitt) [docboxm, above=29mm of suitr] { SUIT Test Spec };
 
     \node (pltr) [docboxm, above=5mm of plt] { L2 Pipelines Test Reports };
@@ -118,11 +120,15 @@ noheadfoot,marginparwidth=0pt,includemp=false
    
    \node (pltp) [left=5mm of plt] {};
    \node (pltpb) [below=10mm of pltp.east] {};
-   \draw[dlines] (svtp.north) |- (pltpb.west);
+   %\draw[dlines] (svtp.north) |- (pltpb.west);
    \draw[dline] (pltpb.west) |- (plt.west);
 
+    \node (tst) [below=5mm of pltpb] {\color{red} Decide Components for test specs};
 
-   \draw[dline] (svtp.north) -- ++(0,4.1)  -| ++(11.3,1.2) -- (suitt.west);
+   \node (suittp) [left=5mm of suitt] {};
+   \node (suittpb) [below=10mm of suittp.east] {};
+   \draw[dlines] (qservtpb.west) -- (suittpb.west);
+   \draw[dline] (suittpb.west) |-  (suitt.west);
 
    \draw[tline] (pltr.north) -- ++(0,0.5)  -| (vcd.north);
    \draw[tline] (suittr.north) -- ++(0,0.5)  -| (vcd.north);
