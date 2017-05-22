@@ -59,23 +59,25 @@ noheadfoot,marginparwidth=0pt,includemp=false
 	\node (icd) [docboxicd, left=5mm of nf] { Interface Control Document (ICD) };
 	\node (upd) [docboxu, left=5mm of icd] { Needs Update};
 %%%
-	\node (dmreq) [docbox, above=5mm of scireq.north] { DM System Requirements  LSE-61 (DMSR)};
-	\node (svtp) [docbox, left=60mm of dmreq.west] { DM  Validation \& Test Plan LDM-503 (SVTP)};
-    \node (pmp) [docbox, right=10mm of dmreq.east] { DM PMP LDM-294};
-    \node (crd) [docboxm, text width=38mm,  right=5cm of pmp.east] {Config/Release/Deploy Management };
+	\node (srp) [above=15mm of scireq.north] {};
+	\node (dmreq) [docbox, left=2.5mm of srp] { DM System Requirements  LSE-61 (DMSR)};
+	\node (prod) [docbox, right=2.5mm of srp] { LSST Data Products  LSE-163 (DPDD)};
+	\node (svtp) [docbox, left=44mm of dmreq.west] { DM  Validation \& Test Plan LDM-503 (SVTP)};
+    \node (pmp) [docbox, right=7mm of prod.east] { DM PMP LDM-294};
+    \node (crd) [docboxm, text width=38mm,  right=35mm of pmp.east] {Config/Release/Deploy Management };
     \node (vcd) [docboxm, above=5mm of crd.north] { DM Verification Control (VCD)};
 
     %\node (compz) [docboxm, above=5mm of dmreq.north] { Component Z Requirements LDM-XXX};
     %\node (compx) [docboxm, left=20mm of compz] { Component X Requirements LDM-XXX};
     %\node (crdots) [right=1mm of compx.east] {\huge \ldots \ldots};
-    \node (compd)  [docbox, above=5mm of dmreq.north] { Component Architecture  LDM-148};
+    \node (compd)  [docbox, above=21mm of srp.north] { Component Architecture  LDM-148};
 
     \node (plc)  [docbox, above=10mm of compd] {L2 Pipeline Design LDM-151};
     \node (mwc)  [docboxu, left=5mm of plc] { Midleware Design LDM-152};
     \node (qservc)  [docboxu, left=5mm of mwc] { Qserv Design LDM-135};
     \node (infrac)  [docboxu, right=5mm of plc] { Services \& Infrastructure LDM-129};
     \node (suitr) [docboxu, right=10mm of infrac.east] { SUIT Design LDM-130};
-    \node (userd)  [docbox, right=4.0cm of compd] { User Documumentation };
+    \node (userd)  [docbox, right=45mm of compd] { User Documumentation };
 
     \node (plt) [docboxm, above=29mm of plc] { L2 Pipelines Test Spec };
     \node (qservt) [docboxu, above=29mm of qservc] { Qserv Test Spec };
@@ -88,7 +90,9 @@ noheadfoot,marginparwidth=0pt,includemp=false
     \node (suittr) [docboxm, above=5mm of suitt] { SUIT Test Reports };
 
    \draw[dline] (dmreq.north) to (compd.south);
+   \draw[dline] (prod.north) to (compd.south);
    \draw[dline] (scireq.north) to (dmreq.south);
+   \draw[dline] (scireq.north) to (prod.south);
    \draw[dline] (scireq.east) to (sysreq.west);
    \draw[dline] (sysreq.east) to (oss.west);
 
@@ -143,7 +147,8 @@ noheadfoot,marginparwidth=0pt,includemp=false
    \draw[dline] (qservt.north) to (qservtr.south);
    \draw[dline] (suitt.north) to (suittr.south);
 
-   \draw[pline] (pmp.west) -|  (dmreq.east);
+   \draw[pline] (pmp.north) |-  (compd.east);
+   \draw[pline] (pmp.north) |-  (userd.west);
    \draw[pline] (pmp.east) -- (vcd.west);
    \draw[pline] (pmp.east) -|  (crd.west);
 
