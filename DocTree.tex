@@ -12,7 +12,7 @@
 \usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
 \usetikzlibrary{backgrounds,calc}
 
-\usepackage[paperwidth=30cm,paperheight=15cm,
+\usepackage[paperwidth=32cm,paperheight=20cm,
 left=-2mm,top=3mm,bottom=0mm,right=0mm,
 noheadfoot,marginparwidth=0pt,includemp=false
 ]{geometry}
@@ -57,56 +57,84 @@ noheadfoot,marginparwidth=0pt,includemp=false
 	\node(ttext) [right= 2mm of legend3r] {Test and Validation};
         \node (nf) [docboxm, left=5mm of legend2] { NOT FOUND YET };
 	\node (icd) [docboxicd, left=5mm of nf] { Interface Control Document (ICD) };
+	\node (upd) [docboxu, left=5mm of nf] { Needs Update};
 %%%
 	\node (dmreq) [docbox, above=5mm of scireq.north] { DM System Requirements  LSE-61 (DMSR)};
 	\node (svtp) [docbox, left=60mm of dmreq.west] { DM  Validation \& Test Plan LDM-503 (SVTP)};
     \node (pmp) [docbox, right=10mm of dmreq.east] { DM PMP LDM-294};
-    \node (crd) [docboxm, text width=38mm,  right=20mm of pmp.east] {Config/Release/Deploy Management };
+    \node (crd) [docboxm, text width=38mm,  right=5cm of pmp.east] {Config/Release/Deploy Management };
     \node (vcd) [docboxm, above=5mm of crd.north] { DM Verification Control (VCD)};
 
-    \node (compz) [docboxm, above=5mm of dmreq.north] { Component Z Requirements LDM-XXX};
-    \node (compx) [docboxm, left=20mm of compz] { Component X Requirements LDM-XXX};
-    \node (crdots) [right=1mm of compx.east] {\huge \ldots \ldots};
-    \node (suitr) [docbox, right=10mm of compz.east] { SUIT Requirements LDM-130};
+    %\node (compz) [docboxm, above=5mm of dmreq.north] { Component Z Requirements LDM-XXX};
+    %\node (compx) [docboxm, left=20mm of compz] { Component X Requirements LDM-XXX};
+    %\node (crdots) [right=1mm of compx.east] {\huge \ldots \ldots};
+    \node (compd)  [docbox, above=5mm of dmreq.north] { Component Architecture  LDM-148};
 
-    \node (compd)  [docbox, above=12mm of crdots] { Component Design LDM-148,151,152,135,129};
-    \node (userd)  [docbox, right=5.7cm of compd] { User Documumentation };
+    \node (plc)  [docbox, above=10mm of compd] {L2 Pipeline Design LDM-151};
+    \node (mwc)  [docboxu, left=5mm of plc] { Midleware Design LDM-152};
+    \node (qservc)  [docboxu, left=5mm of mwc] { Qserv Design LDM-135};
+    \node (infrac)  [docboxu, right=5mm of plc] { Services \& Infrastructure LDM-129};
+    \node (suitr) [docboxu, right=10mm of infrac.east] { SUIT Design LDM-130};
+    \node (userd)  [docbox, right=4.0cm of compd] { User Documumentation };
 
-    \node (compxt) [docboxm, above=29mm of compx] { Component X Test Plan };
-    \node (compzt) [docboxm, above=29mm of compz] { Component Z Test Plan };
-    \node (suitt) [docboxm, above=29mm of suitr] { SUIT Test Plan };
+    \node (plt) [docboxm, above=29mm of plc] { L2 Pipelines Test Spec };
+    \node (qservt) [docboxu, above=29mm of qservc] { Qserv Test Spec };
+    \node (suitt) [docboxm, above=29mm of suitr] { SUIT Test Spec };
 
-    \node (compxtr) [docboxm, above=5mm of compxt] { Component X Test Report };
-    \node (compztr) [docboxm, above=5mm of compzt] { Component Z Test Report };
-    \node (suittr) [docboxm, above=5mm of suitt] { SUIT Test Report };
+    \node (pltr) [docboxm, above=5mm of plt] { L2 Pipelines Test Reports };
+    \node (qservtr) [docboxm, above=5mm of qservt] { Qserv Test Reports };
+    \node (suittr) [docboxm, above=5mm of suitt] { SUIT Test Reports };
 
+   \draw[dline] (dmreq.north) to (compd.south);
    \draw[dline] (scireq.north) to (dmreq.south);
    \draw[dline] (scireq.east) to (sysreq.west);
    \draw[dline] (sysreq.east) to (oss.west);
-   \draw[dline] (dmreq.north) to (suitr.south);
-   \draw[dline] (dmreq.north) to (compx.south);
-   \draw[dline] (dmreq.north) to (compz.south);
 
-   \draw[dline] (svtp.north) -- ++(0,4.1)  -| ++(7,1.2) -- (compzt.west);
+   \node (suitrp) [below=5mm of suitr] {};
+   \draw[dline] (suitrp.north) to (suitr.south);
+
+   \node (plcp) [below=5mm of plc] {};
+   \draw[dline] (plcp.north) to (plc.south);
+
+   \node (mwcp) [below=5mm of mwc] {};
+   \draw[dline] (mwcp.north) to  (mwc.south);
+
+   \node (infracp) [below=5mm of infrac] {};
+   \draw[dline] (infracp.north) -| (infrac.south);
+
+   \node (qservcp) [below=5mm of qservc] {};
+   \draw[dline] (qservcp.north) to (qservc.south);
+
+   \draw[dlines] (plcp.north) -- (qservcp.north);
+   \draw[dlines] (suitrp.north) -- (plcp.north);
+   \draw[dlines] (compd.north) -- (plcp.north);
+
+
+   \node (qservtp) [left=5mm of qservt] {};
+   \node (qservtpb) [below=10mm of qservtp.east] {};
+   \draw[dlines] (svtp.north) -| (qservtpb.west);
+   \draw[dlines] (qservtpb.west) |- (qservt.west);
+   %\draw[dline] (qservtp.east) -- (qservt.west);
    
+   \node (pltp) [left=5mm of plt] {};
+   \node (pltpb) [below=10mm of pltp.east] {};
+   \draw[dlines] (svtp.north) |- (pltpb.west);
+   \draw[dline] (pltpb.west) |- (plt.west);
+
+
    \draw[dline] (svtp.north) -- ++(0,4.1)  -| ++(11.3,1.2) -- (suitt.west);
-   \draw[dline] (svtp.north) |- (compxt.west);
 
-   \draw[dline] (compx.north) to (compd.south);
-   \draw[dline] (compz.north) to (compd.south);
-   \draw[dline] (suitr.north) to (compd.south);
-
+   \draw[tline] (pltr.north) -- ++(0,0.5)  -| (vcd.north);
    \draw[tline] (suittr.north) -- ++(0,0.5)  -| (vcd.north);
-   \draw[tline] (compxtr.north) -- ++(0,0.5)  -| (vcd.north);
-   \draw[tline] (compztr.north) -- ++(0,0.5)  -| (vcd.north);
+   \draw[tline] (qservtr.north) -- ++(0,0.5)  -| (vcd.north);
 
    \draw[tline] (svtp.east) to (dmreq.west);
-   \draw[tline] (compxt.south) to (compx.north);
-   \draw[tline] (compzt.south) to (compz.north);
+   \draw[tline] (plt.south) to (plc.north);
+   \draw[tline] (qservt.south) to (qservc.north);
    \draw[tline] (suitt.south) to (suitr.north);
 %reports
-   \draw[dline] (compxt.north) to (compxtr.south);
-   \draw[dline] (compzt.north) to (compztr.south);
+   \draw[dline] (plt.north) to (pltr.south);
+   \draw[dline] (qservt.north) to (qservtr.south);
    \draw[dline] (suitt.north) to (suittr.south);
 
    \draw[pline] (pmp.west) -|  (dmreq.east);
@@ -114,13 +142,26 @@ noheadfoot,marginparwidth=0pt,includemp=false
    \draw[pline] (pmp.east) -|  (crd.west);
 
  %icds 
-   \draw[dline] (scireq.west) -- (daicd.east);
-   \draw[dline] (scireq.west)  -- ++(-10,0)  -| ++(0,1.5) --  (camicd.east);
-   \draw[dline] (scireq.west)  -- ++(-10,0)  -| ++(0,2.9) -- (csicd.east);
-   \draw[dline] (scireq.west) -- ++(-10,0)  -| ++(0,4.3) -- (sumicd.east);
-   \draw[dline] (scireq.west) -- ++(-10,0)  -| ++(0,5.8) -- (baseicd.east);
-   \draw[dline] (scireq.west) -- ++(-10,0)  -| ++(0,7.2) -- (epoicd.east);
-   \draw[dline] (scireq.west) -- ++(-10,0)  -| ++(0,8.7) -- (auxicd.east);
+   \node (daicdp) [right=0.8cm of daicd.east] {};
+   \draw[dline] (daicdp.west) -- (daicd.east);
+
+   \node (camicdp) [right=0.8cm of camicd.east] {};
+   \draw[dline] (camicdp.west) -- (camicd.east);
+   \node (csicdp) [right=0.8cm of csicd.east] {};
+   \draw[dline] (csicdp.west) -- (csicd.east);
+   \node (sumicdp) [right=0.8cm of sumicd.east] {};
+   \draw[dline] (sumicdp.west) -- (sumicd.east);
+
+   \node (baseicdp) [right=0.8cm of baseicd.east] {};
+   \draw[dline] (baseicdp.west) -- (baseicd.east);
+
+   \node (epoicdp) [right=0.8cm of epoicd.east] {};
+   \draw[dline] (epoicdp.west) -- (epoicd.east);
+
+  
+   \node (auxicdp) [right=0.8cm of auxicd.east] {};
+   \draw[dlines] (scireq.west) -| (auxicdp.west);
+   \draw[dline] (auxicdp.west) -- (auxicd.east);
 
 \end{tikzpicture}
 \end{document}
