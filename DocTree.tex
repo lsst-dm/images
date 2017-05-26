@@ -78,7 +78,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
     \node (mwc)  [docboxu, left=5mm of plc] { Midleware Design LDM-152};
     \node (qservc)  [docboxu, left=5mm of mwc] { Qserv Design LDM-135};
     \node (infrac)  [docboxu, right=5mm of plc] { Services \& Infrastructure LDM-129};
-    \node (suitr) [docboxu, right=10mm of infrac.east] { SUIT Design LDM-130};
+    \node (suitr) [docboxu, right=10mm of infrac.east] { SUIT Design LDM-131};
     \node (userd)  [docbox, right=45mm of compd] { User Documumentation };
 
     \node (ncsaenct) [docboxm, above=12mm of auxicd ] { NCSA Enclave Test Spec LDM-532};
@@ -95,9 +95,17 @@ noheadfoot,marginparwidth=0pt,includemp=false
     \node (l2t) [docboxm, right=7mm of l1t] { L2 Test Spec  LDM-534};
     \node (infrat) [docboxm, right=7mm of l2t] { DBB Infrastructure  Test Spec LDM-537};
 
-    \node (pltr) [docboxm, above=5mm of l2t] { L2 Test Reports };
-    \node (qservtr) [docboxm, above=5mm of datast] { DBB Test Reports };
-    \node (suittr) [docboxm, above=5mm of scipt] { Science Platform Test Reports };
+    \node (l2tr) [docboxm, above=5mm of l2t] { L2 Test Reports };
+    \node (ncsaenctr) [docboxm, above=5mm of ncsaenct] { NCSA Enclave Test Reports };
+    \node (baseenctr) [docboxm, above=5mm of baseenct] { Base Enclave Test Reports };
+    \node (ccenctr) [docboxm, above=5mm of ccenct] {Comm Cluster Test Reports };
+    
+    \node (dbbtr) [docboxm, above=5mm of dbbt] { DBB Test Reports };
+    \node (datastr) [docboxm, above=5mm of datast] { Data Services Test Reports };
+    \node (sciptr) [docboxm, above=5mm of scipt] { Science Platform Test Reports };
+    \node (l1tr) [docboxm, above=5mm of l1t] { L1 Test Reports };
+    \node (l2tr) [docboxm, above=5mm of l2t] { L2 Test Reports };
+    \node (infratr) [docboxm, above=5mm of infrat] { Infrastructure Test Reports };
 
    \draw[dline] (dmsr.north) to (compd.south);
    \draw[dline] (dpdd.west) to (dmsr.east);
@@ -176,18 +184,33 @@ noheadfoot,marginparwidth=0pt,includemp=false
    \draw[dlines] (baseenctpb2.west) -- (ncsaenctpb.west);
    \draw[dlines] (svtp.north) |- (baseenctpb2.west);
 
-   \draw[tline] (pltr.north) -- ++(0,0.5)  -| (vcd.north);
-   \draw[tline] (suittr.north) -- ++(0,0.5)  -| (vcd.north);
-   \draw[tline] (qservtr.north) -- ++(0,0.5)  -| (vcd.north);
+
+
+
+   \draw[tlines] (baseenctr.north) -- ++(0,0.6);
+   \draw[tlines] (ccenctr.north) -- ++(0,0.6);
+   \draw[tlines] (datastr.north) -- ++(0,0.6);
+   \draw[tlines] (sciptr.north) -- ++(0,0.6);
+   \draw[tlines] (l1tr.north) -- ++(0,0.6);
+   \draw[tlines] (l2tr.north) -- ++(0,0.6);
+   \draw[tlines] (dbbtr.north) -- ++(0,0.6);
+   \draw[tlines] (infratr.north) -- ++(0,0.6);
+   \draw[tlines] (infratr.north) -- ++(0,0.6);
+
+   %\node(ncsaenctrp) [above=4mm of ncsaenctr]{};
+   %\draw[tlines] (ncsaenctr.north) -- (ncsaenctrp.north);
+   %\draw[tline] (ncsaenctrp.north)   -| (vcd.north);
+   \draw[tline] (ncsaenctr.north) -- ++(0,0.6)  -| (vcd.north);
 
    \draw[tline] (svtp.east) to (dmsr.west);
    \draw[tline] (l2t.south) to (plc.north);
+
    \draw[tline] (datast.south) to (qservc.north);
    \draw[tline] (scipt.south) to (suitr.north);
 %reports
-   \draw[dline] (l2t.north) to (pltr.south);
-   \draw[dline] (datast.north) to (qservtr.south);
-   \draw[dline] (scipt.north) to (suittr.south);
+   \draw[dline] (l2t.north) to (l2tr.south);
+   \draw[dline] (datast.north) to (datastr.south);
+   \draw[dline] (scipt.north) to (sciptr.south);
 
    \draw[pline] (pmp.north) |-  (compd.east);
    \draw[pline] (pmp.north) |-  (userd.west);
