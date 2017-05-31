@@ -12,7 +12,7 @@
 \usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
 \usetikzlibrary{backgrounds,calc}
 
-\usepackage[paperwidth=31cm,paperheight=21cm,
+\usepackage[paperwidth=30cm,paperheight=21cm,
 left=-2mm,top=3mm,bottom=0mm,right=0mm,
 noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
@@ -43,17 +43,16 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 \begin{tikzpicture}[node distance=0mm]
 
 
-    \node (dm) [arcbox, align=left, text width=30cm,  minimum height=10mm, rectangle split, rectangle split parts=2]
-	{ \hspace{0.1cm} \textbf{Data Management Subsystem}
+    \node (dm) [arcbox, align=left, text width=24cm,  minimum height=10mm, rectangle split, rectangle split parts=2]
+    { \hspace{0.1cm} \textbf{Data Management Leadership Team (DMLT)}
 	   \nodepart{second} \vspace{150mm} 
 	};
 
     \node (dmpm) [divbox, above=-2.5cm of dm.north] {\textbf{DM Project Manager} William O'Mullane};
     \node (dmdpm) [divbox, left=1.5cm of dmpm] {\textbf{DM Deputy Manager} John Swinbank};
-    \node (pm) [divbox, above=.5cm of dm] {\textbf{ Project Manager} Victor Krabendam};
+    \node (pm) [divbox, above=.5cm of dm] {\textbf{ Project Manager} Victor Krabbendam};
     \node (dmps) [psbox, right=1.5cm of dmpm, minimum height=12mm] {\textbf{ DM Subsystem Scientist}\\ Mario Juri\'c};
     \node (ps) [psbox, right=1.5cm of pm, minimum height=12mm] {\textbf{  Project Scientist}\\ \u{Z}eljko Ivezi\'c};
-    \node (pdocu) [mbox, right=3.5cm of ps, text width=35mm, minimum height=12mm] {\textbf{LSST Documentalist}\\ Robert McKercher};
 
     \node (udmpm) [below=39mm of dmpm, text width=0mm]{};
     \node (udmpm1) [below=18mm of dmpm, text width=0mm]{};
@@ -74,10 +73,12 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 %%%% end SYSENG
 
     \node (cm) [mbox, right=3.1cm of udmpm1.north , text width=45mm] {\textbf{Configuration/Release Manager }\\???};
-    \node (pcon) [mbox, below=5mm of cm , text width=45mm] {\textbf{Project Control/Scheduler }\\ Kevin Long?};
-    \node (docu) [mbox, below=5mm of pcon, text width=45mm] {\textbf{DM Documentalist}\\ Jonathan Sick };
-    \node (admin) [mbox, below=5mm of docu, text width=45mm] {\textbf{DM Admin}\\ Libby Petrick};
+    \node (pconp) [below=5mm of cm] {};
+    \node (docu) [mbox, right=70mm of pconp , text width=45mm] {\textbf{DM Documentalist}\\ Jonathan Sick };
+    \node (pcon) [mbox, below=5mm of docu , text width=45mm] {\textbf{Project Control/Scheduler }\\ Kevin Long};
+    \node (admin) [mbox, below=5mm of pcon, text width=45mm] {\textbf{DM Admin}\\ Libby Petrick};
 
+    \node (pdocu) [mbox, right=4.5cm of ps, text width=45mm, minimum height=12mm] {\textbf{LSST Documentalist}\\ Robert McKercher};
 
     %\node (al) [below=69mm of dmpm, text width=0mm]{};
     \dmnode[left=1mm of udmpm2.north]{suit}{SUIT}{Xiuqin Wu}{Gregory Dubois-Felsmann}{psbox} ;
@@ -104,8 +105,8 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
  %% GROUPS ..
 
     \node (dmsg) [psbox, right=1.0cm of dmps, minimum height=12mm] {\textbf{DM Subsystem Science Team}};
-    \node (dmlt) [mbox, left=1cm of man.west , text width=45mm] {\textbf{DMLT }};
-    \node (tct) [mbox, left=1cm of syseng.west , text width=45mm] {\textbf{DMCCB (was TCT) }};
+    \node (dmlt) [mbox, left=1cm of man.west , text width=25mm] {\textbf{DMLT }};
+    \node (tct) [mbox, left=1cm of syseng.west , text width=25mm] {\textbf{DMCCB (was TCT) }};
 
    \draw[line] (dmps.east) --  (dmsg.west);
    \draw[line] (dmps.north) --  (ps.south);
@@ -133,7 +134,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
    \draw[sline] (ps.west) to (pm.east);
    \draw[sline] (dmps.west) to (dmpm.east);
 
-   \draw[sline] (docu.east) -|  (pdocu.south);
+   \draw[sline] (docu.north) -|  (pdocu.south);
 
 \end{tikzpicture}
 \end{document}
