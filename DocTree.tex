@@ -82,7 +82,8 @@ noheadfoot,marginparwidth=0pt,includemp=false
     \node (netc) [docbox, right=5mm of plc.east] { Network Design LSE-78};
     \node (userd)  [docbox, right=45mm of compd] { User Documentation };
 
-    \node (ncsaenct) [docboxm, above=12mm of auxicd ] { NCSA Enclave Test Spec LDM-532};
+    %%%%%%%%%%% TEST SPECS %%%%%%%%%%%%%%
+    \node (ncsaenct) [docboxm, above=22mm of auxicd ] { NCSA Enclave Test Spec LDM-532};
     \node (baseenct) [docboxm, right=7mm of ncsaenct] { Base Enclave Test Spec LDM-538};
     \node (ccenct) [docboxm, right =7mm of baseenct ] { Comm Cluster Test Spec LDM-541};
 
@@ -96,17 +97,24 @@ noheadfoot,marginparwidth=0pt,includemp=false
     \node (l2t) [docboxm, right=7mm of l1t] { L2 Test Spec  LDM-534};
     \node (infrat) [docboxm, right=7mm of l2t] { DBB Infrastructure  Test Spec LDM-537};
 
-    \node (l2tr) [docboxm, above=5mm of l2t] { L2 Test Reports };
-    \node (ncsaenctr) [docboxm, above=5mm of ncsaenct] { NCSA Enclave Test Reports };
-    \node (baseenctr) [docboxm, above=5mm of baseenct] { Base Enclave Test Reports };
-    \node (ccenctr) [docboxm, above=5mm of ccenct] {Comm Cluster Test Reports };
+  %%%%%%%%%% component tests %%%%%%%%%%%%%%%%%%%
+
+    \node (l2kpm) [docboxu, above=5mm of l2t] { L2 KPMs  LDM-502};
+    \node (qservt) [docboxu, above=5mm of dbbt] { Qserv testing } ;
+
+  %%%%%%%%%% test reports %%%%%%%%%%%%%%%%%%%
+
+    \node (l2tr) [docboxm, above=25mm of l2t] { L2 Test Reports };
+    \node (ncsaenctr) [docboxm, above=25mm of ncsaenct] { NCSA Enclave Test Reports };
+    \node (baseenctr) [docboxm, above=25mm of baseenct] { Base Enclave Test Reports };
+    \node (ccenctr) [docboxm, above=25mm of ccenct] {Comm Cluster Test Reports };
     
-    \node (dbbtr) [docboxm, above=5mm of dbbt] { DBB Test Reports };
-    \node (datastr) [docboxm, above=5mm of datast] { Data Services Test Reports };
-    \node (sciptr) [docboxm, above=5mm of scipt] { Science Platform Test Reports };
-    \node (l1tr) [docboxm, above=5mm of l1t] { L1 Test Reports };
-    \node (l2tr) [docboxm, above=5mm of l2t] { L2 Test Reports };
-    \node (infratr) [docboxm, above=5mm of infrat] { Infrastructure Test Reports };
+    \node (dbbtr) [docboxm, above=25mm of dbbt] { DBB Test Reports };
+    \node (datastr) [docboxm, above=25mm of datast] { Data Services Test Reports };
+    \node (sciptr) [docboxm, above=25mm of scipt] { Science Platform Test Reports };
+    \node (l1tr) [docboxm, above=25mm of l1t] { L1 Test Reports };
+    \node (l2tr) [docboxm, above=25mm of l2t] { L2 Test Reports };
+    \node (infratr) [docboxm, above=25mm of infrat] { Infrastructure Test Reports };
 
    \draw[dline] (dmsr.north) to (compd.south);
    \draw[dline] (dpdd.west) to (dmsr.east);
