@@ -12,7 +12,7 @@
 \usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
 \usetikzlibrary{backgrounds,calc}
 
-\usepackage[paperwidth=39cm,paperheight=20cm,
+\usepackage[paperwidth=39cm,paperheight=22cm,
 left=-2mm,top=3mm,bottom=0mm,right=0mm,
 noheadfoot,marginparwidth=0pt,includemp=false
 ]{geometry}
@@ -74,12 +74,12 @@ noheadfoot,marginparwidth=0pt,includemp=false
     %\node (crdots) [right=1mm of compx.east] {\huge \ldots \ldots};
     \node (compd)  [docbox, above=21mm of srp.north] { Component Architecture  LDM-148};
 
-    \node (plc)  [docbox, above=10mm of compd] {L2 Pipeline Design LDM-151};
-    \node (mwc)  [docboxu, left=5mm of plc] { Middleware Design LDM-152};
+    \node (suitc) [docboxu, above=10mm of compd] { SUIT Design LDM-131};
+    \node (mwc)  [docboxu, left=5mm of suitc] { Middleware Design LDM-152};
     \node (qservc)  [docboxu, left=5mm of mwc] { Qserv Design LDM-135};
-    \node (infrac)  [docboxu, right=5mm of plc] { Services \& Infrastructure LDM-129};
-    \node (suitc) [docboxu, right=5mm of infrac.east] { SUIT Design LDM-131};
-    \node (netc) [docbox, right=5mm of suitc.east] { Network Design LSE-78};
+    \node (infrac)  [docboxu, right=5mm of suitc] { Services \& Infrastructure LDM-129};
+    \node (plc)  [docbox, right=5mm of infrac.east] {L2 Pipeline Design LDM-151};
+    \node (netc) [docbox, right=5mm of plc.east] { Network Design LSE-78};
     \node (userd)  [docbox, right=45mm of compd] { User Documentation };
 
     \node (ncsaenct) [docboxm, above=12mm of auxicd ] { NCSA Enclave Test Spec LDM-532};
@@ -114,8 +114,8 @@ noheadfoot,marginparwidth=0pt,includemp=false
    \draw[dline] (lsr.north) to (dmsr.south);
    \draw[dline] (srd.north) to (dpdd.south);
    \draw[dline] (srd.north) to (dmsr.south);
-   \draw[dline] (srd.east) to (lsr.west);
-   \draw[dline] (lsr.east) to (oss.west);
+   \draw[dline] (lsr.west) to (srd.east)  ;
+   \draw[dline] (oss.west) to (lsr.east) ;
 
 
    \node (suitrp) [below=5mm of suitc] {};
