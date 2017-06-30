@@ -32,18 +32,18 @@ noheadfoot,marginparwidth=0pt,includemp=false
 \begin{tikzpicture}[node distance=0mm]
 
 
-	\node (srd) [docbox] { LSST  Science Requirements LPM-17 (SRD)};
-	\node (daicd) [docboxicd, left=11cm of srd] { DM Data Acq ICD LSE-68 };
+    \node (oss) [docbox ] { Observatory System Spec LSE-30 (OSS) };
+	\node (daicd) [docboxicd, left=11cm of oss] { DM Data Acq ICD LSE-68 };
 	\node (camicd) [docboxicd, above=0.2cm of daicd] { DM Camera ICD LSE-69 };
 	\node (csicd) [docboxicd, above=0.2cm of camicd] { DM Telescope Control Sys ICD LSE-75 };
 	\node (sumicd) [docboxicd, above=0.2cm of csicd] { DM Summit Infra ICD LSE-76 };
 	\node (baseicd) [docboxicd, above=0.2cm of sumicd] { DM Base Infra ICD LSE-77 };
 	\node (epoicd) [docboxicd, above=0.2cm of baseicd] { DM EPO ICD LSE-131 };
 	\node (auxicd) [docboxicd, above=0.2cm of epoicd] { DM Telescope Aux  ICD LSE-140 };
-    \node (lsr) [docbox, right = 1cm of srd] { LSST  System Requirements LSE-29 (LSR)};
-    \node (oss) [docbox, right = 1cm of lsr] { Observatory System Spec LSE-30 (OSS) };
+    \node (lsr) [docbox, right = 1cm of oss] { LSST  System Requirements LSE-29 (LSR)};
+	\node (srd) [docbox, right = 1cm of lsr] { LSST  Science Requirements LPM-17 (SRD)};
 %  LEGEND
-	\node(legend) [below=1cm of srd] {};
+	\node(legend) [below=1cm of oss] {};
 	\node(legendr) [right=1cm of legend] {};
 	\draw[dline] (legend) to (legendr);
 	\node(dtext) [right= 2mm of legendr] {Specification and Design};
@@ -59,7 +59,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
 	\node (icd) [docboxicd, left=5mm of nf] { Interface Control Document (ICD) };
 	\node (upd) [docboxu, left=5mm of icd] { Needs Update};
 %%%
-	\node (srp) [above=15mm of srd.north] {};
+	\node (srp) [above=15mm of oss.north] {};
 	\node (dmsr) [docbox, left=3mm of srp] { DM System Requirements  LSE-61 (DMSR)};
 	\node (dmsrp) [left=20 mm of dmsr] {};
 	\node (dqap) [docbox, below=7mm of dmsrp] { LSST Data Quality Assurance Plan LSE-63 (DQAP)};
@@ -81,7 +81,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
     \node (dbr) [docbox, left=5mm of mwr] { Database Requirements LDM-555};
 
     \node (scipc) [docbox, above=10mm of scipr] { Science Platform Design LDM-542};
-    \node (suitc) [docboxu, above=5mm of scipc] { SUIT Design LDM-131};
+   % \node (suitc) [docboxu, above=5mm of scipc] { SUIT Design LDM-131};
     \node (mwc)  [docbox, left=5mm of scipc] { Middleware Design LDM-152};
     \node (dbc)  [docbox, left=5mm of mwc] { Database  Design LDM-135};
     \node (infrac)  [docboxu, right=5mm of scipc] { Services \& Infrastructure LDM-129};
@@ -136,12 +136,13 @@ noheadfoot,marginparwidth=0pt,includemp=false
    \draw[dline] (scipr.north)  ++(-0.3,0.0) --  (scipc.south);
 
    \draw[dline] (dpdd.west) to (dmsr.east);
-   \draw[dline] (dqap.east) to (dmsr.south);
-   \draw[dline] (lsr.north) to (dmsr.south);
-   \draw[dline] (srd.north) to (dpdd.south);
-   \draw[dline] (srd.north) to (dmsr.south);
-   \draw[dline] (lsr.west) to (srd.east)  ;
-   \draw[dline] (oss.west) to (lsr.east) ;
+   \draw[dline]   (oss.west) ++(-0.2,0)   |- (dqap.east);
+   \draw[dline] (lsr.north) -- ++(0.0,0.5) -| (dmsr.south);
+   %\draw[dline] (dpdd.south)to (oss.north);
+   \draw[dlines] (oss.north) -- ++(0,0.5); % (dmsr.south);
+   \draw[dline] (lsr.west) to (oss.east)  ;
+   \draw[dline] (srd.west) to (lsr.east) ;
+   \draw[dline] (srd.north) ++(-1.1,0)  |- (dpdd.east) ;
 
 
    \node (scipcp) [below=5mm of scipc] {};
@@ -272,7 +273,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
 
   
    \node (auxicdp) [right=0.8cm of auxicd.east] {};
-   \draw[dlines] (srd.west) -| (auxicdp.west);
+   \draw[dlines] (oss.west) -| (auxicdp.west);
    \draw[dline] (auxicdp.west) -- (auxicd.east);
 
 \end{tikzpicture}
