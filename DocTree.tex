@@ -1,7 +1,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% Document:      DM  Doc Tree  
+% Document:      DM  Doc Tree
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -96,7 +96,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
 
 
     \node (dbbt) [docboxm, right =7mm of ccenct ] { Data BackBone  Test Spec LDM-535 };
-    
+
     \node (datast) [docboxm, right=7mm of dbbt] { Data Services Test Spec LDM-536};
 
     \node (scipt) [docboxm, right=7mm of datast] {Science Platform  Test Spec LDM-540 };
@@ -115,12 +115,11 @@ noheadfoot,marginparwidth=0pt,includemp=false
     \node (ncsaenctr) [docboxm, above=25mm of ncsaenct] { NCSA Enclave Test Reports };
     \node (baseenctr) [docboxm, above=25mm of baseenct] { Base Enclave Test Reports };
     \node (ccenctr) [docboxm, above=25mm of ccenct] {Comm Cluster Test Reports };
-    
+
     \node (dbbtr) [docbox, above=25mm of dbbt] { DBB Test Reports };
     \node (datastr) [docboxm, above=25mm of datast] { Data Services Test Reports };
     \node (sciptr) [docboxm, above=25mm of scipt] { Science Platform Test Reports };
     \node (l1tr) [docboxm, above=25mm of l1t] { L1 Test Reports };
-    \node (l2tr) [docboxu, above=25mm of l2t] { L2 Test Reports };
     \node (infratr) [docbox, above=25mm of infrat] { Infrastructure Test Reports };
 
    \draw[dline] (dmsr.north)  ++(0,0.6) -| (compd.south);
@@ -181,7 +180,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
    \node (infratp) [left=3mm of infrat] {};
    \node (infratpb) [below=10mm of infratp.east] {};
    \draw[dline] (infratpb.west) |- (infrat.west);
-   
+
    \node (pltp) [left=3mm of l2t] {};
    \node (pltpb) [below=10mm of pltp.east] {};
    \draw[dline] (pltpb.west) |- (l2t.west);
@@ -254,7 +253,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
    \draw[pline] (pmp.east) -- (vcd.west);
    \draw[pline] (pmp.east) -|  (crd.west);
 
- %icds 
+ %icds
    \node (daicdp) [right=0.8cm of daicd.east] {};
    \draw[dline] (daicdp.west) -- (daicd.east);
 
@@ -271,7 +270,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
    \node (epoicdp) [right=0.8cm of epoicd.east] {};
    \draw[dline] (epoicdp.west) -- (epoicd.east);
 
-  
+
    \node (auxicdp) [right=0.8cm of auxicd.east] {};
    \draw[dlines] (oss.west) -| (auxicdp.west);
    \draw[dline] (auxicdp.west) -- (auxicd.east);
