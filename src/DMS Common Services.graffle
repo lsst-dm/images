@@ -1326,7 +1326,7 @@
 			<key>AllowConnections</key>
 			<string>NO</string>
 			<key>Bounds</key>
-			<string>{{97, 949.0204011325302}, {207.00000142249564, 138.97959899902344}}</string>
+			<string>{{97, 922.52020263671875}, {207.00000142249564, 165.47976684570312}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -1578,7 +1578,7 @@
 			<key>AllowConnections</key>
 			<string>NO</string>
 			<key>Bounds</key>
-			<string>{{315, 23.999885559082031}, {394, 1064.0001220703125}}</string>
+			<string>{{341.6875, 23.999885559082031}, {371.00015258789062, 1064.0001220703125}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -1685,7 +1685,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-07-11 22:32:57 +0000</string>
+	<string>2017-07-12 00:08:08 +0000</string>
 	<key>Modifier</key>
 	<string>Kian-Tat Lim</string>
 	<key>NotesVisible</key>
@@ -1780,7 +1780,7 @@
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-18, 0}, {770, 689}}</string>
+		<string>{{-18, 463}, {770, 689}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
