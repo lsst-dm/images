@@ -85,7 +85,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
     \node (mwc)  [docbox, left=5mm of scipc] { Middleware Design LDM-152};
     \node (dbc)  [docbox, left=5mm of mwc] { Database  Design LDM-135};
     \node (infrac)  [docboxu, right=5mm of scipc] { Services \& Infrastructure LDM-129};
-    \node (plc)  [docbox, right=5mm of infrac.east] {L2 Pipeline Design LDM-151};
+    \node (plc)  [docbox, right=5mm of infrac.east] {Pipeline Design LDM-151};
     \node (netc) [docbox, right=5mm of plc.east] { Network Design LSE-78};
     \node (userd)  [docbox, right=45mm of compd] { User Documentation };
 
@@ -233,6 +233,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
 
    \draw[tline] (svtp.east) to (dmsr.west);
    \draw[tline] (l2t.south) to (plc.north);
+   \draw[tline] (l1t.south) to (plc.north);
    \draw[tline] (infrat.south) to (netc.north);
 
    \draw[tline] (datast.south) to (dbc.north);
