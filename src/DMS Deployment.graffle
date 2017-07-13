@@ -6175,7 +6175,7 @@ Ingest}</string>
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f0\b\fs24 \cf0 Base Enclave}</string>
+\f0\b\fs24 \cf0 Base Center}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -6434,7 +6434,7 @@ Developer Support}</string>
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f0\b\fs24 \cf0 NCSA Enclave}</string>
+\f0\b\fs24 \cf0 NCSA}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -6552,7 +6552,7 @@ Developer Support}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-06-30 15:12:23 +0000</string>
+	<string>2017-07-11 22:33:07 +0000</string>
 	<key>Modifier</key>
 	<string>Kian-Tat Lim</string>
 	<key>NotesVisible</key>
@@ -6647,7 +6647,7 @@ Developer Support}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{81.30840722916291, 521.87847727631515}, {719.62613294776372, 629.90651117765287}}</string>
+		<string>{{80.373827835724256, -37}, {719.62613294776372, 629.90651117765287}}</string>
 		<key>Zoom</key>
 		<real>1.0700000524520874</real>
 		<key>ZoomValues</key>
