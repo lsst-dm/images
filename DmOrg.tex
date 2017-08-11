@@ -12,7 +12,7 @@
 \usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
 \usetikzlibrary{backgrounds,calc}
 
-\usepackage[paperwidth=30cm,paperheight=21cm,
+\usepackage[paperwidth=30cm,paperheight=17cm,
 left=-2mm,top=3mm,bottom=0mm,right=0mm,
 noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
@@ -45,7 +45,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
     \node (dm) [arcbox, align=left, text width=24cm,  minimum height=10mm, rectangle split, rectangle split parts=2]
     { \hspace{0.1cm} \textbf{Data Management Leadership Team (DMLT)}
-	   \nodepart{second} \vspace{150mm} 
+	   \nodepart{second} \vspace{140mm}
 	};
 
     \node (dmpm) [divbox, above=-2.5cm of dm.north] {\textbf{DM Project Manager} William O'Mullane};
@@ -78,7 +78,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     \node (pcon) [mbox, below=5mm of docu , text width=45mm] {\textbf{Project Control/Scheduler }\\ Kevin Long};
     \node (admin) [mbox, below=5mm of pcon, text width=45mm] {\textbf{DM Admin}\\ Libby Petrick};
 
-    \node (pdocu) [mbox, right=4.5cm of ps, text width=45mm, minimum height=12mm] {\textbf{LSST Documentalist}\\ Robert McKercher};
+    \node (pdocu) [mbox, right=5.5cm of ps, text width=45mm, minimum height=12mm] {\textbf{LSST Documentalist}\\ Robert McKercher};
 
     %\node (al) [below=69mm of dmpm, text width=0mm]{};
     \dmnode[left=1mm of udmpm2.north]{suit}{SUIT}{Xiuqin Wu}{Gregory Dubois-Felsmann}{psbox} ;
