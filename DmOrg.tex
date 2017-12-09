@@ -45,18 +45,18 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
     \node (dm) [arcbox, align=left, text width=24cm,  minimum height=10mm, rectangle split, rectangle split parts=2]
     { \hspace{0.1cm} \textbf{Data Management Leadership Team (DMLT)}
-	   \nodepart{second} \vspace{167mm}
+	   \nodepart{second} \vspace{170mm}
 	};
 
     \node (dmpm) [divbox, above=-2.5cm of dm.north] {\textbf{DM Project Manager} William O'Mullane};
     \node (dmdpm) [divbox, left=1.5cm of dmpm] {\textbf{DM Deputy Manager} John Swinbank};
     \node (pm) [divbox, above=.5cm of dm] {\textbf{ Project Manager} Victor Krabbendam};
-    \node (dmps) [psbox, right=1.5cm of dmpm, minimum height=12mm] {\textbf{ DM Subsystem Scientist}\\ Mario Juri\'c};
+    \node (dmps) [psbox, right=1.3cm of dmpm, minimum height=12mm, text width=39mm] {\textbf{ DM Subsystem Scientist}\\{\color{red} Open} };
     \node (ps) [psbox, right=1.5cm of pm, minimum height=12mm] {\textbf{  Project Scientist}\\ \u{Z}eljko Ivezi\'c};
 
     \node (udmpm) [below=49mm of dmpm, text width=0mm]{};
     \node (udmpm1) [below=18mm of dmpm, text width=0mm]{};
-    \node (udmpm2) [below=123mm of dmpm, text width=0mm]{};
+    \node (udmpm2) [below=125mm of dmpm, text width=0mm]{};
 
 % SYSENG
             \node (sysengg) [mbox, text width=50mm, rectangle split, rectangle split parts=2, left=3.1cm of udmpm.north]
@@ -66,7 +66,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
                 };
     \node (man) [mbox, below=6mm of sysengg.north, text width=39mm] {\textbf{ Manager }\\ William O'Mullane };
     \node (dman) [mbox, below=1mm of man, text width=39mm] {\textbf{Deputy Manager}\\ John Swinbank};
-    \node (dmsci) [psbox, below=1mm of dman, text width=39mm] {\textbf{DM Subsystem Scientist}\\ Mario Juri\'c};
+    \node (dmsci) [psbox, below=1mm of dman, text width=39mm] {\textbf{DM Subsystem Scientist}\\ {\color{red} Open}};
     \node (pipe) [psbox, below=1mm of dmsci, text width=39mm] {\textbf{ Pipeline Scientist}\\ Robert Lupton };
     \node (syseng) [mbox, below=1mm of pipe, text width=39mm] {\textbf{ Systems Engineer}\\ Tim Jenness (DMCCB Chair)};
     \node (softarc) [mbox, below=1mm of syseng, text width=39mm] {\textbf{ Software Architect}\\ Kian Tat Lim };
@@ -84,7 +84,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
     %\node (al) [below=69mm of dmpm, text width=0mm]{};
     \dmnode[left=1mm of udmpm2.north]{suit}{SUIT}{Xiuqin Wu}{Gregory Dubois-Felsmann}{psbox} ;
-    \dmnode[base left=2mm of suit]{das}{Data Access Services}{Fritz Mueller}{Mario Juri\'c} {psbox};
+    \dmnode[base left=2mm of suit]{das}{Data Access Services}{Fritz Mueller}{DM Subsystem Scientist} {psbox};
 
     \node (drp) [mbox, text width=36mm, rectangle split, rectangle split parts=2, base left=2mm of das]
          {Science Pipelines \strut \nodepart{second} \vspace{39mm}};
@@ -106,7 +106,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
  %% GROUPS ..
 
-    \node (dmsg) [psbox, right=1.0cm of dmps, minimum height=12mm] {\textbf{DM Subsystem Science Team}};
+    \node (dmsg) [psbox, right=0.9cm of dmps, minimum height=12mm] {\textbf{DM Subsystem Science Team}};
     \node (dmlt) [mbox, left=1cm of man.west , text width=25mm] {\textbf{DMLT }};
 
    \draw[line] (dmps.east) --  (dmsg.west);
