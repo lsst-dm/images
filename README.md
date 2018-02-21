@@ -17,6 +17,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src=" DAQbb.jpg" alt=" DAQbb.jpg" width=200><td>DAQbb.jpg<td> Data Acquisition System Back Board at NCSA (2017)
 <tr><td> <img src=" DAQfb.jpg" alt=" DAQfb.jpg" width=200><td>DAQfb.jpg<td> Data Acquisition System Front  Board at NCSA (2017)
 <tr><td> <img src=" DMMasterSchedule.png" alt=" DMMasterSchedule.png" width=200><td>DMMasterSchedule.png<td> PNG of DM Master schedule for slides
+<tr><td> <img src="pdf.jpg" alt=" " width=200><td>DMMasterSchedule.pdf<td> DM master milestone schedule for slides. Refer to LDM-503. This version based on the March 2018 Baseline.
 <tr><td> <img src="pdf.jpg" alt=" " width=200><td>DMSCommonServices.pdf<td>   DM Common services from Architecture (LDM-148)
 <tr><td> <img src="pdf.jpg" alt=" " width=200><td>DMSDeployment.pdf<td> DN Deployment from Arch (LDM-148)
 <tr><td> <img src=" DMS_Architecture.png" alt=" DMS_Architecture.png" width=200><td>DMS_Architecture.png<td> High level view of DM architecture from LDM-148
