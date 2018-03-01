@@ -25,6 +25,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="DmMap.png " alt="DmMap.png " width=200><td>DmMap.png<td> Geographical map showing DM team locations
 <tr><td> <img src="pdf.jpg" alt="pdf" width=200><td>DmOrg.pdf<td> DM Org chart from LDM-294
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>DocTree.pdf<td>DM Doc Tree  from LDM-294
+<tr><td> <img src="EIA-TUCSON-2018.jpg" alt="EIA-TUCSON-2018 " width=200><td>EIA-TUCSON-2018.jpg<td>1 March 2018 Early Integration Activity with CCS, Header Service and DMCS attache to SAL.
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>EndUserDocs.pdf<td>DM End users Doc Tree  from LDM-294
 <tr><td> <img src="GaiaLSSTaccuracy.png" alt=" GaiaLSSTaccuracy.png" width=200><td>GaiaLSSTaccuracy.png<td> Plot showing Gaia accuracies for brighter objects and overlapping with LSST for fainter objects
 <tr><td> <img src="Gaia_liftoff_9_625.jpg" alt=" Gaia_liftoff_9_625.jpg" width=200><td>Gaia_liftoff_9_625.jpg<td> Gaia Launch Photo
