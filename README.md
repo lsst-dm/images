@@ -86,6 +86,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="l2Optic.png" alt="l2Optic.png" width=200><td>l2Optic.png<td> Lens 2 (l2) Optics for LSST
 <tr><td> <img src="lsstplan.jpg" alt="lsstplan.jpg" width=200><td>lsstplan.jpg<td> Cartoon Gantt Chart showing LSST plan including commissioning and OPS and the transition wedges.
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>mp_starmap.pdf<td> Cover of Perryman's book The Making of History's Greatest Star Map
+<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>net_firstlight.pdf<td> Network diagam from Jeff showing the lines used for the Optical first light in 2017.
 <tr><td> <img src="newHorizons.jpg" alt="newHorizons.jpg" width=200><td>newHorizons.jpg<td> Cover of New Worlds, New Horizons
 <tr><td> <img src="ngc1232.jpg" alt="ngc1232.jpg" width=200><td>ngc1232.jpg<td> Image of NGC 1232 (ESO)
 <tr><td> <img src="olddmorg.png" alt="olddmorg.png" width=200><td>olddmorg.png<td> DM org (obsolete) pre 2017
