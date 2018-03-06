@@ -52,10 +52,11 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     \node (dmdpm) [divbox, left=1.5cm of dmpm] {\textbf{DM Deputy Manager} John Swinbank};
     \node (pm) [divbox, above=.5cm of dm] {\textbf{ Project Manager} Victor Krabbendam};
     \node (dmps) [psbox, right=1.3cm of dmpm, minimum height=12mm, text width=39mm] {\textbf{ DM Subsystem Scientist}\\ Leanne Guy };
+    \node (ddmps) [psbox, right=0.4cm of dmps, minimum height=12mm, text width=41mm] {\textbf{ Deputy DM Subsystem Scientist}\\ Colin Slater };
     \node (ps) [psbox, right=1.5cm of pm, minimum height=12mm] {\textbf{  Project Scientist}\\ \u{Z}eljko Ivezi\'c};
 
     \node (udmpm) [below=49mm of dmpm, text width=0mm]{};
-    \node (udmpm1) [below=18mm of dmpm, text width=0mm]{};
+    \node (udmpm1) [below=24mm of dmpm, text width=0mm]{};
     \node (udmpm2) [below=125mm of dmpm, text width=0mm]{};
 
 % SYSENG
@@ -73,7 +74,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     \node (reqeng) [pobox, below=1mm of softarc, text width=39mm] {\textbf{Sci Platform Scientist/ Interface Scientist}\\ Gregory Dubois-Felsmann  };
 %%%% end SYSENG
 
-    \node (cm) [mbox, right=3.1cm of udmpm1.north , text width=45mm] {\textbf{Configuration/Release Manager }\\ Gabriele Comoretto};
+    \node (cm) [mbox, right=3.1cm of udmpm1.north , text width=45mm] {\textbf{Config/Release Manager }\\ Gabriele Comoretto};
     \node (pconp) [below=5mm of cm] {};
     \node (docu) [mbox, right=70mm of pconp , text width=45mm] {\textbf{DM Documentalist}\\ Jonathan Sick };
     \node (pcon) [mbox, below=5mm of docu , text width=45mm] {\textbf{Project Control/Scheduler }\\ Kevin Long};
@@ -105,11 +106,12 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
  %% GROUPS ..
 
-    \node (dmsg) [psbox, right=0.9cm of dmps, minimum height=12mm] {\textbf{DM Subsystem Science Team}};
+    \node (dmsg) [psbox, below=0.5cm of dmps, minimum height=12mm] {\textbf{DM Subsystem Science Team}};
     \node (dmlt) [mbox, left=1cm of man.west , text width=25mm] {\textbf{DMLT }};
 
-   \draw[line] (dmps.east) --  (dmsg.west);
+   \draw[line] (dmps.south) --  (dmsg.north);
    \draw[line] (dmps.north) --  (ps.south);
+   \draw[line] (ddmps.west) --  (dmps.east);
    \draw[line] (dmlt.east) --  (man.west);
 
    \draw[line] (dmpm.north) -- ++(0,0.8) -| (pm.south);
