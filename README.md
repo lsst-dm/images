@@ -13,6 +13,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="BarringerCrater.png" alt=" BarringerCrater.png" width=200><td>BarringerCrater.png  <td> Picture of Barringer crater used in meteor slides .. it shows to scale Statue of Liberty and LSST in the crater (Zeljko)
 <tr><td> <img src="Blast_20-full.jpg" alt=" Blast_20-full.jpg" width=200><td>Blast_20-full.jpg<td> Photo showing blast on top  Cerro Pachon during the leveling of the peak
 <tr><td> <img src="CMB.png" alt=" CMB.png" width=200><td>CMB.png<td> Lambda CDM graphic showing the big bang through to WMAP
+<tr><td> <img src="CatVolTime.png" alt=" CatVolTime.png" width=200><td>CatVolTime.png<td> Volume of catlog data over time from LDM-144
 <tr><td> <img src="DAQbb.jpg" alt=" DAQbb.jpg" width=200><td>DAQbb.jpg<td> Data Acquisition System Back Board at NCSA (2017)
 <tr><td> <img src="DAQfb.jpg" alt=" DAQfb.jpg" width=200><td>DAQfb.jpg<td> Data Acquisition System Front  Board at NCSA (2017)
 <tr><td> <img src="pdf.jpg" alt=" " width=200><td>DMMasterSchedule.pdf<td> DM master milestone schedule for slides. Refer to LDM-503. This version based on the March 2018 Baseline.
