@@ -31,7 +31,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="GaiaLSSTaccuracy.png" alt=" GaiaLSSTaccuracy.png" width=200><td>GaiaLSSTaccuracy.png<td> Plot showing Gaia accuracies for brighter objects and overlapping with LSST for fainter objects
 <tr><td> <img src="Gaia_liftoff_9_625.jpg" alt=" Gaia_liftoff_9_625.jpg" width=200><td>Gaia_liftoff_9_625.jpg<td> Gaia Launch Photo
 <tr><td> <img src="HSC.png " alt="HSC.png " width=200><td>HSC.png<td> HSC processing status early 2017 (RHL)
-<tr><td> <img src="HSCcosmos.png" alt=" HSCcosmos.png" width=200><td>HSCcosmos.png<td>Part of the Hyper Suprime Cam image from the GOODs field, the equivalent image from SDSS is also in the list. 
+<tr><td> <img src="HSCcosmos.png" alt=" HSCcosmos.png" width=200><td>HSCcosmos.png<td>3.5 arcmin part of the Hyper Suprime Cam image from the GOODs field, the equivalent image from SDSS is also in the list. 
 <tr><td> <img src="HSTpubs.jpg " alt="HSTpubs.jpg " width=200><td>HSTpubs.jpg<td> Plot from STScI showing number of publications from archive and original observations.
 <tr><td> <img src="IIPDiagram.png " alt="IIPDiagram.png " width=200><td>IIPDiagram.png<td> Diagram showing Full data flow for Alerts from DAQ to NCSA (Jim Parsons?)
 <tr><td> <img src="ImSim-2011-half.jpg " alt="ImSim-2011-half.jpg " width=200><td>ImSim-2011-half.jpg<td> Simulated image from one LSST CCD
@@ -47,7 +47,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="PDACsky.png" alt=" PDACsky.png" width=200><td>PDACsky.png<td> Screen grab of Firefly showing sky image in PDAC
 <tr><td> <img src="PDACtable.png " alt="PDACtable.png " width=200><td>PDACtable.png<td> Screen grab of table display in notebook in PDAC
 <tr><td> <img src="Raft_of_the_Medusa_-_Theodore_Gericault.jpg" alt=" Raft_of_the_Medusa_-_Theodore_Gericault.jpg" width=200><td>Raft_of_the_Medusa_-_Theodore_Gericault.jpg<td>Raft of the Medusa - Theodore Gericault (used in some slides) 
-<tr><td> <img src="SDSScosmos.png " alt="SDSScosmos.png " width=200><td>SDSScosmos.png<td> SDSS image from part of the COSMOS sky - the same patch is in the list for HSC.
+<tr><td> <img src="SDSScosmos.png " alt="SDSScosmos.png " width=200><td>SDSScosmos.png<td>3.5 arcmin  SDSS image from part of the COSMOS sky - the same patch is in the list for HSC.
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>SciencePlatform.pdf<td>  Science Platform components from LDM-148
 <tr><td> <img src="Ship.jpg" alt="Ship.jpg" width=200><td>Ship.jpg<td> Theoretical ship showing containers which could carry LSST components in 2018 to Chile
 <tr><td> <img src="ShippingList.jpg " alt="ShippingList.jpg " width=200><td>ShippingList.jpg<td> The $98 shipping list for 2018 (would all go on the Ship mentioned above)
