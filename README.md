@@ -75,6 +75,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="exm.png" alt="exm.png" width=200><td>exm.png<td> ExoMars strap line (ESA/ROSCOSMOS mission to Mars)
 <tr><td> <img src="fdphase.png" alt="fdphase.png" width=200><td>fdphase.png<td> Pre 2017 Org chart for DM 
 <tr><td> <img src="fig-lsst-science-platform-extended.pdf" alt="fig-lsst-science-platform-extended.pdf" width=200><td>fig-lsst-science-platform-extended.pdf<td>  Nicer graphical representation of Science Platform and the services its sits upon (for presentations - from Mario)
+<tr><td> <img src="firefly.png" alt="firefly.png" width=200><td>firefly.png<td> 2018 screen grab of firefly with HiPS image
 <tr><td> <img src="fops.png" alt="fops.png" width=200><td>fops.png<td> Gaia Flight Operations Procedure Manual stack (beside water bottle)
 <tr><td> <img src="fov.png" alt="fov.png" width=200><td>fov.png<td> LSST Field of View showing the raft and CCD outlines
 <tr><td> <img src="gaiaCE.png" alt="gaiaCE.png" width=200><td>gaiaCE.png<td> Gaia spurious detections around cats eye nebula
@@ -114,6 +115,6 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="sshtm.jpg" alt="sshtm.jpg" width=200><td>sshtm.jpg<td> ShowSky (circa 2000) screen grab shewing HTM and DSS plate boundaries 
 <tr><td> <img src="summit24hrs.jpg" alt="summit24hrs.jpg" width=200><td>summit24hrs.jpg<td> What happen on the summit in ops over 24 hours flowchart.
 <tr><td> <img src="summitCompute.jpg" alt="summitCompute.jpg" width=200><td>summitCompute.jpg<td> Constructing the summit computer room in late 2017 early 2018. 
-<tr><td> <img src="pdf.jpg" alt="pdf" width=200><td>tinto.pdf<td>  Tintoretto painting "Origin of the Milky Way" 1575 National Gallery London 
+<tr><td> <img src="tinto.jpg" alt="pdf" width=200><td>tinto.pdf<td>  Tintoretto painting "Origin of the Milky Way" 1575 National Gallery London 
 </table>
 </embed>
