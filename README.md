@@ -13,7 +13,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="BarringerCrater.png" alt=" BarringerCrater.png" width=200><td>BarringerCrater.png  <td> Picture of Barringer crater used in meteor slides .. it shows to scale Statue of Liberty and LSST in the crater (Zeljko)
 <tr><td> <img src="Blast_20-full.jpg" alt=" Blast_20-full.jpg" width=200><td>Blast_20-full.jpg<td> Photo showing blast on top  Cerro Pachon during the leveling of the peak
 <tr><td> <img src="CMB.png" alt=" CMB.png" width=200><td>CMB.png<td> Lambda CDM graphic showing the big bang through to WMAP
-<tr><td> <img src="CatVolTime.png" alt=" CatVolTime.png" width=200><td>CatVolTime.png<td> Volume of catlog data over time from LDM-144
+<tr><td> <img src="CatVolTime.png" alt=" CatVolTime.png" width=200><td>CatVolTime.png<td> Volume of catalog data over time from LDM-144
 <tr><td> <img src="DAQbb.jpg" alt=" DAQbb.jpg" width=200><td>DAQbb.jpg<td> Data Acquisition System Back Board at NCSA (2017)
 <tr><td> <img src="DAQfb.jpg" alt=" DAQfb.jpg" width=200><td>DAQfb.jpg<td> Data Acquisition System Front  Board at NCSA (2017)
 <tr><td> <img src="pdf.jpg" alt=" " width=200><td>DMMasterSchedule.pdf<td> DM master milestone schedule for slides. Refer to LDM-503.
@@ -89,9 +89,9 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="lsstio2018.png" alt="lsstio2018.png" width=200><td>lsstio2018.png<td> New home page for docs <a url="lsst.io"> Lsst.io</a>
 <tr><td> <img src="lsstplan.jpg" alt="lsstplan.jpg" width=200><td>lsstplan.jpg<td> Cartoon Gantt Chart showing LSST plan including commissioning and OPS and the transition wedges.
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>mp_starmap.pdf<td> Cover of Perryman's book The Making of History's Greatest Star Map
-<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>net_firstlight.pdf<td> Network diagam from Jeff showing the lines used for the Optical first light in 2017.
-<tr><td> <img src="net_firstlight_op.jpg" alt="net_firstlight_op.jpg" width=200><td>net_firstlight_op.jpg<td> COmputers used to run first ligt test on LSST network in 2017 
-<tr><td> <img src="net_firstlight_screen.jpg" alt="net_firstlight_screen.jpg" width=200><td>net_firstlight_screen.jpg<td> Screen shot showing packets sent in the network first ligt tesst in 2017.
+<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>net_firstlight.pdf<td> Network diagram from Jeff showing the lines used for the Optical first light in 2017.
+<tr><td> <img src="net_firstlight_op.jpg" alt="net_firstlight_op.jpg" width=200><td>net_firstlight_op.jpg<td> Computers used to run first light test on LSST network in 2017 
+<tr><td> <img src="net_firstlight_screen.jpg" alt="net_firstlight_screen.jpg" width=200><td>net_firstlight_screen.jpg<td> Screen shot showing packets sent in the network first light test in 2017.
 <tr><td> <img src="newHorizons.jpg" alt="newHorizons.jpg" width=200><td>newHorizons.jpg<td> Cover of New Worlds, New Horizons
 <tr><td> <img src="ngc1232.jpg" alt="ngc1232.jpg" width=200><td>ngc1232.jpg<td> Image of NGC 1232 (ESO)
 <tr><td> <img src="olddmorg.png" alt="olddmorg.png" width=200><td>olddmorg.png<td> DM org (obsolete) pre 2017
@@ -101,6 +101,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="planckhistory.jpg" alt="planckhistory.jpg " width=200><td>planckhistory.jpg<td> Cartoon showing solar system back to big bang  for Planck mission (ESA)
 <tr><td> <img src="precon.png" alt="precon.png" width=200><td>precon.png<td> DM org (obsolete) pre construction era.
 <tr><td> <img src="probman.png" alt="probman.png" width=200><td>probman.png<td> Problem Management flow
+<tr><td> <img src="psfnb.png" alt="psfnb.png" width=200><td>psfnb.png<td> Example notebook from Simon Krughoff showing position angle for the direction, PSF size for the length and a/b for the color, left FWHM
 <tr><td> <img src="raftCCD.png" alt="raftCCD.png" width=200><td>raftCCD.png<td> Cartoon showing LSST raft composed of CCDs 
 <tr><td> <img src="raftSensor.png" alt="raftSensor.png" width=200><td>raftSensor.png<td> Photo of top of raft showing CCDs
 <tr><td> <img src="raftSensorAssembly.png" alt="raftSensorAssembly.png" width=200><td>raftSensorAssembly.png<td> Back of the raft sensor showing wiring cables
