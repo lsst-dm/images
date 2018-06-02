@@ -48,6 +48,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="PDACtable.png " alt="PDACtable.png " width=200><td>PDACtable.png<td> Screen grab of table display in notebook in PDAC
 <tr><td> <img src="Raft_of_the_Medusa_-_Theodore_Gericault.jpg" alt=" Raft_of_the_Medusa_-_Theodore_Gericault.jpg" width=200><td>Raft_of_the_Medusa_-_Theodore_Gericault.jpg<td>Raft of the Medusa - Theodore Gericault (used in some slides) 
 <tr><td> <img src="SDSScosmos.png " alt="SDSScosmos.png " width=200><td>SDSScosmos.png<td>3.5 arcmin  SDSS image from part of the COSMOS sky - the same patch is in the list for HSC.
+<tr><td> <img src="SciValBootCamp1.jpg " alt="SciValBootCamp1.jpg " width=200><td>SciValBootCamp1.jpg<td>First Commissioning bootcamp hosted in Tucson running on NCSA LSST Science Platform, focus on Science Validation.
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>SciencePlatform.pdf<td>  Science Platform components from LDM-148
 <tr><td> <img src="Ship.jpg" alt="Ship.jpg" width=200><td>Ship.jpg<td> Theoretical ship showing containers which could carry LSST components in 2018 to Chile
 <tr><td> <img src="ShippingList.jpg " alt="ShippingList.jpg " width=200><td>ShippingList.jpg<td> The $98 shipping list for 2018 (would all go on the Ship mentioned above)
