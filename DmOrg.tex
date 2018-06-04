@@ -109,6 +109,15 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     \node (dmsg) [psbox, below=0.5cm of dmps, minimum height=12mm] {\textbf{DM Subsystem Science Team}};
     \node (dmlt) [mbox, left=1cm of man.west , text width=25mm] {\textbf{DMLT }};
 
+%% Legend
+\node (leg) [lbox, below=4cm of admin, text width=35mm,  minimum height=10mm, rectangle split, rectangle split parts=2]
+    { \hspace{0.1cm} \textbf{Legend}
+           \nodepart{second} \vspace{30mm}
+        };
+ \node(snode) [psbox,below=0.7cm of leg.north, text width=30mm] {Science Role};
+ \node(pnode) [mbox,below=0.1cm of snode, text width=30mm] {Technical Role};
+ \node(mnode) [mbox,below=0.1cm of pnode, text width=30mm] {Managment/other Role};
+
    \draw[line] (dmps.south) --  (dmsg.north);
    \draw[line] (dmps.north) --  (ps.south);
    \draw[line] (ddmps.west) --  (dmps.east);
