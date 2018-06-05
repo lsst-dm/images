@@ -56,6 +56,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>SizingModel.pdf<td> Older but valid document tree showing flow of requirements LSE-81  and others to LDM-144 (Sizing model)
 <tr><td> <img src="asteroidImpacts.png" alt=" asteroidImpacts.png" width=200><td>asteroidImpacts.png<td> Single image of Shoemaker-Levy and Tunguska showing potential and actual impacts
 <tr><td> <img src="bepiclogo.png" alt=" bepiclogo.png" width=200><td>bepiclogo.png<td> Logo for BepiColombo
+<tr><td> <img src="burndownMiles.png" alt=" burndownMiles.png" width=200><td>burndownMiles.png<td> Milestone burndown chart from John
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>camera.pdf<td> LSST  camera cut away showing parts  with outline of a person to show scale.
 <tr><td> <img src="casjobs.png" alt=" casjobs.png" width=200><td>casjobs.png<td> Screen shot of CasJobs for submitting queries to SDSS.
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>catopt1.pdf<td> Option one for catalogs - full DB access to source and object
