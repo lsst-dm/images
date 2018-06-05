@@ -55,9 +55,11 @@ noheadfoot,marginparwidth=0pt,includemp=false
 	\node(legend3r) [right=1cm of legend3] {};
 	\draw[tline] (legend3) to (legend3r);
 	\node(ttext) [right= 2mm of legend3r] {Test and Validation};
+	\node (date) [right= 12cm of ttext] {\today};
         \node (nf) [docboxm, left=5mm of legend2] { Coming in 2018};
 	\node (icd) [docboxicd, left=5mm of nf] { Interface Control Document (ICD) };
 	\node (upd) [docboxu, left=5mm of icd] { Needs Update};
+	\node (ok) [docbox, left=5mm of upd] { Released};
 %%%
 	\node (srp) [above=15mm of oss.north] {};
 	\node (dmsr) [docbox, left=3mm of srp] { DM System Requirements  LSE-61 (DMSR)};
@@ -67,7 +69,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
 	\node (svtp) [docbox, left=44mm of dmsr.west] { DM  Validation \& Test Plan LDM-503 (SVTP)};
     \node (pmp) [docbox, right=47mm of dpdd.east] { DM PMP LDM-294};
     \node (pmpp) [above=20mm of pmp] {};
-    \node (crd) [docboxm, text width=38mm,  right=67mm of pmp.east] {Config/Release/Deploy Management };
+    \node (crd) [docbox, text width=38mm,  right=67mm of pmp.east] {DM Releases for Verificaiton/Integration LDM-564 };
     \node (vcd) [docboxm, above=5mm of crd.north] { DM Verification Control (VCD)};
 
     %\node (compz) [docboxm, above=5mm of dmsr.north] { Component Z Requirements LDM-XXX};
