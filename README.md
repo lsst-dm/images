@@ -23,7 +23,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="DM_Application_Software_Arch.png" alt=" DM_Application_Software_Arch.png" width=200><td>DM_Application_Software_Arch.png<td> DM software stack on diagram (KT)
 <tr><td> <img src="DarkMatterPie.png" alt=" DarkMatterPie.png" width=200><td>DarkMatterPie.png<td>  Pie Chart of Dark Matter and Physical Matter - What do we know ?
 <tr><td> <img src="pdf.jpg" alt=" " width=200><td>DataBackbone.pdf<td> Components of Data BackBone from LDM-148
-<tr><td> <img src="DmMap.png " alt="DmMap.png " width=200><td>DmMap.png<td> Geographical map showing DM team locations
+<tr><td> <img src="DmMap.png " alt="DmMap.png " width=200><td>DmMap.png<td> Geographical map showing DM team locations, original is on <a url=https://project.lsst.org/content/project-org-chart> Project Website</a>.
 <tr><td> <img src="pdf.jpg" alt="pdf" width=200><td>DmOrg.pdf<td> DM Org chart from LDM-294
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>DocTree.pdf<td>DM Doc Tree  from LDM-294
 <tr><td> <img src="EIA-TUCSON-2018.jpg" alt="EIA-TUCSON-2018 " width=200><td>EIA-TUCSON-2018.jpg<td>1 March 2018 Early Integration Activity (EIA-08) with CCS, Header Service and DMCS attache to SAL.
