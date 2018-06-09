@@ -59,6 +59,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="burndownMiles.png" alt=" burndownMiles.png" width=200><td>burndownMiles.png<td> Milestone burndown chart from John
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>camera.pdf<td> LSST  camera cut away showing parts  with outline of a person to show scale.
 <tr><td> <img src="casjobs.png" alt=" casjobs.png" width=200><td>casjobs.png<td> Screen shot of CasJobs for submitting queries to SDSS.
+<tr><td> <img src="catalogue_hipparcos.png" alt=" catalogue_hipparcos.png" width=200><td>catalogue_hipparcos.png<td> Picture of the Hipparcos Catalogue books
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>catopt1.pdf<td> Option one for catalogs - full DB access to source and object
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>catopt2.pdf<td> Option 2 (or a potential alternative) - DB access for object but Spark Access at source level
 <tr><td> <img src="cerro.png" alt=" cerro.png" width=200><td>cerro.png<td> Cerro Pachon
