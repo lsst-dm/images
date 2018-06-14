@@ -66,6 +66,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="cerroAug2017.jpg" alt=" cerroAug2017.jpg" width=200><td>cerroAug2017.jpg<td>Cerro Pachon August 2017
 <tr><td> <img src="cerroDec2017.jpg" alt=" cerroDec2017.jpg" width=200><td>cerroDec2017.jpg<td>Cerro Pachon Dec 2017
 <tr><td> <img src="cerroMay2017.jpg" alt=" cerroMay2017.jpg" width=200><td>cerroMay2017.jpg<td>Cerro Pachon May 2017
+<tr><td> <img src="cerroMay2018.jpg" alt=" cerroMay2018.jpg" width=200><td>cerroMay2018.jpg<td>Cerro Pachon May 2018
 <tr><td> <img src="cerroRender.jpg" alt=" cerroRender.jpg" width=200><td>cerroRender.jpg<td>Cerro Pachon Rendered Drawing
 <tr><td> <img src="coatingPlant.jpg" alt=" coatingPlant.jpg" width=200><td>coatingPlant.jpg<td> Mirror Coating Plant 2017 Germany
 <tr><td> <img src="combCE.png" alt="combCE.png " width=200><td>combCE.png<td> Cats Eye Nebulae with Gaia "spurious" sources overlaid.
