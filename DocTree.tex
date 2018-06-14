@@ -67,18 +67,21 @@ noheadfoot,marginparwidth=0pt,includemp=false
 	\node (dqap) [docbox, below=7mm of dmsrp] { LSST Data Quality Assurance Plan LSE-63 (DQAP)};
 	\node (dpdd) [docbox, right=2mm of srp] { LSST Data Products  LSE-163 (DPDD)};
 	\node (svtp) [docbox, left=44mm of dmsr.west] { DM  Validation \& Test Plan LDM-503 (SVTP)};
-    \node (pmp) [docbox, right=47mm of dpdd.east] { DM PMP LDM-294};
+	\node (ats) [docboxu, above=54mm of svtp.north] {DM Science Acceptance Test Specification LDM-639};
+    \node (pmp) [docbox, right=85mm of dpdd.east] { DM PMP LDM-294};
     \node (pmpp) [above=20mm of pmp] {};
-    \node (crd) [docbox, text width=38mm,  right=67mm of pmp.east] {DM Releases for Verificaiton/Integration LDM-564 };
+    \node (crd) [docbox, text width=38mm,  right=25mm of pmp.east] {DM Releases for Verificaiton/Integration LDM-564 };
     \node (vcd) [docboxm, above=5mm of crd.north] { DM Verification Control (VCD)};
 
     %\node (compz) [docboxm, above=5mm of dmsr.north] { Component Z Requirements LDM-XXX};
     %\node (compx) [docboxm, left=20mm of compz] { Component X Requirements LDM-XXX};
     %\node (crdots) [right=1mm of compx.east] {\huge \ldots \ldots};
-    \node (compd)  [docbox, left=13mm of pmpp] { Component Architecture  LDM-148};
+    \node (compd)  [docbox, left=7mm of pmpp] { Component Architecture  LDM-148};
 %LDM-154, DB LDM-155, Middleware LDM-156%%
 %%%%%% REQUIREMENTS %%%%%
-    \node (scipr) [docbox, left=30mm of compd] { Science Platform Requirements LDM-554};
+    \node (scipr) [docbox, left=84mm of compd] { Science Platform Requirements LDM-554};
+    \node (sciapr) [docbox, right=5mm of scipr] { L1 (prompt)  Requirements LDM-602};
+    \node (scidrpr) [docbox, right=5mm of sciapr] { L2 (DRP)  Requirements LDM-562};
     \node (mwr) [docbox, left=5mm of scipr] { Middleware Requirements LDM-556};
     \node (dbr) [docbox, left=5mm of mwr] { Database Requirements LDM-555};
 
@@ -89,7 +92,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
     \node (infrac)  [docboxu, right=5mm of scipc] { Services \& Infrastructure LDM-129};
     \node (plc)  [docbox, right=5mm of infrac.east] {Pipeline Design LDM-151};
     \node (netc) [docbox, right=5mm of plc.east] { Network Design LSE-78};
-    \node (userd)  [docbox, right=45mm of compd] { User Documentation };
+    \node (userd)  [docbox, right=15mm of compd] { User Documentation };
 
     %%%%%%%%%%% TEST SPECS %%%%%%%%%%%%%%
     \node (ncsaenct) [docboxm, above=22mm of auxicd ] { NCSA Enclave Test Spec LDM-532};
@@ -130,11 +133,17 @@ noheadfoot,marginparwidth=0pt,includemp=false
    \draw[dline] (sciprp) to  (scipr.south);
    \node (mwrp) [below=0.85 of mwr] {};
    \draw[dline] (mwrp) to (mwr.south);
+   \node (sciaprp) [below=0.85 of sciapr] {};
+   \draw[dline] (sciaprp) to (sciapr.south);
+   \node (scidrprp) [below=0.85 of scidrpr] {};
+   \draw[dline] (scidrprp) to (scidrpr.south);
 
    %%% DESSIGN LINES %%%%
    \draw[dline] (dbr.north)  ++(-0.3,0.0) --  (dbc.south);
    \draw[dline] (mwr.north)  ++(-0.3,0.0) --  (mwc.south);
    \draw[dline] (scipr.north)  ++(-0.3,0.0) --  (scipc.south);
+   \draw[dline] (sciapr.north)  ++(-0.3,0.0) --  (plc.south);
+   \draw[dline] (scidrpr.north)  ++(-0.3,0.0) --  (plc.south);
 
    \draw[dline] (dpdd.west) to (dmsr.east);
    \draw[dline]   (oss.west) ++(-0.2,0)   |- (dqap.east);
@@ -150,6 +159,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
    \draw[dline] (scipcp.north) to (scipc.south);
    \draw[dline] (scipcp.north) -| (netc.south);
 
+   \node (netccp) [below=5mm of netc] {};
    \node (plcp) [below=5mm of plc] {};
    \draw[dline] (plcp.north) to (plc.south);
 
@@ -164,7 +174,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
 
    \draw[dlines] (plcp.north) -- (dbcp.north);
    \draw[dlines] (scipcp.north) -- (plcp.north);
-   \draw[dlines] (compd.north) -- (plcp.north);
+   \draw[dlines] (compd.north) -- (netccp.north);
 
 
    \node (ccenctp) [left=3mm of ccenct] {};
@@ -213,7 +223,8 @@ noheadfoot,marginparwidth=0pt,includemp=false
    \node (baseenctpb2) [below=10mm of baseenct.center] {};
    \draw[dlines] (baseenctpb2.west) -- (infratpb.west);
    \draw[dlines] (baseenctpb2.west) -- (ncsaenctpb.west);
-   \draw[dlines] (svtp.north) |- (baseenctpb2.west);
+   \draw[dlines] (svtp.north) -- (ats.south);
+   \draw[dlines] (ats.north) |- (baseenctpb2.west);
 
 
 
