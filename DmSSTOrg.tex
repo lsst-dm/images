@@ -13,7 +13,7 @@
 \usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
 \usetikzlibrary{backgrounds,calc}
 
-\usepackage[paperwidth=30cm,paperheight=20.0cm,
+\usepackage[paperwidth=19cm,paperheight=13.0cm,
 left=-2mm,top=3mm,bottom=0mm,right=0mm,
 noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
@@ -23,8 +23,8 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 \currentpage\pagedesign}
 
 
-\hypersetup{pdftitle={DM SST organisation }, pdfsubject={Diagram illustrating the reporting lines in LSST SST DM Group}, 
-pdfauthor={ Leanne Guy}}
+\hypersetup{pdftitle={DM SST organisation }, pdfsubject={Diagram illustrating the reporting lines in LSST SST DM Group},
+pdfauthor={Leanne Guy}}
 
 \input{styles}
 
@@ -42,18 +42,18 @@ pdfauthor={ Leanne Guy}}
     \node (dmpsanc) [above=-1.8 of dm.north]{};
     \node (dmps) [psbox, left=1.0cm of dmpsanc, minimum height=12mm, text width=47mm] {\textbf{ DM Subsystem Scientist}\\ Leanne Guy };
     \node (ddmps) [psbox, right=2.5cm of dmps, minimum height=12mm, text width=52mm] {\textbf{ Deputy DM Subsystem Scientist}\\ Colin Slater };
-    \node (ps) [psbox, above=1.8cm of dmps, minimum height=12mm] {\textbf{  Project Scientist}\\ \u{Z}eljko Ivezi\'c};
+    \node (ps) [psbox, above=1.8cm of dmps, minimum height=12mm] {\textbf{  Project Scientist}\\ \v{Z}eljko Ivezi\'c};
     \node (dmpm) [divbox, left=1.4cm of dmps] {\textbf{ DM Project Manager} William O'Mullane};
-    
+
     \node (udmpm) [below=49mm of dmpm, text width=0mm]{};
     \node (udmpm1) [below=24mm of dmpm, text width=0mm]{};
     \node (udmpm2) [below=125mm of dmpm, text width=0mm]{};
 
 % Pipelines scientist
-    \node (pipesci) [psbox, below =5mm of ddmps, text width=52mm, minimum height=12mm] {\textbf{DM Science Pipelines Scientist}\\ Robert Lupton};
-    
+    \node (pipesci) [psbox, below =3mm of ddmps, text width=52mm, minimum height=12mm] {\textbf{DM Science Pipelines Scientist}\\ Robert Lupton};
+
 % Verification Scientist
-    \node (valsci) [psbox, below=1mm of pipesci, text width=52mm, minimum height=12mm] {\textbf{DM Science Verification Scientist}\\ Michael Wood-Vasey};
+    \node (valsci) [psbox, below=3mm of pipesci, text width=52mm, minimum height=12mm] {\textbf{DM Science Verification Scientist}\\ Michael Wood-Vasey};
 
 % InstLeads
             \node (instleads) [mbox, text width=60mm, rectangle split, rectangle split parts=2,  below=12mm of dmps]
@@ -61,10 +61,10 @@ pdfauthor={ Leanne Guy}}
                Institutional Science Leads
                 \nodepart{second} \vspace{57mm}
                 };
-    \node (apsc) [psbox, below=6mm of instleads.north, text width=55mm] {\textbf{ Alert Production }\\ Eric Bellm };
+    \node (apsc) [psbox, below=6mm of instleads.north, text width=55mm] {\textbf{Alert Production Scientist}\\ Eric Bellm };
     \node (drpsc) [psbox, below=1mm of apsc, text width=55mm] {\textbf{Data Release Production Scientist}\\ Jim Bosch};
     \node (suitsc) [psbox, below=1mm of drpsc, text width=55mm] {\textbf{Sci Platform / Interface Scientist}\\ Gregory Dubois-Felsmann};
-    \node (dpsc) [psbox, below=1mm of suitsc, text width=55mm] {\textbf{ Data Processing Scientist}\\ Robert Greundl};
+    \node (dpsc) [psbox, below=1mm of suitsc, text width=55mm] {\textbf{Data Processing Scientist}\\ Robert Gruendl};
     \node (sqsc) [psbox, below=1mm of dpsc, text width=55mm] {\textbf{SQuaRE Scientist}\\ Simon Krughoff  };
 
 
