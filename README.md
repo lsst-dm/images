@@ -76,6 +76,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="dwdm2017.jpg" alt="dwdm2017.jpg" width=200><td>dwdm2017.jpg<td> Installed Dense Wave Division Multiplex (DWDM) equipment on Cerro Pachon and in La Serena late 2017 early 2018
 <tr><td> <img src="esasky.jpg" alt="esasky.jpg" width=200><td>esasky.jpg<td> ESA Sky 2017, showing footprints of several ESA missions 
 <tr><td> <img src="datasched.png" alt="datasched.png" width=200><td>datasched.png<td> Schedule (from 2017) of events when data will be available for DM 
+<tr><td> <img src="dm2018.png" alt="dm2018.png" width=200><td>dm2018.png<td> DM and SE All hands meeting IPAC 2018
 <tr><td> <img src="euclid.png" alt="euclid.png" width=200><td>euclid.png<td> Euclid  artists impression of satellite
 <tr><td> <img src="exm.png" alt="exm.png" width=200><td>exm.png<td> ExoMars strap line (ESA/ROSCOSMOS mission to Mars)
 <tr><td> <img src="fdphase.png" alt="fdphase.png" width=200><td>fdphase.png<td> Pre 2017 Org chart for DM 
