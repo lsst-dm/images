@@ -79,6 +79,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="dm2018.png" alt="dm2018.png" width=200><td>dm2018.png<td> DM and SE All hands meeting IPAC 2018
 <tr><td> <img src="euclid.png" alt="euclid.png" width=200><td>euclid.png<td> Euclid  artists impression of satellite
 <tr><td> <img src="exm.png" alt="exm.png" width=200><td>exm.png<td> ExoMars strap line (ESA/ROSCOSMOS mission to Mars)
+<tr><td> <img src="eyeRinse.jpg" alt="eyeRinse.jpg" width=200><td>eyeRinse.jpg<td> NCSA emergency eye rinse station (Environment Health and Safety)
 <tr><td> <img src="fdphase.png" alt="fdphase.png" width=200><td>fdphase.png<td> Pre 2017 Org chart for DM 
 <tr><td> <img src="fig-lsst-science-platform-extended.pdf" alt="fig-lsst-science-platform-extended.pdf" width=200><td>fig-lsst-science-platform-extended.pdf<td>  Nicer graphical representation of Science Platform and the services its sits upon (for presentations - from Mario)
 <tr><td> <img src="firefly.png" alt="firefly.png" width=200><td>firefly.png<td> 2018 screen grab of firefly with HiPS image
@@ -110,6 +111,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="precon.png" alt="precon.png" width=200><td>precon.png<td> DM org (obsolete) pre construction era.
 <tr><td> <img src="probman.png" alt="probman.png" width=200><td>probman.png<td> Problem Management flow
 <tr><td> <img src="psfnb.png" alt="psfnb.png" width=200><td>psfnb.png<td> Example notebook from Simon Krughoff showing position angle for the direction, PSF size for the length and a/b for the color, left FWHM
+<tr><td> <img src="rackLift.jpg" alt="rackLift.jpg" width=200><td>rackLift.jpg<td> Michelle shows of the rack lift in the NCSA machine room (Environment Health and Safety)
 <tr><td> <img src="raftCCD.png" alt="raftCCD.png" width=200><td>raftCCD.png<td> Cartoon showing LSST raft composed of CCDs 
 <tr><td> <img src="raftSensor.png" alt="raftSensor.png" width=200><td>raftSensor.png<td> Photo of top of raft showing CCDs
 <tr><td> <img src="raftSensorAssembly.png" alt="raftSensorAssembly.png" width=200><td>raftSensorAssembly.png<td> Back of the raft sensor showing wiring cables
