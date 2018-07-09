@@ -94,6 +94,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="jupyterLab.png" alt="jupyterLab.png" width=200><td>jupyterLab.png<td> JupyterLab screen shot for Science Platform
 <tr><td> <img src="jwst.png" alt="jwst.png" width=200><td>jwst.png<td> Info graphic for James Webb Space Telescope (JWST) NASA/ESA
 <tr><td> <img src="l2Optic.png" alt="l2Optic.png" width=200><td>l2Optic.png<td> Lens 2 (l2) Optics for LSST
+<tr><td> <img src="linesOfCode.png" alt="linesOfCode.png" width=200><td>linesOfCode.png<td> Lines of code in Pipelines ,  Blue is python and orange is C++. (Tim Jenness) 
 <tr><td> <img src="lsstio2018.png" alt="lsstio2018.png" width=200><td>lsstio2018.png<td> New home page for docs <a url="lsst.io"> Lsst.io</a>
 <tr><td> <img src="lsstplan.jpg" alt="lsstplan.jpg" width=200><td>lsstplan.jpg<td> Cartoon Gantt Chart showing LSST plan including commissioning and OPS and the transition wedges.
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>mp_starmap.pdf<td> Cover of Perryman's book The Making of History's Greatest Star Map
