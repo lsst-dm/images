@@ -27,6 +27,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="pdf.jpg" alt="pdf" width=200><td>DmOrg.pdf<td> DM Org chart from LDM-294
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>DocTree.pdf<td>DM Doc Tree  from LDM-294
 <tr><td> <img src="EIA-TUCSON-2018.jpg" alt="EIA-TUCSON-2018 " width=200><td>EIA-TUCSON-2018.jpg<td>1 March 2018 Early Integration Activity (EIA-08) with CCS, Header Service and DMCS attache to SAL.
+<tr><td> <img src="EIA-341-Tucson-2018.jpg" alt="EIA-341-Tucson-2018 " width=200><td>EIA-341-Tucson-2018.jpg<td>17 July 2018 Early Integration Activity (EIA-341) with CCS, Header Service and DMCS attached to SAL, reading image from the spectrograph in the basement.
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>EndUserDocs.pdf<td>DM End users Doc Tree  from LDM-294
 <tr><td> <img src="GaiaLSSTaccuracy.png" alt=" GaiaLSSTaccuracy.png" width=200><td>GaiaLSSTaccuracy.png<td> Plot showing Gaia accuracies for brighter objects and overlapping with LSST for fainter objects
 <tr><td> <img src="Gaia_liftoff_9_625.jpg" alt=" Gaia_liftoff_9_625.jpg" width=200><td>Gaia_liftoff_9_625.jpg<td> Gaia Launch Photo
@@ -44,6 +45,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="NCSA-2018.png" alt="NCSA-2018 " width=200><td>NCSA-2018.png<td> Image of LSST servers at NCSA in 2018.
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>NearRealTimeDataFlow.pdf<td> Data Flow for Prompt processing from LDM-148
 <tr><td> <img src="Org_Chart_LSST.png " alt="Org_Chart_LSST.png " width=200><td>Org_Chart_LSST.png<td> LSST construction high level org chart
+<tr><td> <img src="Org_Chart_LSST_color.png " alt="Org_Chart_LSST_color.png " width=200><td>Org_Chart_LSST_color.png<td> LSST construction high level org chart colored by institution
 <tr><td> <img src="PDACsky.png" alt=" PDACsky.png" width=200><td>PDACsky.png<td> Screen grab of Firefly showing sky image in PDAC
 <tr><td> <img src="PDACtable.png " alt="PDACtable.png " width=200><td>PDACtable.png<td> Screen grab of table display in notebook in PDAC
 <tr><td> <img src="Raft_of_the_Medusa_-_Theodore_Gericault.jpg" alt=" Raft_of_the_Medusa_-_Theodore_Gericault.jpg" width=200><td>Raft_of_the_Medusa_-_Theodore_Gericault.jpg<td>Raft of the Medusa - Theodore Gericault (used in some slides) 
@@ -52,7 +54,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>SciencePlatform.pdf<td>  Science Platform components from LDM-148
 <tr><td> <img src="Ship.jpg" alt="Ship.jpg" width=200><td>Ship.jpg<td> Theoretical ship showing containers which could carry LSST components in 2018 to Chile
 <tr><td> <img src="ShippingList.jpg " alt="ShippingList.jpg " width=200><td>ShippingList.jpg<td> The $98 shipping list for 2018 (would all go on the Ship mentioned above)
-<tr><td> <img src="SitesDataflow.jpg " alt="SitesDataflow.jpg " width=200><td>SitesDataflow.jpg<td> Emily's new Data flow diagram showing sites and the networks fro ops.
+<tr><td> <img src="SitesDataflow.jpg " alt="SitesDataflow.jpg " width=200><td>SitesDataflow.jpg<td> Emily's new Data flow diagram showing sites and the networks for ops <a href="https://gallery.lsst.org/bp/#/folder/2334398/62907418"> Original from Emily Acosta </a>.
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>SizingModel.pdf<td> Older but valid document tree showing flow of requirements LSE-81  and others to LDM-144 (Sizing model)
 <tr><td> <img src="asteroidImpacts.png" alt=" asteroidImpacts.png" width=200><td>asteroidImpacts.png<td> Single image of Shoemaker-Levy and Tunguska showing potential and actual impacts
 <tr><td> <img src="bepiclogo.png" alt=" bepiclogo.png" width=200><td>bepiclogo.png<td> Logo for BepiColombo
