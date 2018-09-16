@@ -52,6 +52,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="Org_Chart_LSST_color.png " alt="Org_Chart_LSST_color.png " width=200><td>Org_Chart_LSST_color.png<td> LSST construction high level org chart colored by institution
 <tr><td> <img src="PDACsky.png" alt=" PDACsky.png" width=200><td>PDACsky.png<td> Screen grab of Firefly showing sky image in PDAC
 <tr><td> <img src="PDACtable.png " alt="PDACtable.png " width=200><td>PDACtable.png<td> Screen grab of table display in notebook in PDAC
+<tr><td> <img src="ProjectSchedule.png " alt="ProjectSchedule.png " width=200><td>ProjectSchedule.png<td> Project Schedule as of Sept 2018. 
 <tr><td> <img src="Raft_of_the_Medusa_-_Theodore_Gericault.jpg" alt=" Raft_of_the_Medusa_-_Theodore_Gericault.jpg" width=200><td>Raft_of_the_Medusa_-_Theodore_Gericault.jpg<td>Raft of the Medusa - Theodore Gericault (used in some slides) 
 <tr><td> <img src="SDSScosmos.png " alt="SDSScosmos.png " width=200><td>SDSScosmos.png<td>3.5 arcmin  SDSS image from part of the COSMOS sky - the same patch is in the list for HSC.
 <tr><td> <img src="SciValBootCamp1.jpg " alt="SciValBootCamp1.jpg " width=200><td>SciValBootCamp1.jpg<td>First Commissioning bootcamp hosted in Tucson running on NCSA LSST Science Platform, focus on Science Validation.
