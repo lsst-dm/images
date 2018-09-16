@@ -26,6 +26,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="DmMap.png " alt="DmMap.png " width=200><td>DmMap.png<td> Geographical map showing DM team locations, original is on <a url=https://project.lsst.org/content/project-org-chart> Project Website</a>.
 <tr><td> <img src="pdf.jpg" alt="pdf" width=200><td>DmOrg.pdf<td> DM Org chart from LDM-294
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>DocTree.pdf<td>DM Doc Tree  from LDM-294
+<tr><td> <img src="DockerHubStack.png" alt="DockerHubStack.png" width=200><td>DockerHubStack.png<td> Screen grab of DockerHub showing Sqre centos releases - Sept 2018
 <tr><td> <img src="DMValidationDocTree.jpg" alt="jpg " width=200><td>DMValidationDocTree.jpg<td>Document tree overview for validation documentation
 <tr><td> <img src="EIA-TUCSON-2018.jpg" alt="EIA-TUCSON-2018 " width=200><td>EIA-TUCSON-2018.jpg<td>1 March 2018 Early Integration Activity (EIA-08) with CCS, Header Service and DMCS attache to SAL.
 <tr><td> <img src="EIA-341-Tucson-2018.jpg" alt="EIA-341-Tucson-2018 " width=200><td>EIA-341-Tucson-2018.jpg<td>17 July 2018 Early Integration Activity (EIA-341) with CCS, Header Service and DMCS attached to SAL, reading image from the spectrograph in the basement.
