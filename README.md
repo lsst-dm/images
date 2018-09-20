@@ -61,6 +61,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="ShippingList.jpg " alt="ShippingList.jpg " width=200><td>ShippingList.jpg<td> The $98 shipping list for 2018 (would all go on the Ship mentioned above)
 <tr><td> <img src="SitesDataflow.jpg " alt="SitesDataflow.jpg " width=200><td>SitesDataflow.jpg<td> Emily's new Data flow diagram showing sites and the networks for ops <a href="https://gallery.lsst.org/bp/#/folder/2334398/62907418"> Original from Emily Acosta </a>.
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>SizingModel.pdf<td> Older but valid document tree showing flow of requirements LSE-81  and others to LDM-144 (Sizing model)
+<tr><td> <img src="alertFlow.png" alt=" alertFlow.png" width=200><td>alertFlow.png<td> Alerts data flow from Eric 2018.
 <tr><td> <img src="asteroidImpacts.png" alt=" asteroidImpacts.png" width=200><td>asteroidImpacts.png<td> Single image of Shoemaker-Levy and Tunguska showing potential and actual impacts
 <tr><td> <img src="bepiclogo.png" alt=" bepiclogo.png" width=200><td>bepiclogo.png<td> Logo for BepiColombo
 <tr><td> <img src="burndownMiles.png" alt=" burndownMiles.png" width=200><td>burndownMiles.png<td> Milestone burndown chart from John
