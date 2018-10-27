@@ -8,7 +8,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <table>
 <tr><th>Image <th>File name<th>Description
 <tr><td> <img src="2kDesign.jpg" alt="2kDesign.jpg" width="200"> <td> 2kDesign.jpg<td> Year 2000 optical design diagram 
-<tr> <td><img src="pdf.jpg" alt="AnnualReprocessingDataFlow.pdf" width="50"><td>AnnualReprocessingDataFlow.pdf <td>
+<tr><td> <img src="pdf.jpg" alt="AnnualReprocessingDataFlow.pdf" width="50"><td>AnnualReprocessingDataFlow.pdf <td>
 <tr><td> <img src="AstronomerCartoon.png" alt=" AstronomerCartoon.png" width="200"><td>AstronomerCartoon.png <td> Cartoon about astronomers not using telescopes (Zeljko)
 <tr><td> <img src="BarringerCrater.png" alt=" BarringerCrater.png" width=200><td>BarringerCrater.png  <td> Picture of Barringer crater used in meteor slides .. it shows to scale Statue of Liberty and LSST in the crater (Zeljko)
 <tr><td> <img src="Blast_20-full.jpg" alt=" Blast_20-full.jpg" width=200><td>Blast_20-full.jpg<td> Photo showing blast on top  Cerro Pachon during the leveling of the peak
@@ -59,6 +59,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>SciencePlatform.pdf<td>  Science Platform components from LDM-148
 <tr><td> <img src="Ship.jpg" alt="Ship.jpg" width=200><td>Ship.jpg<td> Theoretical ship showing containers which could carry LSST components in 2018 to Chile
 <tr><td> <img src="ShippingList.jpg " alt="ShippingList.jpg " width=200><td>ShippingList.jpg<td> The $98 shipping list for 2018 (would all go on the Ship mentioned above)
+<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>Simple_AP_Pipeline_Flowchart.pdf<td>  Simplified overview of AP pipeline
 <tr><td> <img src="SitesDataflow.jpg " alt="SitesDataflow.jpg " width=200><td>SitesDataflow.jpg<td> Emily's new Data flow diagram showing sites and the networks for ops <a href="https://gallery.lsst.org/bp/#/folder/2334398/62907418"> Original from Emily Acosta </a>.
 <tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>SizingModel.pdf<td> Older but valid document tree showing flow of requirements LSE-81  and others to LDM-144 (Sizing model)
 <tr><td> <img src="asteroidImpacts.png" alt=" asteroidImpacts.png" width=200><td>asteroidImpacts.png<td> Single image of Shoemaker-Levy and Tunguska showing potential and actual impacts
