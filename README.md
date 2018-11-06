@@ -72,7 +72,8 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="dataMining.png" alt="dataMining.png" width=200><td>dataMining.png<td> Cartoon like plot showing cluster analysis for data mining (From Mario I think ..)
 <tr><td> <img src="dwdm2017.jpg" alt="dwdm2017.jpg" width=200><td>dwdm2017.jpg<td> Installed Dense Wave Division Multiplex (DWDM) equipment on Cerro Pachon and in La Serena late 2017 early 2018
 <tr><td> <img src="datasched.png" alt="datasched.png" width=200><td>datasched.png<td> Schedule (from 2017) of events when data will be available for DM 
-<tr><td> <img src="dilbertProdMeeting.gif" alt="dilbertProdMeeting.gif" width=200><td>dilbertProdMeeting.gif<td> Dilbert on productive meetings 
+<tr><td> <img src="dilbertAwesome.png" alt="dilbertAwesome.png" width=200><td>dilbertAwesome.png<td> Dilbert on productive meetings 
+<tr><td> <img src="dilbertProdMeeting.png" alt="dilbertProdMeeting.png" width=200><td>dilbertProdMeeting.png<td> Dilbert on productive meetings 
 <tr><td> <img src="dm2018.png" alt="dm2018.png" width=200><td>dm2018.png<td> Data Management Joint Meeting with System Engineering IPAC 2018
 <tr><td> <img src="euclid.png" alt="euclid.png" width=200><td>euclid.png<td> Euclid  artists impression of satellite
 <tr><td> <img src="exm.png" alt="exm.png" width=200><td>exm.png<td> ExoMars strap line (ESA/ROSCOSMOS mission to Mars)
