@@ -117,7 +117,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2019-01-23 23:01:12 +0000</string>
+	<string>2019-01-24 06:13:35 +0000</string>
 	<key>Modifier</key>
 	<string>Kian-Tat Lim</string>
 	<key>MovementHandleVisible</key>
@@ -148,7 +148,7 @@
 		<key>NSPaperSize</key>
 		<array>
 			<string>size</string>
-			<string>{612, 792}</string>
+			<string>{611.99997711181641, 792}</string>
 		</array>
 		<key>NSPrintReverseOrientation</key>
 		<array>
@@ -1097,7 +1097,7 @@ stamp images and one year DIASource history, uncompressed.\uc0\u8232 Filtering r
 					<key>AllowConnections</key>
 					<string>NO</string>
 					<key>Bounds</key>
-					<string>{{715.38360196316887, 590.10517373050004}, {72, 39}}</string>
+					<string>{{715.38360232033119, 590.10517373050004}, {72, 39}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -1127,7 +1127,7 @@ stamp images and one year DIASource history, uncompressed.\uc0\u8232 Filtering r
 						<key>Offset</key>
 						<real>29.339788436889648</real>
 						<key>Position</key>
-						<real>0.4931506797438488</real>
+						<real>0.49315068125724792</real>
 						<key>RotationType</key>
 						<integer>0</integer>
 					</dict>
@@ -2349,30 +2349,6 @@ Ingest}</string>
 								<key>element</key>
 								<string>LINETO</string>
 								<key>point</key>
-								<string>{124.09999237060546, 420.82554467821865}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
-								<string>{108.59999237060546, 420.82554467821865}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
-								<string>{108.59999237060546, 436.72553100585935}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
-								<string>{94, 436.72553100585935}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
 								<string>{94, 420.82553100585938}</string>
 							</dict>
 						</array>
@@ -3273,7 +3249,7 @@ Ingest}</string>
 		<key>Sidebar_Tab</key>
 		<integer>0</integer>
 		<key>VisibleRegion</key>
-		<string>{{47, -30}, {782, 763}}</string>
+		<string>{{31, -30}, {782, 763}}</string>
 		<key>WindowInfo_InspectorTab</key>
 		<array>
 			<string>com.omnigroup.OmniGraffle.inspectorGroup.object</string>
@@ -3311,7 +3287,7 @@ Ingest}</string>
 	<key>includeNonPrintingLayersKey</key>
 	<false/>
 	<key>lastExportTypeKey</key>
-	<integer>0</integer>
+	<integer>8</integer>
 	<key>marginWidthKey</key>
 	<real>0.0</real>
 	<key>readOnlyKey</key>
