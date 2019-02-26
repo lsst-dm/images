@@ -8,6 +8,8 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <table>
 <tr><th>Image <th>File name<th>Description
 <tr><td> <img src="2kDesign.jpg" alt="2kDesign.jpg" width="200"> <td> 2kDesign.jpg<td> Year 2000 optical design diagram 
+<tr><td> <img src="900px-Crab_Nebula.jpg" alt="900px-Crab_Nebula.jpg" width="200"> <td> 900px-Crab_Nebula.jpg<td> The Crab Nebula, the result of a supernova noted by Earth-bound chroniclers in 1054 A.D.
+ By NASA, ESA, J. Hester and A. Loll (Arizona State University) - Hubble}
 <tr><td> <img src="pdf.jpg" alt="AnnualReprocessingDataFlow.pdf" width="50"><td>AnnualReprocessingDataFlow.pdf <td>
 <tr><td> <img src="AstronomerCartoon.png" alt=" AstronomerCartoon.png" width="200"><td>AstronomerCartoon.png <td> Cartoon about astronomers not using telescopes (Zeljko)
 <tr><td> <img src="BarringerCrater.png" alt=" BarringerCrater.png" width=200><td>BarringerCrater.png  <td> Picture of Barringer crater used in meteor slides .. it shows to scale Statue of Liberty and LSST in the crater (Zeljko)
