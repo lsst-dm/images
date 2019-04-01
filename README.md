@@ -16,6 +16,8 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="Blast_20-full.jpg" alt=" Blast_20-full.jpg" width=200><td>Blast_20-full.jpg<td> Photo showing blast on top  Cerro Pachon during the leveling of the peak
 <tr><td> <img src="CMB.png" alt=" CMB.png" width=200><td>CMB.png<td> Lambda CDM graphic showing the big bang through to WMAP
 <tr><td> <img src="CatVolTime.png" alt=" CatVolTime.png" width=200><td>CatVolTime.png<td> Volume of catalog data over time from LDM-144
+<tr><td> <img src="CoatingChamberCerro.jpg" alt="CoatingChamberCerro.jpg" width=200><td>CoatingChamberCerro.jpg<td> Coating Chamber on the mountain Feb 2019 
+<tr><td> <img src="CoatingChamberLoad.jpg" alt="CoatingChamberLoad.jpg" width=200><td>CoatingChamberLoad.jpg<td> Coating Chamber being loaded on BBC Arizona September 7th  2018.   
 <tr><td> <img src="DAQbb.jpg" alt=" DAQbb.jpg" width=200><td>DAQbb.jpg<td> Data Acquisition System Back Board at NCSA (2017)
 <tr><td> <img src="DAQfb.jpg" alt=" DAQfb.jpg" width=200><td>DAQfb.jpg<td> Data Acquisition System Front  Board at NCSA (2017)
 <tr><td> <img src="pdf.jpg" alt=" " width=200><td>DMMasterSchedule.pdf<td> DM master milestone schedule for slides. Refer to LDM-503.
@@ -65,6 +67,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="cerro.png" alt=" cerro.png" width=200><td>cerro.png<td> Cerro Pachon
 <tr><td> <img src="cerroAug2017.jpg" alt=" cerroAug2017.jpg" width=200><td>cerroAug2017.jpg<td>Cerro Pachon August 2017
 <tr><td> <img src="cerroDec2017.jpg" alt=" cerroDec2017.jpg" width=200><td>cerroDec2017.jpg<td>Cerro Pachon Dec 2017
+<tr><td> <img src="cerroMar2019.jpg" alt=" cerroMar2019.jpg" width=200><td>cerroMar2019.jpg<td>Cerro Pachon March 2019
 <tr><td> <img src="cerroMay2017.jpg" alt=" cerroMay2017.jpg" width=200><td>cerroMay2017.jpg<td>Cerro Pachon May 2017
 <tr><td> <img src="cerroRender.jpg" alt=" cerroRender.jpg" width=200><td>cerroRender.jpg<td>Cerro Pachon Rendered Drawing
 <tr><td> <img src="coatingPlant.jpg" alt=" coatingPlant.jpg" width=200><td>coatingPlant.jpg<td> Mirror Coating Plant 2017 Germany
