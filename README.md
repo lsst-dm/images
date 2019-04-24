@@ -119,11 +119,13 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="pdf.jpg" alt="pdf" width=200><td>scibookcover.pdf<td> LSST Science Book cover
 <tr><td> <img src="servdocs.png" alt="servdocs.png" width=200><td>servdocs.png<td> Service Documentation Blocks from NCSA (in LDM-294)
 <tr><td> <img src="showsky.png" alt="showsky.png" width=200><td>showsky.png<td> ShowSky screen grab (circa 2000) GSC and Tycho catalogs overlayed on DSS image (QA tool for GSC) (STScI)
+<tr><td> <img src="sizetab.png" alt="sizetab.tex" width=200><td>sizetab.tex<td> Table size summary based on LDM-141
 <tr><td> <img src="skyserverdr3.png" alt="skyserverdr3.png" width=200><td>skyserverdr3.png<td> Screen grab of SkyServer for SDSS Data Release 3 (circa 2004)
 <tr><td> <img src="solo.png" alt="solo.png" width=200><td>solo.png<td> Solar Orbiter (ESA) mission graphic.
 <tr><td> <img src="sshtm.jpg" alt="sshtm.jpg" width=200><td>sshtm.jpg<td> ShowSky (circa 2000) screen grab shewing HTM and DSS plate boundaries 
 <tr><td> <img src="summit24hrs.jpg" alt="summit24hrs.jpg" width=200><td>summit24hrs.jpg<td> What happen on the summit in ops over 24 hours flowchart.
 <tr><td> <img src="summitCompute.jpg" alt="summitCompute.jpg" width=200><td>summitCompute.jpg<td> Constructing the summit computer room in late 2017 early 2018. 
 <tr><td> <img src="tinto.jpg" alt="pdf" width=200><td>tinto.pdf<td>  Tintoretto painting "Origin of the Milky Way" 1575 National Gallery London 
+<tr><td> <img src="usetab.png" alt="usetab.tex" width=200><td>usetab.tex<td> Potential usage of LSST tables
 </table>
 </embed>
