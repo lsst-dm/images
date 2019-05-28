@@ -14,6 +14,8 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="AstronomerCartoon.png" alt=" AstronomerCartoon.png" width="200"><td>AstronomerCartoon.png <td> Cartoon about astronomers not using telescopes (Zeljko)
 <tr><td> <img src="BarringerCrater.png" alt=" BarringerCrater.png" width=200><td>BarringerCrater.png  <td> Picture of Barringer crater used in meteor slides .. it shows to scale Statue of Liberty and LSST in the crater (Zeljko)
 <tr><td> <img src="Blast_20-full.jpg" alt=" Blast_20-full.jpg" width=200><td>Blast_20-full.jpg<td> Photo showing blast on top  Cerro Pachon during the leveling of the peak
+<tr><td> <img src="CI-LSST.png" alt=" CI-LSST.png" width=200><td>CI-LSST.png<td> Cyber Infrastructure Layers for LSST
+<tr><td> <img src="CI-Layers.pdf" alt=" CI-Layers.pdf" width=200><td>CI-Layers.pdf<td> Cyber Infrastructure Layers generic - Niall Gaffney 
 <tr><td> <img src="CMB.png" alt=" CMB.png" width=200><td>CMB.png<td> Lambda CDM graphic showing the big bang through to WMAP
 <tr><td> <img src="CatVolTime.png" alt=" CatVolTime.png" width=200><td>CatVolTime.png<td> Volume of catalog data over time from LDM-144
 <tr><td> <img src="CoatingChamberCerro.jpg" alt="CoatingChamberCerro.jpg" width=200><td>CoatingChamberCerro.jpg<td> Coating Chamber on the mountain Feb 2019 
