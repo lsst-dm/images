@@ -71,7 +71,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     \node (pipe) [psbox, below=1mm of dmsci, text width=39mm] {\textbf{ Pipeline Scientist}\\ Robert Lupton };
     \node (syseng) [mbox, below=1mm of pipe, text width=39mm] {\textbf{ Systems Engineer}\\ Tim Jenness (DMCCB Chair)};
     \node (softarc) [mbox, below=1mm of syseng, text width=39mm] {\textbf{ Software Architect}\\ Kian Tat Lim };
-    \node (reqeng) [pobox, below=1mm of softarc, text width=39mm] {\textbf{Sci Platform Scientist/ Interface Scientist}\\ Gregory Dubois-Felsmann  };
+    %\node (reqeng) [pobox, below=1mm of softarc, text width=39mm] {\textbf{Sci Platform Scientist/ Interface Scientist}\\ Gregory Dubois-Felsmann  };
 %%%% end SYSENG
 
     \node (cm) [mbox, right=3.1cm of udmpm1.north , text width=45mm] {\textbf{Config/Release Manager }\\ Gabriele Comoretto};
@@ -81,8 +81,8 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
 
     %\node (al) [below=69mm of dmpm, text width=0mm]{};
-    %\dmnode[left=1mm of udmpm2.north]{suit}{SUIT}{Xiuqin Wu}{Gregory Dubois-Felsmann}{psbox} ;
-    \dmnode[left=8mm of udmpm2.north]{das}{Data Access Services}{Fritz Mueller}{Leanne Guy} {psbox};
+    \dmnode[left=1mm of udmpm2.north]{sciplat}{Science Platform}{Frossie Economou}{Gregory Dubois-Felsmann}{psbox} ;
+    \dmnode[base left=2mm of sciplat]{das}{Data Access Services}{Fritz Mueller}{Leanne Guy} {psbox};
 
     \node (drp) [mbox, text width=36mm, rectangle split, rectangle split parts=2, base left=2mm of das]
          {Science Pipelines \strut \nodepart{second} \vspace{39mm}};
@@ -91,7 +91,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
          \node(drps) [psbox,minimum height=9mm, below=2pt of drpt, text width=32mm] {{\small \bf DRP Owner}\\\strut Jim Bosch};
          \node(alerts) [psbox,minimum height=9mm, below=2pt of drps, text width=32mm] {{\small \bf Alerts Owner}\\\strut Eric Bellm};
 
-	 \dmnode[base right=2mm of das]{square}{SQuaRE} {\strut Frossie Economou}{ Simon Krughoff }{psbox} ;
+	 \dmnode[base right=2mm of sciplat]{square}{SQuaRE} {\strut Frossie Economou}{ Simon Krughoff }{psbox} ;
 
     \node (infra) [mbox, text width=36mm, rectangle split, rectangle split parts=2, base right=2mm of square]
          {Data Facility \strut \nodepart{second} \vspace{39mm}};
@@ -119,7 +119,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
   % \draw[line] (alerts.north) -- ++(0,0.3) -| (dmpm.south);
    \draw[line] (drp.north) -- ++(0,0.3) -| (dmpm.south);
    \draw[line] (das.north) -- ++(0,0.3) -| (dmpm.south);
-   %\draw[line] (suit.north) -- ++(0,0.3) -| (dmpm.south);
+   \draw[line] (sciplat.north) -- ++(0,0.3) -| (dmpm.south);
    \draw[line] (square.north) -- ++(0,0.3) -| (dmpm.south);
    \draw[line] (infra.north) -- ++(0,0.3) -| (dmpm.south);
    \draw[line] (lhn.north) -- ++(0,0.3) -| (dmpm.south);
