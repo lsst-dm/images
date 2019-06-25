@@ -27,6 +27,16 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 \input{styles}
 
 
+\newcommand\dmmnode[6][]{
+            \node (#2) [mbox, text width=36mm, rectangle split, rectangle split parts=2, #1]
+                {
+                \strut #3
+                \nodepart{second} \vspace{39mm}
+                };
+             \node({#2}t) [mbox,minimum height=9mm, below=8mm of {#2}.north, text width=32mm] {\parbox[height=6mm]{0pt}{}{\small \bf Manager }\\\strut#4};
+             \node({#2}s) [#6,minimum height=9mm, below=2pt of {#2}t, text width=32mm] {{\small \bf Product Owner}\\\strut#5};
+        }
+
 \newcommand\dmnode[6][]{
             \node (#2) [mbox, text width=36mm, rectangle split, rectangle split parts=2, #1]
                 {
@@ -72,7 +82,6 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     \node (ops) [mbox, below=1mm of dmsci, text width=39mm] {\textbf{ Operations  Architect}\\ Michelle Butler };
     \node (softarc) [mbox, below=1mm of ops, text width=39mm] {\textbf{ Software Architect}\\ Kian Tat Lim };
     \node (man) [mbox, below=1mm of softarc, text width=39mm] {\textbf{ Manager }\\ William O'Mullane };
-    %\node (reqeng) [pobox, below=1mm of softarc, text width=39mm] {\textbf{Sci Platform Scientist/ Interface Scientist}\\ Gregory Dubois-Felsmann  };
 %%%% end SYSENG
 
     \node (cm) [mbox, right=3.1cm of udmpm1.north , text width=45mm] {\textbf{Config/Release Manager }\\ Gabriele Comoretto};
@@ -82,7 +91,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
 
     %\node (al) [below=69mm of dmpm, text width=0mm]{};
-    \dmnode[left=1mm of udmpm2.north]{sciplat}{Science Platform}{Frossie Economou}{Gregory Dubois-Felsmann}{psbox} ;
+    \dmmnode[left=1mm of udmpm2.north]{sciplat}{Science Platform}{Frossie Economou}{Gregory Dubois-Felsmann}{psbox} ;
     \dmnode[base left=2mm of sciplat]{das}{Data Access Services}{Fritz Mueller}{Colin Slator} {psbox};
 
     \node (drp) [mbox, text width=36mm, rectangle split, rectangle split parts=2, base left=2mm of das]
