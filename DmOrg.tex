@@ -49,15 +49,15 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 	};
 
     \node (dmpm) [divbox, above=-2.5cm of dm.north] {\textbf{DM Project Manager} William O'Mullane};
-    \node (dmadv) [psbox, left=1.5cm of dmpm ] {\textbf{Senior Advisor}\\ Robert Lupton};
-    \node (dmdpm) [divbox, below=0.5cm of dmadv] {\textbf{DM Deputy Manager} John Swinbank};
+    \node (dmdpm) [divbox, left=1.5cm of dmpm] {\textbf{DM Deputy Manager} John Swinbank};
     \node (pm) [divbox, above=.5cm of dm] {\textbf{ Project Manager} Victor Krabbendam};
-    \node (dmps) [psbox, right=1.3cm of dmpm, minimum height=12mm, text width=39mm] {\textbf{ Subsystem Scientist}\\ Leanne Guy };
-    \node (ddmps) [psbox, right=0.4cm of dmps, minimum height=12mm, text width=41mm] {\textbf{ Deputy Subsystem Scientist}\\ Colin Slater };
+    \node (dmps) [psbox, right=1.3cm of dmpm, minimum height=12mm, text width=39mm] {\textbf{ DM Scientist}\\ Leanne Guy };
+    \node (ddmps) [psbox, right=0.4cm of dmps, minimum height=12mm, text width=41mm] {\textbf{ DM Deputy Scientist}\\ Colin Slater };
+    \node (dmadv) [psbox, below=1.0cm of dmps ] {\textbf{Senior Advisor\\Pipeline Scientist}\\ Robert Lupton};
     \node (ps) [psbox, right=1.5cm of pm, minimum height=12mm] {\textbf{  Project Scientist}\\ \u{Z}eljko Ivezi\'c};
 
     \node (udmpm) [below=59mm of dmpm, text width=0mm]{};
-    \node (udmpm1) [below=24mm of dmpm, text width=0mm]{};
+    \node (udmpm1) [below=35mm of dmpm, text width=0mm]{};
     \node (udmpm2) [below=125mm of dmpm, text width=0mm]{};
 
 % SYSENG
@@ -68,7 +68,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
                 };
     \node (chair) [mbox, below=6mm of sysengg.north, text width=39mm] {\textbf{ System Engineer (Chair) }\\ Tim Jenness };
     \node (dman) [mbox, below=1mm of chair, text width=39mm] {\textbf{Release Manager (Sec)}\\ Gabriele Comoretto};
-    \node (dmsci) [psbox, below=1mm of dman, text width=39mm] {\textbf{Subsystem Scientist}\\ Leanne Guy};
+    \node (dmsci) [psbox, below=1mm of dman, text width=39mm] {\textbf{DM Scientist}\\ Leanne Guy};
     \node (ops) [mbox, below=1mm of dmsci, text width=39mm] {\textbf{ Operations  Architect}\\ Michelle Butler };
     \node (softarc) [mbox, below=1mm of ops, text width=39mm] {\textbf{ Software Architect}\\ Kian Tat Lim };
     \node (man) [mbox, below=1mm of softarc, text width=39mm] {\textbf{ Manager }\\ William O'Mullane };
@@ -105,7 +105,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
  %% GROUPS ..
 
-    \node (dmsg) [psbox, above=1.0cm of pcon, minimum height=12mm] {\textbf{DM Subsystem Science Team}};
+    \node (dmsg) [psbox, above=3.0cm of pcon, minimum height=12mm] {\textbf{DM Subsystem Science Team}};
     \node (dmlt) [mbox, left=1cm of man.west , text width=25mm] {\textbf{DMLT }};
 
    \draw[line] (dmps.south) |-  (dmsg.west);
@@ -114,8 +114,9 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
    \draw[line] (dmlt.east) --  (man.west);
 
    \draw[line] (dmpm.north) -- ++(0,0.8) -| (pm.south);
-   \draw[line] (dmdpm.east) -|  (dmpm.south);
-   \draw[sline] (dmadv.east) --  (dmpm.west);
+   \draw[line] (dmdpm.east) --  (dmpm.west);
+   \draw[sline] (dmadv.west) -|  (dmpm.south);
+   \draw[line] (dmadv.north) --  (dmps.south);
 
 %dm lines second number is the proportional turning point of the line
   % \draw[line] (alerts.north) -- ++(0,0.3) -| (dmpm.south);
