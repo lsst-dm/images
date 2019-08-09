@@ -103,13 +103,8 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
 	 \dmnode[base right=2mm of sciplat]{square}{SQuaRE} {\strut Frossie Economou}{ Simon Krughoff }{psbox} ;
 
-    \node (infra) [mbox, text width=36mm, rectangle split, rectangle split parts=2, base right=2mm of square]
-         {Data Facility \strut \nodepart{second} \vspace{39mm}};
 
-         \node(dft) [mbox,minimum height=9mm, below=8mm of {infra}.north, text width=32mm] {\parbox[height=6mm]{0pt}{}{\small \bf T/CAM}\\\strut Margaret Gelman };
-         \node(infrapo) [pobox,minimum height=9mm, below=2pt of dft, text width=32mm] {{\small \bf Infrastructure Owner}\\\strut Michelle Butler};
-         \node(procpo) [psbox,minimum height=9mm, below=2pt of infrapo, text width=32mm] {{\small \bf Proc Systems Owner}\\\strut Robert Gruendl};
-
+	 \dmnode[base right=2mm of square]{infra}{Data Facility }{Michelle Butler}{Robert Gruendl}{psbox} ;
 	 \dmnode[base right=2mm of infra]{lhn}{LHN \& Base Site}{Jeff Kantor}{Michelle Butler}{pobox} ;
 
  %% GROUPS ..
