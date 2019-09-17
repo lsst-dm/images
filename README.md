@@ -131,5 +131,6 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="thumbs/tinto.jpg" alt="pdf" width=200><td>tinto.pdf<td>  Tintoretto painting "Origin of the Milky Way" 1575 National Gallery London 
 <tr><td> <img src="usetab.png" alt="usetab.tex" width=200><td>usetab.tex<td> Potential usage of LSST tables
 <tr><td> <img src="LSP-images/fig-lsst-science-platform.pdf" alt="LSP-images" width=200><td>LSP-images<td> Directory with images and icons for the LSST Science Platform
+<tr><td> <img src="thumbs/Simplified_DM_Architecture.jpg" alt="Simplified DM Architecture" width=200><td>Simplified_DM_Architecture.pdf<td> Simplified overview of the DM system architecture
 </table>
 </embed>
