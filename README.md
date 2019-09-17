@@ -25,7 +25,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="thumbs/DMMasterSchedule.jpg" alt=" " width=200><td>DMMasterSchedule.pdf<td> DM master milestone schedule for slides. Refer to LDM-503.
 <tr><td> <img src="thumbs/DMSCommonServices.jpg" alt=" " width=200><td>DMSCommonServices.pdf<td>   DM Common services from Architecture (LDM-148)
 <tr><td> <img src="thumbs/DMSDeployment.jpg" alt=" " width=200><td>DMSDeployment.pdf<td> DN Deployment from Arch (LDM-148)
-<tr><td> <img src="DMS_Architecture.png" alt=" DMS_Architecture.png" width=200><td>DMS_Architecture.png<td> High level view of DM architecture from LDM-148
+<tr><td> <img src="thumbs/DMS_Architecture.jpg" alt=" DMS_Architecture.pdf" width=200><td>DMS_Architecture.pdf<td> High level view of DM architecture from LDM-148
 <tr><td> <img src="DM_Application_Software_Arch.png" alt=" DM_Application_Software_Arch.png" width=200><td>DM_Application_Software_Arch.png<td> DM software stack on diagram (KT)
 <tr><td> <img src="DarkMatterPie.png" alt=" DarkMatterPie.png" width=200><td>DarkMatterPie.png<td>  Pie Chart of Dark Matter and Physical Matter - What do we know ?
 <tr><td> <img src="thumbs/DataBackbone.jpg" alt=" " width=200><td>DataBackbone.pdf<td> Components of Data BackBone from LDM-148
@@ -130,7 +130,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="summitCompute.jpg" alt="summitCompute.jpg" width=200><td>summitCompute.jpg<td> Constructing the summit computer room in late 2017 early 2018. 
 <tr><td> <img src="thumbs/tinto.jpg" alt="pdf" width=200><td>tinto.pdf<td>  Tintoretto painting "Origin of the Milky Way" 1575 National Gallery London 
 <tr><td> <img src="usetab.png" alt="usetab.tex" width=200><td>usetab.tex<td> Potential usage of LSST tables
-<tr><td> <img src="LSP-images/fig-lsst-science-platform.pdf" alt="LSP-images" width=200><td>LSP-images<td> Directory with images and icons for the LSST Science Platform
+<tr><td> <img src="thumbs/fig-lsst-science-platform.pdf" alt="LSP-images" width=200><td>LSP-images<td> Directory with images and icons for the LSST Science Platform
 <tr><td> <img src="thumbs/Simplified_DM_Architecture.jpg" alt="Simplified DM Architecture" width=200><td>Simplified_DM_Architecture.pdf<td> Simplified overview of the DM system architecture
 </table>
 </embed>
