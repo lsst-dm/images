@@ -10,30 +10,30 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="2kDesign.jpg" alt="2kDesign.jpg" width="200"> <td> 2kDesign.jpg<td> Year 2000 optical design diagram 
 <tr><td> <img src="900px-Crab_Nebula.jpg" alt="900px-Crab_Nebula.jpg" width="200"> <td> 900px-Crab_Nebula.jpg<td> The Crab Nebula, the result of a supernova noted by Earth-bound chroniclers in 1054 A.D.
  By NASA, ESA, J. Hester and A. Loll (Arizona State University) - Hubble}
-<tr><td> <img src="pdf.jpg" alt="AnnualReprocessingDataFlow.pdf" width="50"><td>AnnualReprocessingDataFlow.pdf <td>
+<tr><td> <img src="thumbs/AnnualReprocessingDataFlow.jpg" alt="AnnualReprocessingDataFlow.pdf" width="50"><td>AnnualReprocessingDataFlow.pdf <td>
 <tr><td> <img src="AstronomerCartoon.png" alt=" AstronomerCartoon.png" width="200"><td>AstronomerCartoon.png <td> Cartoon about astronomers not using telescopes (Zeljko)
 <tr><td> <img src="BarringerCrater.png" alt=" BarringerCrater.png" width=200><td>BarringerCrater.png  <td> Picture of Barringer crater used in meteor slides .. it shows to scale Statue of Liberty and LSST in the crater (Zeljko)
 <tr><td> <img src="Blast_20-full.jpg" alt=" Blast_20-full.jpg" width=200><td>Blast_20-full.jpg<td> Photo showing blast on top  Cerro Pachon during the leveling of the peak
 <tr><td> <img src="CI-LSST.png" alt=" CI-LSST.png" width=200><td>CI-LSST.png<td> Cyber Infrastructure Layers for LSST
-<tr><td> <img src="CI-Layers.pdf" alt=" CI-Layers.pdf" width=200><td>CI-Layers.pdf<td> Cyber Infrastructure Layers generic - Niall Gaffney 
+<tr><td> <img src="thumbs/CI-Layers.jpg" alt=" CI-Layers.pdf" width=200><td>CI-Layers.pdf<td> Cyber Infrastructure Layers generic - Niall Gaffney 
 <tr><td> <img src="CMB.png" alt=" CMB.png" width=200><td>CMB.png<td> Lambda CDM graphic showing the big bang through to WMAP
 <tr><td> <img src="CatVolTime.png" alt=" CatVolTime.png" width=200><td>CatVolTime.png<td> Volume of catalog data over time from LDM-144
 <tr><td> <img src="CoatingChamberCerro.jpg" alt="CoatingChamberCerro.jpg" width=200><td>CoatingChamberCerro.jpg<td> Coating Chamber on the mountain Feb 2019 
 <tr><td> <img src="CoatingChamberLoad.jpg" alt="CoatingChamberLoad.jpg" width=200><td>CoatingChamberLoad.jpg<td> Coating Chamber being loaded on BBC Arizona September 7th  2018.   
 <tr><td> <img src="DAQbb.jpg" alt=" DAQbb.jpg" width=200><td>DAQbb.jpg<td> Data Acquisition System Back Board at NCSA (2017)
 <tr><td> <img src="DAQfb.jpg" alt=" DAQfb.jpg" width=200><td>DAQfb.jpg<td> Data Acquisition System Front  Board at NCSA (2017)
-<tr><td> <img src="pdf.jpg" alt=" " width=200><td>DMMasterSchedule.pdf<td> DM master milestone schedule for slides. Refer to LDM-503.
-<tr><td> <img src="pdf.jpg" alt=" " width=200><td>DMSCommonServices.pdf<td>   DM Common services from Architecture (LDM-148)
-<tr><td> <img src="pdf.jpg" alt=" " width=200><td>DMSDeployment.pdf<td> DN Deployment from Arch (LDM-148)
+<tr><td> <img src="thumbs/DMMasterSchedule.jpg" alt=" " width=200><td>DMMasterSchedule.pdf<td> DM master milestone schedule for slides. Refer to LDM-503.
+<tr><td> <img src="thumbs/DMSCommonServices.jpg" alt=" " width=200><td>DMSCommonServices.pdf<td>   DM Common services from Architecture (LDM-148)
+<tr><td> <img src="thumbs/DMSDeployment.jpg" alt=" " width=200><td>DMSDeployment.pdf<td> DN Deployment from Arch (LDM-148)
 <tr><td> <img src="DMS_Architecture.png" alt=" DMS_Architecture.png" width=200><td>DMS_Architecture.png<td> High level view of DM architecture from LDM-148
 <tr><td> <img src="DM_Application_Software_Arch.png" alt=" DM_Application_Software_Arch.png" width=200><td>DM_Application_Software_Arch.png<td> DM software stack on diagram (KT)
 <tr><td> <img src="DarkMatterPie.png" alt=" DarkMatterPie.png" width=200><td>DarkMatterPie.png<td>  Pie Chart of Dark Matter and Physical Matter - What do we know ?
-<tr><td> <img src="pdf.jpg" alt=" " width=200><td>DataBackbone.pdf<td> Components of Data BackBone from LDM-148
+<tr><td> <img src="thumbs/DataBackbone.jpg" alt=" " width=200><td>DataBackbone.pdf<td> Components of Data BackBone from LDM-148
 <tr><td> <img src="DmMap.png " alt="DmMap.png " width=200><td>DmMap.png<td> Geographical map showing DM team locations
-<tr><td> <img src="pdf.jpg" alt="pdf" width=200><td>DmOrg.pdf<td> DM Org chart from LDM-294
-<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>DocTree.pdf<td>DM Doc Tree  from LDM-294
+<tr><td> <img src="thumbs/DmOrg.jpg" alt="pdf" width=200><td>DmOrg.pdf<td> DM Org chart from LDM-294
+<tr><td> <img src="thumbs/DocTree.jpg" alt="pdf " width=200><td>DocTree.pdf<td>DM Doc Tree  from LDM-294
 <tr><td> <img src="EIA-TUCSON-2018.jpg" alt="EIA-TUCSON-2018 " width=200><td>EIA-TUCSON-2018.jpg<td>1 March 2018 Early Integration Activity (EIA-08) with CCS, Header Service and DMCS attache to SAL.
-<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>EndUserDocs.pdf<td>DM End users Doc Tree  from LDM-294
+<tr><td> <img src="thumbs/EndUserDocs.jpg" alt="pdf " width=200><td>EndUserDocs.pdf<td>DM End users Doc Tree  from LDM-294
 <tr><td> <img src="GaiaLSSTaccuracy.png" alt=" GaiaLSSTaccuracy.png" width=200><td>GaiaLSSTaccuracy.png<td> Plot showing Gaia accuracies for brighter objects and overlapping with LSST for fainter objects
 <tr><td> <img src="Gaia_liftoff_9_625.jpg" alt=" Gaia_liftoff_9_625.jpg" width=200><td>Gaia_liftoff_9_625.jpg<td> Gaia Launch Photo
 <tr><td> <img src="HSC.png " alt="HSC.png " width=200><td>HSC.png<td> HSC processing status early 2017 (RHL)
@@ -46,27 +46,27 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="LSSTopsCom.jpg " alt="LSSTopsCom.jpg " width=200><td>LSSTopsCom.jpg<td> Communications flows in LSST operations
 <tr><td> <img src="LSSTopsHighLevelOrg.png " alt="LSSTopsHighLevelOrg.png " width=200><td>LSSTopsHighLevelOrg.png<td>  High level org chart for LSST operations
 <tr><td> <img src="M1M3surCell.jpg " alt="M1M3surCell.jpg " width=200><td>M1M3surCell.jpg<td> M1M3 Surrogate Mirror on the M1M3 Cell at CAID.
-<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>MiddlewareInfrastructure.pdf<td> How middleware fits in the DM architecture from LDM-148
+<tr><td> <img src="thumbs/MiddlewareInfrastructure.jpg" alt="pdf " width=200><td>MiddlewareInfrastructure.pdf<td> How middleware fits in the DM architecture from LDM-148
 <tr><td> <img src="NCSA-2018.png" alt="NCSA-2018 " width=200><td>NCSA-2018.png<td> Image of LSST servers at NCSA in 2018.
-<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>NearRealTimeDataFlow.pdf<td> Data Flow for Prompt processing from LDM-148
+<tr><td> <img src="thumbs/NearRealTimeDataFlow.jpg" alt="pdf " width=200><td>NearRealTimeDataFlow.pdf<td> Data Flow for Prompt processing from LDM-148
 <tr><td> <img src="NetConfig2018.png " alt="NetConfig2018.png " width=200><td>NetConfig2018.png<td> Network config for Supercomputing Demo 2018
 <tr><td> <img src="Org_Chart_LSST.png " alt="Org_Chart_LSST.png " width=200><td>Org_Chart_LSST.png<td> LSST construction high level org chart
 <tr><td> <img src="PDACsky.png" alt=" PDACsky.png" width=200><td>PDACsky.png<td> Screen grab of Firefly showing sky image in PDAC
 <tr><td> <img src="PDACtable.png " alt="PDACtable.png " width=200><td>PDACtable.png<td> Screen grab of table display in notebook in PDAC
 <tr><td> <img src="Raft_of_the_Medusa_-_Theodore_Gericault.jpg" alt=" Raft_of_the_Medusa_-_Theodore_Gericault.jpg" width=200><td>Raft_of_the_Medusa_-_Theodore_Gericault.jpg<td>Raft of the Medusa - Theodore Gericault (used in some slides) 
 <tr><td> <img src="SDSScosmos.png " alt="SDSScosmos.png " width=200><td>SDSScosmos.png<td>3.5 arcmin  SDSS image from part of the COSMOS sky - the same patch is in the list for HSC.
-<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>SciencePlatform.pdf<td>  Science Platform components from LDM-148
+<tr><td> <img src="thumbs/SciencePlatform.jpg" alt="pdf " width=200><td>SciencePlatform.pdf<td>  Science Platform components from LDM-148
 <tr><td> <img src="Ship.jpg" alt="Ship.jpg" width=200><td>Ship.jpg<td> Theoretical ship showing containers which could carry LSST components in 2018 to Chile
 <tr><td> <img src="ShippingList.jpg " alt="ShippingList.jpg " width=200><td>ShippingList.jpg<td> The $98 shipping list for 2018 (would all go on the Ship mentioned above)
-<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>Simple_AP_Pipeline_Flowchart.pdf<td>  Simplified overview of AP pipeline
+<tr><td> <img src="thumbs/Simple_AP_Pipeline_Flowchart.jpg" alt="pdf " width=200><td>Simple_AP_Pipeline_Flowchart.pdf<td>  Simplified overview of AP pipeline
 <tr><td> <img src="SitesDataflow.jpg " alt="SitesDataflow.jpg " width=200><td>SitesDataflow.jpg<td> Emily's new Data flow diagram showing sites and the networks for ops <a href="https://gallery.lsst.org/bp/#/folder/2334398/62907418"> Original from Emily Acosta </a>.
-<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>SizingModel.pdf<td> Older but valid document tree showing flow of requirements LSE-81  and others to LDM-144 (Sizing model)
+<tr><td> <img src="thumbs/SizingModel.jpg" alt="pdf " width=200><td>SizingModel.pdf<td> Older but valid document tree showing flow of requirements LSE-81  and others to LDM-144 (Sizing model)
 <tr><td> <img src="asteroidImpacts.png" alt=" asteroidImpacts.png" width=200><td>asteroidImpacts.png<td> Single image of Shoemaker-Levy and Tunguska showing potential and actual impacts
 <tr><td> <img src="bepiclogo.png" alt=" bepiclogo.png" width=200><td>bepiclogo.png<td> Logo for BepiColombo
-<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>camera.pdf<td> LSST  camera cut away showing parts  with outline of a person to show scale.
+<tr><td> <img src="thumbs/camera.jpg" alt="pdf " width=200><td>camera.pdf<td> LSST  camera cut away showing parts  with outline of a person to show scale.
 <tr><td> <img src="casjobs.png" alt=" casjobs.png" width=200><td>casjobs.png<td> Screen shot of CasJobs for submitting queries to SDSS.
-<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>catopt1.pdf<td> Option one for catalogs - full DB access to source and object
-<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>catopt2.pdf<td> Option 2 (or a potential alternative) - DB access for object but Spark Access at source level
+<tr><td> <img src="thumbs/catopt1.jpg" alt="pdf " width=200><td>catopt1.pdf<td> Option one for catalogs - full DB access to source and object
+<tr><td> <img src="thumbs/catopt2.jpg" alt="pdf " width=200><td>catopt2.pdf<td> Option 2 (or a potential alternative) - DB access for object but Spark Access at source level
 <tr><td> <img src="cerro.png" alt=" cerro.png" width=200><td>cerro.png<td> Cerro Pachon
 <tr><td> <img src="cerroAug2017.jpg" alt=" cerroAug2017.jpg" width=200><td>cerroAug2017.jpg<td>Cerro Pachon August 2017
 <tr><td> <img src="cerroDec2017.jpg" alt=" cerroDec2017.jpg" width=200><td>cerroDec2017.jpg<td>Cerro Pachon Dec 2017
@@ -86,7 +86,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="euclid.png" alt="euclid.png" width=200><td>euclid.png<td> Euclid  artists impression of satellite
 <tr><td> <img src="exm.png" alt="exm.png" width=200><td>exm.png<td> ExoMars strap line (ESA/ROSCOSMOS mission to Mars)
 <tr><td> <img src="fdphase.png" alt="fdphase.png" width=200><td>fdphase.png<td> Pre 2017 Org chart for DM 
-<tr><td> <img src="fig-lsst-science-platform-extended.pdf" alt="fig-lsst-science-platform-extended.pdf" width=200><td>fig-lsst-science-platform-extended.pdf<td>  Nicer graphical representation of Science Platform and the services its sits upon (for presentations - from Mario)
+<tr><td> <img src="thumbs/fig-lsst-science-platform-extended.jpg" alt="fig-lsst-science-platform-extended.pdf" width=200><td>fig-lsst-science-platform-extended.pdf<td>  Nicer graphical representation of Science Platform and the services its sits upon (for presentations - from Mario)
 <tr><td> <img src="firefly.png" alt="firefly.png" width=200><td>firefly.png<td> 2018 screen grab of firefly with HiPS image
 <tr><td> <img src="fops.png" alt="fops.png" width=200><td>fops.png<td> Gaia Flight Operations Procedure Manual stack (beside water bottle)
 <tr><td> <img src="fov.png" alt="fov.png" width=200><td>fov.png<td> LSST Field of View showing the raft and CCD outlines
@@ -101,8 +101,8 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="l2Optic.png" alt="l2Optic.png" width=200><td>l2Optic.png<td> Lens 2 (l2) Optics for LSST
 <tr><td> <img src="lsstio2018.png" alt="lsstio2018.png" width=200><td>lsstio2018.png<td> New home page for docs <a url="lsst.io"> Lsst.io</a>
 <tr><td> <img src="lsstplan.jpg" alt="lsstplan.jpg" width=200><td>lsstplan.jpg<td> Cartoon Gantt Chart showing LSST plan including commissioning and OPS and the transition wedges.
-<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>mp_starmap.pdf<td> Cover of Perryman's book The Making of History's Greatest Star Map
-<tr><td> <img src="pdf.jpg" alt="pdf " width=200><td>net_firstlight.pdf<td> Network diagram from Jeff showing the lines used for the Optical first light in 2017.
+<tr><td> <img src="thumbs/mp_starmap.jpg" alt="pdf " width=200><td>mp_starmap.pdf<td> Cover of Perryman's book The Making of History's Greatest Star Map
+<tr><td> <img src="thumbs/net_firstlight.jpg" alt="pdf " width=200><td>net_firstlight.pdf<td> Network diagram from Jeff showing the lines used for the Optical first light in 2017.
 <tr><td> <img src="net_firstlight_op.jpg" alt="net_firstlight_op.jpg" width=200><td>net_firstlight_op.jpg<td> Computers used to run first light test on LSST network in 2017 
 <tr><td> <img src="net_firstlight_screen.jpg" alt="net_firstlight_screen.jpg" width=200><td>net_firstlight_screen.jpg<td> Screen shot showing packets sent in the network first light test in 2017.
 <tr><td> <img src="newHorizons.jpg" alt="newHorizons.jpg" width=200><td>newHorizons.jpg<td> Cover of New Worlds, New Horizons
@@ -119,7 +119,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="raftSensor.png" alt="raftSensor.png" width=200><td>raftSensor.png<td> Photo of top of raft showing CCDs
 <tr><td> <img src="raftSensorAssembly.png" alt="raftSensorAssembly.png" width=200><td>raftSensorAssembly.png<td> Back of the raft sensor showing wiring cables
 <tr><td> <img src="raftTower.png" alt="raftTower.png" width=200><td>raftTower.png<td> Photo of a raft tower with readout boards at the top (invert of raftCCD cartoon).
-<tr><td> <img src="pdf.jpg" alt="pdf" width=200><td>scibookcover.pdf<td> LSST Science Book cover
+<tr><td> <img src="thumbs/scibookcover.jpg" alt="pdf" width=200><td>scibookcover.pdf<td> LSST Science Book cover
 <tr><td> <img src="servdocs.png" alt="servdocs.png" width=200><td>servdocs.png<td> Service Documentation Blocks from NCSA (in LDM-294)
 <tr><td> <img src="showsky.png" alt="showsky.png" width=200><td>showsky.png<td> ShowSky screen grab (circa 2000) GSC and Tycho catalogs overlayed on DSS image (QA tool for GSC) (STScI)
 <tr><td> <img src="sizetab.png" alt="sizetab.tex" width=200><td>sizetab.tex<td> Table size summary based on LDM-141
@@ -128,7 +128,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="sshtm.jpg" alt="sshtm.jpg" width=200><td>sshtm.jpg<td> ShowSky (circa 2000) screen grab shewing HTM and DSS plate boundaries 
 <tr><td> <img src="summit24hrs.jpg" alt="summit24hrs.jpg" width=200><td>summit24hrs.jpg<td> What happen on the summit in ops over 24 hours flowchart.
 <tr><td> <img src="summitCompute.jpg" alt="summitCompute.jpg" width=200><td>summitCompute.jpg<td> Constructing the summit computer room in late 2017 early 2018. 
-<tr><td> <img src="tinto.jpg" alt="pdf" width=200><td>tinto.pdf<td>  Tintoretto painting "Origin of the Milky Way" 1575 National Gallery London 
+<tr><td> <img src="thumbs/tinto.jpg" alt="pdf" width=200><td>tinto.pdf<td>  Tintoretto painting "Origin of the Milky Way" 1575 National Gallery London 
 <tr><td> <img src="usetab.png" alt="usetab.tex" width=200><td>usetab.tex<td> Potential usage of LSST tables
 <tr><td> <img src="LSP-images/fig-lsst-science-platform.pdf" alt="LSP-images" width=200><td>LSP-images<td> Directory with images and icons for the LSST Science Platform
 </table>
