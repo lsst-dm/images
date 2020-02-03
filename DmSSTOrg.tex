@@ -13,8 +13,8 @@
 \usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
 \usetikzlibrary{backgrounds,calc}
 
-\usepackage[paperwidth=19cm,paperheight=13.0cm,
-left=-2mm,top=3mm,bottom=0mm,right=0mm,
+\usepackage[paperwidth=19.5cm,paperheight=13.0cm,
+left=0mm,top=3mm,bottom=0mm,right=0mm,
 noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
 
@@ -53,7 +53,7 @@ pdfauthor={Leanne Guy}}
     \node (pipesci) [psbox, below =3mm of ddmps, text width=52mm, minimum height=12mm] {\textbf{DM Science Pipelines Scientist}\\ Robert Lupton};
 
 % Verification Scientist
-    \node (valsci) [psbox, below=3mm of pipesci, text width=52mm, minimum height=12mm] {\textbf{DM Science Validation Scientist}\\ Michael Wood-Vasey};
+    \node (valsci) [psbox, below=3mm of pipesci, text width=52mm, minimum height=12mm] {\textbf{DM Science Validation Scientist}\\  Jeff Carlin};
 
 % InstLeads
             \node (instleads) [mbox, text width=60mm, rectangle split, rectangle split parts=2,  below=12mm of dmps]
@@ -64,7 +64,7 @@ pdfauthor={Leanne Guy}}
     \node (apsc) [psbox, below=6mm of instleads.north, text width=55mm] {\textbf{Alert Production Scientist}\\ Eric Bellm };
     \node (drpsc) [psbox, below=1mm of apsc, text width=55mm] {\textbf{Data Release Production Scientist}\\ Jim Bosch};
     \node (suitsc) [psbox, below=1mm of drpsc, text width=55mm] {\textbf{Sci Platform / Interface Scientist}\\ Gregory Dubois-Felsmann};
-    \node (dpsc) [psbox, below=1mm of suitsc, text width=55mm] {\textbf{Data Processing Scientist}\\ Robert Gruendl};
+    \node (dpsc) [psbox, below=1mm of suitsc, text width=55mm] {\textbf{DP / Middleware Scientist}\\ Robert Gruendl};
     \node (sqsc) [psbox, below=1mm of dpsc, text width=55mm] {\textbf{SQuaRE Scientist}\\ Simon Krughoff  };
 
 
@@ -77,8 +77,8 @@ pdfauthor={Leanne Guy}}
     \node (sstanal-mlg) [psbox, below=7mm of sstanal.north, text width=40mm] {\textbf{ DM SST Analyst }\\ Melissa Graham };
     \node (sstanal-cts) [psbox, below=1mm of sstanal-mlg, text width=40mm] {\textbf{DM SST Analyst}\\ Colin Slater};
 
-   
-%%% Legend 
+
+%%% Legend
 %\node (leg) [lbox, below=4cm of admin, text width=35mm,  minimum height=10mm, rectangle split, rectangle split parts=2]
 %    { \hspace{0.1cm} \textbf{Legend}
 %           \nodepart{second} \vspace{30mm}
@@ -90,11 +90,11 @@ pdfauthor={Leanne Guy}}
    \draw[line] (dmps.north) --  (ps.south);
     \draw[sline] (dmps.west) --  (dmpm.east);
    \draw[line] (ddmps.west) --  (dmps.east);
-   
+
     \draw[line] (dmps.east) --  (pipesci.west);
      \draw[line] (dmps.east) --  (valsci.west);
      \draw[line] (dmps.south) --  (instleads.north);
     \draw[line] (dmps.east) --  (sstanal.west);
-      
+
 \end{tikzpicture}
 \end{document}
