@@ -73,6 +73,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="cerroMar2019.jpg" alt=" cerroMar2019.jpg" width=200><td>cerroMar2019.jpg<td>Cerro Pachon March 2019
 <tr><td> <img src="cerroMay2017.jpg" alt=" cerroMay2017.jpg" width=200><td>cerroMay2017.jpg<td>Cerro Pachon May 2017
 <tr><td> <img src="cerroRender.jpg" alt=" cerroRender.jpg" width=200><td>cerroRender.jpg<td>Cerro Pachon Rendered Drawing
+<tr><td> <img src="chunk.jpg" alt=" chunk.jpg" width=200><td>chunk.jpg<td>Single chunk of Qserv distribution - zoom in from spher.png - Fritz Muller
 <tr><td> <img src="coatingPlant.jpg" alt=" coatingPlant.jpg" width=200><td>coatingPlant.jpg<td> Mirror Coating Plant 2017 Germany
 <tr><td> <img src="combCE.png" alt="combCE.png " width=200><td>combCE.png<td> Cats Eye Nebulae with Gaia "spurious" sources overlaid.
 <tr><td> <img src="comsched.png" alt="comsched.png" width=200><td>comsched.png<td> Commissioning Schedule for slides
@@ -82,6 +83,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="datasched.png" alt="datasched.png" width=200><td>datasched.png<td> Schedule (from 2017) of events when data will be available for DM 
 <tr><td> <img src="dilbertAwesome.png" alt="dilbertAwesome.png" width=200><td>dilbertAwesome.png<td> Dilbert on productive meetings 
 <tr><td> <img src="dilbertProdMeeting.png" alt="dilbertProdMeeting.png" width=200><td>dilbertProdMeeting.png<td> Dilbert on productive meetings 
+<tr><td> <img src="distribute-combine.png" alt="distribute-combine.png" width=200><td>distribute-combine.png<td> Distribute queries and combine results Qserv MPP - Fritz Muller
 <tr><td> <img src="dm2018.png" alt="dm2018.png" width=200><td>dm2018.png<td> Data Management Joint Meeting with System Engineering IPAC 2018
 <tr><td> <img src="euclid.png" alt="euclid.png" width=200><td>euclid.png<td> Euclid  artists impression of satellite
 <tr><td> <img src="exm.png" alt="exm.png" width=200><td>exm.png<td> ExoMars strap line (ESA/ROSCOSMOS mission to Mars)
@@ -125,6 +127,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="sizetab.png" alt="sizetab.tex" width=200><td>sizetab.tex<td> Table size summary based on LDM-141
 <tr><td> <img src="skyserverdr3.png" alt="skyserverdr3.png" width=200><td>skyserverdr3.png<td> Screen grab of SkyServer for SDSS Data Release 3 (circa 2004)
 <tr><td> <img src="solo.png" alt="solo.png" width=200><td>solo.png<td> Solar Orbiter (ESA) mission graphic.
+<tr><td> <img src="spher.png" alt="spher.png" width=200><td>spher.png<td> HTM spherical tessellation as per Qserv (Fritz Muller)
 <tr><td> <img src="sshtm.jpg" alt="sshtm.jpg" width=200><td>sshtm.jpg<td> ShowSky (circa 2000) screen grab shewing HTM and DSS plate boundaries 
 <tr><td> <img src="summit24hrs.jpg" alt="summit24hrs.jpg" width=200><td>summit24hrs.jpg<td> What happen on the summit in ops over 24 hours flowchart.
 <tr><td> <img src="summitCompute.jpg" alt="summitCompute.jpg" width=200><td>summitCompute.jpg<td> Constructing the summit computer room in late 2017 early 2018. 
