@@ -74,6 +74,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="cerroMay2017.jpg" alt=" cerroMay2017.jpg" width=200><td>cerroMay2017.jpg<td>Cerro Pachon May 2017
 <tr><td> <img src="cerroRender.jpg" alt=" cerroRender.jpg" width=200><td>cerroRender.jpg<td>Cerro Pachon Rendered Drawing
 <tr><td> <img src="cerroSep2019.jpg" alt=" cerroSep2019.jpg" width=200><td>cerroSep2019.jpg<td>Cerro Pachon September 2019
+<tr><td> <img src="cerroMar2020.jpg" alt=" cerroMar2020.jpg" width=200><td>cerroMar2020.jpg<td>Cerro Pachon March 2020 during COVID-19 shutdown (inspection visit Eduardo Serrano)
 <tr><td> <img src="chunk.jpg" alt=" chunk.jpg" width=200><td>chunk.jpg<td>Single chunk of Qserv distribution - zoom in from spher.png - Fritz Muller
 <tr><td> <img src="coatingPlant.jpg" alt=" coatingPlant.jpg" width=200><td>coatingPlant.jpg<td> Mirror Coating Plant 2017 Germany
 <tr><td> <img src="combCE.png" alt="combCE.png " width=200><td>combCE.png<td> Cats Eye Nebulae with Gaia "spurious" sources overlaid.
