@@ -50,6 +50,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="NCSA-2018.png" alt="NCSA-2018 " width=200><td>NCSA-2018.png<td> Image of LSST servers at NCSA in 2018.
 <tr><td> <img src="thumbs/NearRealTimeDataFlow.jpg" alt="pdf " width=200><td>NearRealTimeDataFlow.pdf<td> Data Flow for Prompt processing from LDM-148
 <tr><td> <img src="NetConfig2018.png " alt="NetConfig2018.png " width=200><td>NetConfig2018.png<td> Network config for Supercomputing Demo 2018
+<tr><td> <img src="NetworksFY22thumb.png " alt="NetworksFY22.pdf " width=200><td>NetworksFY22.pdf<td> Network topology for Rubin Observatory FY22. 
 <tr><td> <img src="Org_Chart_LSST.png " alt="Org_Chart_LSST.png " width=200><td>Org_Chart_LSST.png<td> LSST construction high level org chart
 <tr><td> <img src="PDACsky.png" alt=" PDACsky.png" width=200><td>PDACsky.png<td> Screen grab of Firefly showing sky image in PDAC
 <tr><td> <img src="PDACtable.png " alt="PDACtable.png " width=200><td>PDACtable.png<td> Screen grab of table display in notebook in PDAC
