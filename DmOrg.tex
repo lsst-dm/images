@@ -27,16 +27,20 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 \input{styles}
 
 
+% Team with a Manager & a Product Owner
 \newcommand\dmmnode[6][]{
-            \node (#2) [mbox, text width=36mm, rectangle split, rectangle split parts=2, #1]
+            \node (#2) [mbox, text width=100mm, rectangle split, rectangle split parts=2, #1]
                 {
                 \strut #3
-                \nodepart{second} \vspace{39mm}
+                \nodepart{second} \vspace{12mm}
                 };
-             \node({#2}t) [mbox,minimum height=9mm, below=8mm of {#2}.north, text width=32mm] {\parbox[height=6mm]{0pt}{}{\small \bf Manager }\\\strut#4};
-             \node({#2}s) [#6,minimum height=9mm, below=2pt of {#2}t, text width=32mm] {{\small \bf Product Owner}\\\strut#5};
+             \node({#2}v) [below=12mm of {#2}.north, text width=0mm] {};
+
+             \node({#2}t) [mbox,minimum height=9mm, left=0mm of {#2}v, text width=45mm] {\parbox[height=6mm]{0pt}{}{\small \bf Manager }\\\strut#4};
+             \node({#2}s) [#6,minimum height=9mm, right=2mm of {#2}t, text width=45mm] {{\small \bf Product Owner}\\\strut#5};
         }
 
+% Team with a T/CAM and a Product Owner
 \newcommand\dmnode[6][]{
             \node (#2) [mbox, text width=36mm, rectangle split, rectangle split parts=2, #1]
                 {
@@ -66,12 +70,17 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     \node (dmadv) [psbox, below=1.0cm of dmps ] {\textbf{Senior Advisor\\Pipeline Scientist}\\ Robert Lupton};
     \node (ps) [psbox, right=1.5cm of pm, minimum height=12mm] {\textbf{  Project Scientist}\\ \u{Z}eljko Ivezi\'c};
 
-    \node (udmpm) [below=59mm of dmpm, text width=0mm]{};
+    \node (udmpm) [below=61mm of dmpm, text width=0mm]{};
     \node (udmpm1) [below=35mm of dmpm, text width=0mm]{};
     \node (udmpm2) [below=125mm of dmpm, text width=0mm]{};
 
+    \node (ccbVpos) [below=42mm of dmpm, text width=0mm]{};
+    \node (rmVpos) [below=41mm of ccbVpos, text width=0mm]{};
+    \node (sciplatVpos) [below=39mm of ccbVpos, text width=0mm]{};
+    \node (mwareVpos) [below=60mm of dmpm, text width=0mm]{};
+
 % SYSENG
-            \node (sysengg) [mbox, text width=50mm, rectangle split, rectangle split parts=2, left=3.1cm of udmpm.north]
+            \node (sysengg) [mbox, text width=50mm, rectangle split, rectangle split parts=2, left=3.1cm of ccbVpos.north]
                 {
                  Core DMCCB
                 \nodepart{second} \vspace{65mm}
@@ -84,15 +93,16 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     \node (man) [mbox, below=1mm of softarc, text width=39mm] {\textbf{ DM Manager }\\ William O'Mullane };
 %%%% end SYSENG
 
-    \node (cm) [mbox, right=3.1cm of udmpm1.north , text width=45mm] {\textbf{Config/Release Manager }\\ Gabriele Comoretto};
-    \node (pconp) [below=5mm of cm] {};
+    \node (cm) [mbox, left=3.1cm of rmVpos , text width=45mm] {\textbf{Config/Release Manager }\\ Gabriele Comoretto};
+    \node (pconp) [below=5mm of dmadv] {};
     \node (pcon) [mbox, right=70mm of pconp , text width=45mm] {\textbf{Project Control/Scheduler }\\ Kevin Long};
     \node (admin) [mbox, below=5mm of pcon, text width=45mm] {\textbf{DM Admin}\\ Michelle Poland, Aime Wiest};
 
 
     %\node (al) [below=69mm of dmpm, text width=0mm]{};
-    \dmmnode[left=1mm of udmpm2.north]{sciplat}{Science Platform}{Frossie Economou}{Gregory Dubois-Felsmann}{psbox} ;
-    \dmnode[base left=2mm of sciplat]{das}{Data Access Services}{Fritz Mueller}{Colin Slater} {psbox};
+    \dmmnode[right=10mm of sciplatVpos.north]{sciplat}{Science Platform}{Frossie Economou}{Gregory Dubois-Felsmann}{psbox} ;
+    \dmmnode[right=10mm of mwareVpos.north]{mware}{Middleware}{Tim Jenness}{Robert Gruendl}{psbox} ;
+    \dmnode[left=20.9mm of udmpm2.north]{das}{Data Access Services}{Fritz Mueller}{Colin Slater} {psbox};
 
     \node (drp) [mbox, text width=36mm, rectangle split, rectangle split parts=2, base left=2mm of das]
          {Science Pipelines \strut \nodepart{second} \vspace{39mm}};
@@ -101,15 +111,15 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
          \node(drps) [psbox,minimum height=9mm, below=2pt of drpt, text width=32mm] {{\small \bf DRP Owner}\\\strut Jim Bosch};
          \node(alerts) [psbox,minimum height=9mm, below=2pt of drps, text width=32mm] {{\small \bf Alerts Owner}\\\strut Eric Bellm};
 
-	 \dmnode[base right=2mm of sciplat]{square}{SQuaRE} {\strut Frossie Economou}{ Simon Krughoff }{psbox} ;
+	 \dmnode[base right=2mm of das]{square}{SQuaRE} {\strut Frossie Economou}{ Simon Krughoff }{psbox} ;
 
 
-	 \dmnode[base right=2mm of square]{infra}{Data Facility }{Michelle Butler \\{\bf Deputy}\\ Margaret Johnson}{Robert Gruendl}{psbox} ;
+	 \dmnode[base right=2mm of square]{infra}{Data Facility }{Michelle Butler}{Robert Gruendl}{psbox} ;
 	 \dmnode[base right=2mm of infra]{lhn}{LHN \& Base Site}{Jeff Kantor}{Michelle Butler}{pobox} ;
 
  %% GROUPS ..
 
-    \node (dmsg) [psbox, above=3.0cm of pcon, minimum height=12mm] {\textbf{DM Subsystem Science Team}};
+    \node (dmsg) [psbox, above=1.4cm of pcon, minimum height=12mm] {\textbf{DM Subsystem Science Team}};
 
    \draw[line] (dmps.south) |-  (dmsg.west);
    \draw[line] (dmps.north) --  (ps.south);
@@ -124,13 +134,14 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
   % \draw[line] (alerts.north) -- ++(0,0.3) -| (dmpm.south);
    \draw[line] (drp.north) -- ++(0,0.3) -| (dmpm.south);
    \draw[line] (das.north) -- ++(0,0.3) -| (dmpm.south);
-   \draw[line] (sciplat.north) -- ++(0,0.3) -| (dmpm.south);
+   \draw[line] (sciplat.west) -- (sciplatVpos.north);
+   \draw[line] (mware.west) -- (mwareVpos.north);
    \draw[line] (square.north) -- ++(0,0.3) -| (dmpm.south);
    \draw[line] (infra.north) -- ++(0,0.3) -| (dmpm.south);
    \draw[line] (lhn.north) -- ++(0,0.3) -| (dmpm.south);
 
-   \draw[line] (sysengg.east) to (udmpm.north);
-   \draw[line] (cm.west) -| (udmpm1.north);
+   \draw[line] (sysengg.east) to (ccbVpos.north);
+   \draw[line] (cm.east) -| (rmVpos.north);
    \draw[line] (pcon.west) -| (udmpm1.north);
    \draw[line] (admin.west) -| (udmpm.north);
 %science
