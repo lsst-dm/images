@@ -34,12 +34,13 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
     \node (dpad) [divbox] {\textbf{AD Data Production} William O'Mullane};
     %\node (ddpad) [divbox, left=1.5cm of dmpm] {\textbf{ DP Deputy } };
-    \node (dir) [divbox, above=1.5cm of dpad] {\textbf{ Director} Robert Blum };
+    \node (dir) [divbox, above=1.5cm of dpad, text width=5cm] {\textbf{ Rubin Operations Director} \\Robert Blum };
     \node (spad) [divbox, right=1.3cm of dpad, minimum height=12mm, text width=39mm] {\textbf{ AD System Performance}\\ Leanne Guy };
     %\node (dspad) [psbox, right=0.4cm of dmps, minimum height=12mm, text width=41mm] {\textbf{ SP Deputy }\\ Colin Slater };
     %\node (ps) [psbox, right=1.5cm of pm, minimum height=12mm] {\textbf{  Project Scientist}\\ \u{Z}eljko Ivezi\'c};
 
-    \node (udpad) [below=61mm of dpad, text width=0mm]{};
+    \node (fdfa) [psbox, left=2cm of dpad, text width=4cm] {\textbf{Advisor \\French Data Facility}\\ Fabio Hernandez};
+    %\node (udpad) [below=61mm of dpad, text width=0mm]{};
 
 %
 	\node(sumw)[arcbox,below=2cm of dpad]{\textbf{ Science Users Middleware} \\Tim Jenness} ;
@@ -62,6 +63,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
 %science
    \draw[sline] (spad.west) to (dpad.east);
+   \draw[sline] (fdfa.east) to (dpad.west);
 
 
 \end{tikzpicture}
