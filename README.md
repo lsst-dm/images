@@ -35,6 +35,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="thumbs/DpOrg.jpg" alt="pdf" width=200><td>DpOrg.pdf<td> Data Production Org chart from RTN-001 (initially) 
 <tr><td> <img src="EIA-TUCSON-2018.jpg" alt="EIA-TUCSON-2018 " width=200><td>EIA-TUCSON-2018.jpg<td>1 March 2018 Early Integration Activity (EIA-08) with CCS, Header Service and DMCS attache to SAL.
 <tr><td> <img src="thumbs/EndUserDocs.jpg" alt="pdf " width=200><td>EndUserDocs.pdf<td>DM End users Doc Tree  from LDM-294
+<tr><td> <img src="FlammarionWoodcut-BOT.png" alt="FlammarionWoodcut-BOT.png" width=200><td>FlammarionWoodcut-BOT.png <td> One of the first Optical Test Bench images from the full Camera processed using pipelines code by Robert Lupton August 2020 - in the time of COVID.
 <tr><td> <img src="GaiaLSSTaccuracy.png" alt=" GaiaLSSTaccuracy.png" width=200><td>GaiaLSSTaccuracy.png<td> Plot showing Gaia accuracies for brighter objects and overlapping with LSST for fainter objects
 <tr><td> <img src="Gaia_liftoff_9_625.jpg" alt=" Gaia_liftoff_9_625.jpg" width=200><td>Gaia_liftoff_9_625.jpg<td> Gaia Launch Photo
 <tr><td> <img src="HSC.png " alt="HSC.png " width=200><td>HSC.png<td> HSC processing status early 2017 (RHL)
@@ -52,7 +53,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="thumbs/NearRealTimeDataFlow.jpg" alt="pdf " width=200><td>NearRealTimeDataFlow.pdf<td> Data Flow for Prompt processing from LDM-148
 <tr><td> <img src="NetConfig2018.png " alt="NetConfig2018.png " width=200><td>NetConfig2018.png<td> Network config for Supercomputing Demo 2018
 <tr><td> <img src="NetworksFY22thumb.png " alt="NetworksFY22.pdf " width=200><td>NetworksFY22.pdf<td> Network topology for Rubin Observatory FY22. 
-<tr><td> <img src="Ops_Org_Chart.png " alt="Ops_Org_Chart.png " width=200><td>Ops_Org_Chart.png<td> Rubin Observatory Operaitons Org chart as of May 2020
+<tr><td> <img src="Ops_Org_Chart.png " alt="Ops_Org_Chart.png " width=200><td>Ops_Org_Chart.png<td> Rubin Observatory Operations Org chart as of May 2020
 <tr><td> <img src="Org_Chart_LSST.png " alt="Org_Chart_LSST.png " width=200><td>Org_Chart_LSST.png<td> LSST construction high level org chart
 <tr><td> <img src="PDACsky.png" alt=" PDACsky.png" width=200><td>PDACsky.png<td> Screen grab of Firefly showing sky image in PDAC
 <tr><td> <img src="PDACtable.png " alt="PDACtable.png " width=200><td>PDACtable.png<td> Screen grab of table display in notebook in PDAC
@@ -88,7 +89,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="datasched.png" alt="datasched.png" width=200><td>datasched.png<td> Schedule (from 2017) of events when data will be available for DM 
 <tr><td> <img src="dilbertAwesome.png" alt="dilbertAwesome.png" width=200><td>dilbertAwesome.png<td> Dilbert on productive meetings 
 <tr><td> <img src="dilbertProdMeeting.png" alt="dilbertProdMeeting.png" width=200><td>dilbertProdMeeting.png<td> Dilbert on productive meetings 
-<tr><td> <img src="dilbertsl.png" alt="dilbertsl.png" width=200><td>dilbertsl.png<td> Dilbert on Software Licenseing. 
+<tr><td> <img src="dilbertsl.png" alt="dilbertsl.png" width=200><td>dilbertsl.png<td> Dilbert on Software Licensing. 
 <tr><td> <img src="distribute-combine.png" alt="distribute-combine.png" width=200><td>distribute-combine.png<td> Distribute queries and combine results Qserv MPP - Fritz Muller
 <tr><td> <img src="dm2018.png" alt="dm2018.png" width=200><td>dm2018.png<td> Data Management Joint Meeting with System Engineering IPAC 2018
 <tr><td> <img src="euclid.png" alt="euclid.png" width=200><td>euclid.png<td> Euclid  artists impression of satellite
