@@ -115,6 +115,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="net_firstlight_op.jpg" alt="net_firstlight_op.jpg" width=200><td>net_firstlight_op.jpg<td> Computers used to run first light test on LSST network in 2017 
 <tr><td> <img src="net_firstlight_screen.jpg" alt="net_firstlight_screen.jpg" width=200><td>net_firstlight_screen.jpg<td> Screen shot showing packets sent in the network first light test in 2017.
 <tr><td> <img src="newHorizons.jpg" alt="newHorizons.jpg" width=200><td>newHorizons.jpg<td> Cover of New Worlds, New Horizons
+<tr><td> <img src="newSizing.jpg" alt="newSizing.jpg" width=200><td>newSizing.jpg<td> Size evolution from ne_sizing model use din DMTN-135
 <tr><td> <img src="ngc1232.jpg" alt="ngc1232.jpg" width=200><td>ngc1232.jpg<td> Image of NGC 1232 (ESO)
 <tr><td> <img src="olddmorg.png" alt="olddmorg.png" width=200><td>olddmorg.png<td> DM org (obsolete) pre 2017
 <tr><td> <img src="opsStaffProfile.jpg" alt="opsStaffProfile.jpg" width=200><td>opsStaffProfile.jpg<td> Staffing profile going into  and during operations (per department).
