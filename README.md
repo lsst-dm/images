@@ -84,6 +84,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="combCE.png" alt="combCE.png " width=200><td>combCE.png<td> Cats Eye Nebulae with Gaia "spurious" sources overlaid.
 <tr><td> <img src="comsched.png" alt="comsched.png" width=200><td>comsched.png<td> Commissioning Schedule for slides
 <tr><td> <img src="coverage.jpg" alt="coverage.jpg" width=200><td>coverage.jpg<td> LSST assumed coverage map in R band
+<tr><td> <img src="cpuHours.jpg" alt="cpuHours.jpg" width=200><td>cpuHours.jpg<td> Core hours from DMTN-135 new sizing sheet. 
 <tr><td> <img src="dataMining.png" alt="dataMining.png" width=200><td>dataMining.png<td> Cartoon like plot showing cluster analysis for data mining (From Mario I think ..)
 <tr><td> <img src="dwdm2017.jpg" alt="dwdm2017.jpg" width=200><td>dwdm2017.jpg<td> Installed Dense Wave Division Multiplex (DWDM) equipment on Cerro Pachon and in La Serena late 2017 early 2018
 <tr><td> <img src="datasched.png" alt="datasched.png" width=200><td>datasched.png<td> Schedule (from 2017) of events when data will be available for DM 
