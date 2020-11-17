@@ -40,6 +40,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     %\node (ps) [psbox, right=1.5cm of pm, minimum height=12mm] {\textbf{  Project Scientist}\\ \u{Z}eljko Ivezi\'c};
 
     \node (fdfa) [psbox, left=2cm of dpad, text width=4cm] {\textbf{Advisor \\French Data Facility}\\ Fabio Hernandez};
+    \node (udfa) [psbox, below=0.5cm of fdfa, text width=4cm] {\textbf{Advisor \\US Data Facility}\\ Richard Dubois };
     %\node (udpad) [below=61mm of dpad, text width=0mm]{};
 
 %
@@ -48,7 +49,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 	\node(alp)[arcbox,right=2mm of sumw]{\textbf{ Algorithms and Pipelines } \\Yusra AlSayyad} ;
 	\node(spare)[arcbox,right=2mm of alp]{\textbf{ Science Platform and Reliability Engineering } \\Frossie Economou} ;
 	\node(exec)[arcbox,left=2mm of sumw]{\textbf{Execution} \\ Michelle Butler and Robert Gruendl} ;
-	\node(infra)[arcbox,left=2mm of exec]{\textbf{Infrastructure} \\ TBD at Data Facility} ;
+	\node(infra)[arcbox,left=2mm of exec]{\textbf{Infrastructure} \\ Richard Dubois} ;
 
 
    \draw[line] (dpad.north) -- ++(0,0.8) -| (dir.south);
@@ -61,11 +62,12 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 \draw[line] (spare.north)-- ++(0,0.5)  -| (dpad.south);
 \draw[line] (alp.north) -- ++(0,0.5) -| (dpad.south);
 \draw[line] (exec.north) -- ++(0,0.5) -| (dpad.south);
-\draw[line] (infra.north)-- ++(0,0.5)  -| (dpad.south);
+\draw[line] (infra.north)-- ++(0,0.5) -| (dpad.south);
 
 %science
-   \draw[sline] (spad.west) to (dpad.east);
-   \draw[sline] (fdfa.east) to (dpad.west);
+\draw[sline] (spad.west) to (dpad.east);
+\draw[sline] (fdfa.east) to (dpad.west);
+	\draw[sline] (udfa.east) -- ++(0.1,0) -|  (dpad.west);
 
 
 \end{tikzpicture}
