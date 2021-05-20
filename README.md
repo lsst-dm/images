@@ -32,7 +32,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="DmMap.png " alt="DmMap.png " width=200><td>DmMap.png<td> Geographical map showing DM team locations
 <tr><td> <img src="thumbs/DmOrg.jpg" alt="pdf" width=200><td>DmOrg.pdf<td> DM Org chart from LDM-294
 <tr><td> <img src="thumbs/DocTree.jpg" alt="pdf " width=200><td>DocTree.pdf<td>DM Doc Tree  from LDM-294
-<tr><td> <img src="thumbs/DpOrg.jpg" alt="pdf" width=200><td>DpOrg.pdf<td> Data Production Org chart from RTN-001 (initially) 
+<tr><td> <img src="DpOrg.png" alt="pdf" width=200><td>DpOrg.pdf<td> Data Production Org chart from RTN-001 (initially) 
 <tr><td> <img src="EIA-TUCSON-2018.jpg" alt="EIA-TUCSON-2018 " width=200><td>EIA-TUCSON-2018.jpg<td>1 March 2018 Early Integration Activity (EIA-08) with CCS, Header Service and DMCS attache to SAL.
 <tr><td> <img src="thumbs/EndUserDocs.jpg" alt="pdf " width=200><td>EndUserDocs.pdf<td>DM End users Doc Tree  from LDM-294
 <tr><td> <img src="FlammarionWoodcut-BOT.png" alt="FlammarionWoodcut-BOT.png" width=200><td>FlammarionWoodcut-BOT.png <td> One of the first Optical Test Bench images from the full Camera processed using pipelines code by Robert Lupton August 2020 - in the time of COVID.

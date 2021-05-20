@@ -83,20 +83,18 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
             \node (sysengg) [mbox, text width=50mm, rectangle split, rectangle split parts=2, left=3.1cm of ccbVpos.north]
                 {
                  Core DMCCB
-                \nodepart{second} \vspace{65mm}
+                \nodepart{second} \vspace{55mm}
                 };
     \node (chair) [mbox, below=6mm of sysengg.north, text width=39mm] {\textbf{ System Engineer (Chair) }\\ Tim Jenness };
-    \node (dman) [mbox, below=1mm of chair, text width=39mm] {\textbf{Release Manager (Sec)}\\ Gabriele Comoretto};
-    \node (dmsci) [psbox, below=1mm of dman, text width=39mm] {\textbf{DM Scientist}\\ Leanne Guy};
+    \node (dmsci) [psbox, below=1mm of chair, text width=39mm] {\textbf{DM Scientist}\\ Leanne Guy};
     \node (ops) [mbox, below=1mm of dmsci, text width=39mm] {\textbf{ Operations  Architect}\\ Michelle Butler };
     \node (softarc) [mbox, below=1mm of ops, text width=39mm] {\textbf{ Software Architect}\\ Kian Tat Lim };
     \node (man) [mbox, below=1mm of softarc, text width=39mm] {\textbf{ DM Manager }\\ William O'Mullane };
 %%%% end SYSENG
 
-    \node (cm) [mbox, left=3.1cm of rmVpos , text width=45mm] {\textbf{Config/Release Manager }\\ Gabriele Comoretto};
     \node (pconp) [below=5mm of dmadv] {};
     \node (pcon) [mbox, right=70mm of pconp , text width=45mm] {\textbf{Project Control/Scheduler }\\ Kevin Long};
-    \node (admin) [mbox, below=5mm of pcon, text width=45mm] {\textbf{DM Admin}\\ Aime Brown Woest\\ Erin Calrson};
+    \node (admin) [mbox, below=5mm of pcon, text width=45mm] {\textbf{DM Admin}\\ Aime  Wiest\\ Erin Carlson};
 
 
     %\node (al) [below=69mm of dmpm, text width=0mm]{};
@@ -141,7 +139,6 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
    \draw[line] (lhn.north) -- ++(0,0.3) -| (dmpm.south);
 
    \draw[line] (sysengg.east) to (ccbVpos.north);
-   \draw[line] (cm.east) -| (rmVpos.north);
    \draw[line] (pcon.west) -| (udmpm1.north);
    \draw[line] (admin.west) -| (udmpm.north);
 %science
