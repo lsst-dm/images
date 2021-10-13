@@ -12,7 +12,7 @@
 \usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
 \usetikzlibrary{backgrounds,calc}
 
-\usepackage[paperwidth=30cm,paperheight=12.0cm,
+\usepackage[paperwidth=28cm,paperheight=12.0cm,
 left=-2mm,top=3mm,bottom=0mm,right=0mm,
 noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
@@ -46,7 +46,8 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
 %
 	\node(tfl)[arcbox,below=2cm of spad.west]{\textbf{ DP0 Task Force Lead} \\Hsin-Fang Chiang } ;
-	\node(sumw)[arcbox,below=4cm of dpad]{\textbf{ Data Processing Architecture} \\Tim Jenness} ;
+	\node(devops)[nbox,below=5mm of tfl]{\textbf{DevOps Chile (part NOIRlab)} \\ Cristi\'{a}n Silva} ;
+	\node(sumw)[arcbox,below=6cm of dpad]{\textbf{ Data Processing Architecture} \\Tim Jenness} ;
 	\node(alp)[arcbox,right=2mm of sumw]{\textbf{ Algorithms and Pipelines } \\Yusra AlSayyad} ;
 	\node(spare)[arcbox,right=2mm of alp]{\textbf{ Service Quality and Reliability Engineering } \\Frossie Economou} ;
 	\node(exec)[arcbox,left=2mm of sumw]{\textbf{Execution} \\ Michelle Butler and Robert Gruendl} ;
@@ -54,11 +55,12 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 %Lines ..
 
    \draw[line] (dpad.north) -- ++(0,0.8) -| (dir.south);
-   \draw[line] (ddpad.east) --  (dpad.west);
+   \draw[sline] (ddpad.east) --  (dpad.west);
 
 %dm lines second number is the proportional turning point of the line
   % \draw[line] (alerts.north) -- ++(0,0.3) -| (dmpm.south);
 \draw[line] (tfl.west)  -| (dpad.south);
+\draw[sline] (devops.west)  -| (dpad.south);
    \draw[line] (sumw.north) --  (dpad.south);
 \draw[line] (spare.north)-- ++(0,0.5)  -| (dpad.south);
 \draw[line] (alp.north) -- ++(0,0.5) -| (dpad.south);
