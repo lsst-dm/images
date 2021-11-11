@@ -12,7 +12,7 @@
 \usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
 \usetikzlibrary{backgrounds,calc}
 
-\usepackage[paperwidth=28cm,paperheight=12.0cm,
+\usepackage[paperwidth=28cm,paperheight=16.0cm,
 left=-2mm,top=3mm,bottom=0mm,right=0mm,
 noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
@@ -45,28 +45,37 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
     %\node (udpad) [below=61mm of dpad, text width=0mm]{};
 
 %
-	\node(tfl)[arcbox,below=2cm of spad.west]{\textbf{ DP0 Task Force Lead} \\Hsin-Fang Chiang } ;
-	\node(devops)[nbox,below=5mm of tfl]{\textbf{DevOps Chile (part NOIRlab)} \\ Cristi\'{a}n Silva} ;
+	%\node(tfl)[arcbox,below=2cm of spad.west]{\textbf{ DP0 Task Force Lead} \\Hsin-Fang Chiang } ;
 	\node(sumw)[arcbox,below=6cm of dpad]{\textbf{ Data Processing Architecture} \\Tim Jenness} ;
 	\node(alp)[arcbox,right=2mm of sumw]{\textbf{ Algorithms and Pipelines } \\Yusra AlSayyad} ;
 	\node(spare)[arcbox,right=2mm of alp]{\textbf{ Service Quality and Reliability Engineering } \\Frossie Economou} ;
-	\node(exec)[arcbox,left=2mm of sumw]{\textbf{Execution} \\ Michelle Butler and Robert Gruendl} ;
-	\node(infra)[arcbox,left=2mm of exec]{\textbf{Infrastructure} \\ Richard Dubois} ;
+	\node(infra)[arcbox,left=2mm of sumw]{\textbf{Infrastructure} \\ Richard Dubois} ;
+	\node(devops)[arcbox,left=2mm of infra]{\textbf{DevOps Support} \\ Cristi\'{a}n Silva} ;
+	\node(exec)[gbox,text width=30mm,below=2cm of infra]{\textbf{Proc. Execution} \\ Hsin-Fang Chiang} ;
+	\node(wan)[gbox,text width=30mm,left=2mm of exec]{\textbf{Wide Area Network} \\ Phil Demar} ;
+	\node(sinfra)[gbox,text width=30mm,right=2mm of exec]{\textbf{SLAC Infra} \\ TBD } ;
+	\node(avs)[gbox,text width=30mm,right=2mm of sinfra]{\textbf{Alert Vetting Sys} \\ Michael Schneider } ;
+	\node(datac)[gbox,text width=30mm,right=2mm of avs]{\textbf{Data Curation} \\ Brandon White } ;
+	\node(adb)[gbox,text width=30mm,right=2mm of datac]{\textbf{Advanced DB} \\ Fritz Mueller } ;
 %Lines ..
 
    \draw[line] (dpad.north) -- ++(0,0.8) -| (dir.south);
    \draw[sline] (ddpad.east) --  (dpad.west);
 
 %dm lines second number is the proportional turning point of the line
-  % \draw[line] (alerts.north) -- ++(0,0.3) -| (dmpm.south);
-\draw[line] (tfl.west)  -| (dpad.south);
-\draw[sline] (devops.west)  -| (dpad.south);
+%\draw[line] (tfl.west)  -| (dpad.south);
    \draw[line] (sumw.north) --  (dpad.south);
 \draw[line] (spare.north)-- ++(0,0.5)  -| (dpad.south);
 \draw[line] (alp.north) -- ++(0,0.5) -| (dpad.south);
-\draw[line] (exec.north) -- ++(0,0.5) -| (dpad.south);
 \draw[line] (infra.north)-- ++(0,0.5) -| (dpad.south);
+\draw[line] (devops.north)-- ++(0,0.5)  -| (dpad.south);
 
+  \draw[line] (exec.north) --  (infra.south);
+\draw[line] (wan.north)-- ++(0,0.5)  -| (infra.south);
+\draw[line] (adb.north)-- ++(0,0.5)  -| (infra.south);
+\draw[line] (datac.north)-- ++(0,0.5)  -| (infra.south);
+\draw[line] (sinfra.north)-- ++(0,0.5)  -| (infra.south);
+\draw[line] (avs.north)-- ++(0,0.5)  -| (infra.south);
 %science
 \draw[sline] (spad.west) to (dpad.east);
 \draw[sline] (fdfa.north) |-  (dpad.west);
