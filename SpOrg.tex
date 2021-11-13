@@ -12,7 +12,7 @@
 \usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
 \usetikzlibrary{backgrounds,calc}
 
-\usepackage[paperwidth=30cm,paperheight=12.0cm,
+\usepackage[paperwidth=25cm,paperheight=8.5cm,
 left=-2mm,top=3mm,bottom=0mm,right=0mm,
 noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
@@ -31,26 +31,26 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
 \begin{tikzpicture}[node distance=0mm]
 
-    \node (spad) [divbox, text width=41mm] {\textbf{AD System Performance} \\ Leanne Guy };
-    \node (dpad) [divbox, right=1.3cm of spad, minimum height=12mm, text width=39mm] {\textbf{ AD Data Production  }\\ William O'Mullane};
-    \node (ooad) [divbox, left=1.3cm of spad, minimum height=12mm, text width=45mm] {\textbf{ AD Observatory Operations  }\\ Chuck Claver};
-    \node (epad) [divbox, right=1.3cm of dpad, minimum height=12mm, text width=60mm] {\textbf{ AD Education \& Public Outreach  }\\ Amanda bauer};
+    \node (dpad) [divbox, text width=41mm] {\textbf{AD Data Production} \\ William O'Mullane};
+    \node (spad) [divbox, right=1.2cm of dpad, minimum height=12mm, text width=39mm] {\textbf{ AD System Performance} \\ Leanne Guy};
+    \node (ooad) [divbox, left=1.2cm of dpad, minimum height=12mm, text width=45mm] {\textbf{ AD Observatory Operations  }\\ Chuck Claver};
+    \node (epad) [divbox, right=1.2cm of spad, minimum height=12mm, text width=60mm] {\textbf{ AD Education \& Public Outreach  }\\ Amanda bauer};
 %   \node (sdpad) [divbox, left=3cm of spad] {\textbf{ DP Deputy } \\ Not Assigned};
     \node (dir) [divbox, above=1.5cm of spad, text width=5cm] {\textbf{ Rubin Operations Director} \\Robert Blum };
 %    \node (dspad) [psbox, right=0.4cm of dpad, minimum height=12mm, text width=41mm] {\textbf{ SP Deputy }\\ Yusra AlSayyad };
-    \node (ps) [psbox, right=1.5cm of dir, minimum height=12mm] {\textbf{  Project Scientist}\\ \u{Z}eljko Ivezi\'c};
+    \node (ps) [psbox, right=1.5cm of dir, minimum height=12mm] {\textbf{  Head of Science}\\ \u{Z}eljko Ivezi\'c};
 %
-    \node(ctr)[below=4cm of spad]{\textbf{ } \\} ;
+    \node(ctr)[below=3cm of spad]{\textbf{ } \\} ;
 	\node(sst)[arcbox,right=2mm of ctr]{\textbf{Survey Scheduling} \\ Lynne Jones };
 	\node(set)[arcbox,right=2mm of sst]{\textbf {Systems Engineering} \\ Austin Roberts};
 	\node(cet)[arcbox,left=2mm of ctr]{\textbf{ Community Engagement } \\ Melissa Graham} ;
 	\node(vvt)[arcbox,left=2mm of cet]{\textbf{Verification and Validation } \\Colin Slater} ;
 %Lines ..
 
-    \draw[sline] (dpad.west) to (spad.east);
+    \draw[sline] (spad.west) to (dpad.east);
     \draw[sline] (ps.west) to (dir.east);
-    \draw[sline] (epad.west) to (dpad.east);
-    \draw[sline] (spad.west) to (ooad.east);
+    \draw[sline] (epad.west) to (spad.east);
+    \draw[sline] (dpad.west) to (ooad.east);
     \draw[line] (spad.north) -- ++(0,0.8) -| (dir.south);
 
     \draw[line] (cet.north)-- ++(0,0.5)  -| (spad.south);
