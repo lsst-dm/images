@@ -13,8 +13,8 @@
 \usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
 \usetikzlibrary{backgrounds,calc}
 
-\usepackage[paperwidth=19.5cm,paperheight=13.0cm,
-left=0mm,top=3mm,bottom=0mm,right=0mm,
+\usepackage[paperwidth=22.5cm,paperheight=19.5cm,
+left=3mm,top=3mm,bottom=0mm,right=0mm,
 noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
 
@@ -34,38 +34,42 @@ pdfauthor={Leanne Guy}}
 \begin{tikzpicture}[node distance=0mm]
 
 
-    \node (dm) [arcbox, align=right, text width=14cm,  minimum height=10mm, rectangle split, rectangle split parts=2]
+    \node (dm) [arcbox, align=right, text width=15.5cm,  minimum height=10mm, rectangle split, rectangle split parts=2]
     { \hspace{0.1cm} \textbf{Data Management Subsystem Science Team (DM-SST)}
-	   \nodepart{second} \vspace{95mm}
+	   \nodepart{second} \vspace{110mm}
 	};
 
     \node (dmpsanc) [above=-1.8 of dm.north]{};
-    \node (dmps) [psbox, left=1.0cm of dmpsanc, minimum height=12mm, text width=47mm] {\textbf{ DM Subsystem Scientist}\\ Leanne Guy };
-    \node (ddmps) [psbox, right=2.5cm of dmps, minimum height=12mm, text width=52mm] {\textbf{ Deputy DM Subsystem Scientist}\\ Colin Slater };
-    \node (ps) [psbox, above=1.8cm of dmps, minimum height=12mm] {\textbf{  Project Scientist}\\ \v{Z}eljko Ivezi\'c};
-    \node (dmpm) [divbox, left=1.4cm of dmps] {\textbf{ DM Project Manager} William O'Mullane};
+    \node (dmps) [psbox, left=1.55cm of dmpsanc, minimum height=12mm, text width=47mm] {\textbf{ DM Subsystem Scientist}\\ Leanne Guy };
+    \node (ddmps) [psbox, right=3.5cm of dmps, minimum height=12mm, text width=52mm] {\textbf{ Deputy DM Subsystem Scientist}\\ Colin Slater };
+    \node (ps) [psbox, above=1.8cm of dmps, minimum height=12mm] {\textbf{  Project Scientist}\\ Steve Ritz};
+    \node (dmpm) [divbox, left=1.8cm of dmps] {\textbf{ DM Project Manager} William O'Mullane};
 
     \node (udmpm) [below=49mm of dmpm, text width=0mm]{};
     \node (udmpm1) [below=24mm of dmpm, text width=0mm]{};
     \node (udmpm2) [below=125mm of dmpm, text width=0mm]{};
 
 % Pipelines scientist
-    \node (pipesci) [psbox, below =3mm of ddmps, text width=52mm, minimum height=12mm] {\textbf{DM Science Pipelines Scientist}\\ Robert Lupton};
+    \node (pipesci) [psbox, below =3mm of ddmps, text width=52mm, minimum height=12mm] {\textbf{DM Science Pipelines Scientist}\\ Jim Bosch};
 
+% Calibration scientist
+    \node (calsci) [psbox, below =3mm of pipesci, text width=52mm, minimum height=12mm] {\textbf{DM Calibration Scientist}\\ Eli Rykoff};
+    
 % Verification Scientist
-    \node (valsci) [psbox, below=3mm of pipesci, text width=52mm, minimum height=12mm] {\textbf{DM Science Validation Scientist}\\  Jeff Carlin};
+    \node (valsci) [psbox, below=3mm of calsci, text width=52mm, minimum height=12mm] {\textbf{DM Science Validation Scientist}\\  Jeff Carlin};
 
-% InstLeads
-            \node (instleads) [mbox, text width=60mm, rectangle split, rectangle split parts=2,  below=12mm of dmps]
+% Product Owners
+            \node (instleads) [mbox, text width=65mm, rectangle split, rectangle split parts=2,  below=15mm of dmps]
                 {
-               Institutional Science Leads
-                \nodepart{second} \vspace{57mm}
+                Institutional Science Leads
+                \nodepart{second} \vspace{70mm}
                 };
     \node (apsc) [psbox, below=6mm of instleads.north, text width=55mm] {\textbf{Alert Production Scientist}\\ Eric Bellm };
     \node (drpsc) [psbox, below=1mm of apsc, text width=55mm] {\textbf{Data Release Production Scientist}\\ Jim Bosch};
-    \node (suitsc) [psbox, below=1mm of drpsc, text width=55mm] {\textbf{Sci Platform / Interface Scientist}\\ Gregory Dubois-Felsmann};
-    \node (dpsc) [psbox, below=1mm of suitsc, text width=55mm] {\textbf{DP / Middleware Scientist}\\ Robert Gruendl};
-    \node (sqsc) [psbox, below=1mm of dpsc, text width=55mm] {\textbf{SQuaRE Scientist}\\ Simon Krughoff  };
+    \node (suitsc) [psbox, below=1mm of drpsc, text width=55mm] {\textbf{Science Platform Scientist}\\ Gregory Dubois-Felsmann};
+    \node (mwsc) [psbox, below=1mm of suitsc, text width=55mm] {\textbf{Middleware Scientist}\\ Jim Bosch};
+    \node (daxsc) [psbox, below=1mm of mwsc, text width=55mm] {\textbf{Data Access Services Scientist}\\ Colin Slater};
+    \node (sqsc) [psbox, below=1mm of daxsc, text width=55mm] {\textbf{SQuaRE Scientist}\\ Simon Krughoff};
 
 
 %SST  analysts
