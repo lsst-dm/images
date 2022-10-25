@@ -93,6 +93,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="dilbertsl.png" alt="dilbertsl.png" width=200><td>dilbertsl.png<td> Dilbert on Software Licensing. 
 <tr><td> <img src="distribute-combine.png" alt="distribute-combine.png" width=200><td>distribute-combine.png<td> Distribute queries and combine results Qserv MPP - Fritz Muller
 <tr><td> <img src="dm2018.png" alt="dm2018.png" width=200><td>dm2018.png<td> Data Management Joint Meeting with System Engineering IPAC 2018
+<tr><td> <img src="dm_ops_org_arch.png" alt="dm_ops_org_arch.png" width=200><td>dm2018.png<td> Data Management Operations organisation around architecture (Frossie) 
 <tr><td> <img src="euclid.png" alt="euclid.png" width=200><td>euclid.png<td> Euclid  artists impression of satellite
 <tr><td> <img src="exm.png" alt="exm.png" width=200><td>exm.png<td> ExoMars strap line (ESA/ROSCOSMOS mission to Mars)
 <tr><td> <img src="fdphase.png" alt="fdphase.png" width=200><td>fdphase.png<td> Pre 2017 Org chart for DM 
