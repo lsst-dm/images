@@ -12,7 +12,7 @@
 \usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
 \usetikzlibrary{backgrounds,calc}
 
-\usepackage[paperwidth=28cm,paperheight=16.0cm,
+\usepackage[paperwidth=29cm,paperheight=13.0cm,
 left=-2mm,top=3mm,bottom=0mm,right=0mm,
 noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
@@ -32,7 +32,7 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 \begin{tikzpicture}[node distance=0mm]
 
 
-    \node (dpad) [divbox] {\textbf{AD Data Production} William O'Mullane};
+    \node (dpad) [divbox] {\textbf{AD Data Management} William O'Mullane};
     \node (ddpad) [divbox, left=3cm of dpad] {\textbf{ DP Deputy } \\Yusra AlSayyad};
     \node (dir) [divbox, above=1.5cm of dpad, text width=5cm] {\textbf{ Rubin Operations Director} \\Robert Blum };
     \node (spad) [divbox, right=1.3cm of dpad, minimum height=12mm, text width=39mm] {\textbf{ AD System Performance}\\ Leanne Guy };
@@ -46,17 +46,18 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
 %
 	%\node(tfl)[arcbox,below=2cm of spad.west]{\textbf{ DP0 Task Force Lead} \\Hsin-Fang Chiang } ;
-	\node(sumw)[arcbox,below=6cm of dpad]{\textbf{ Data Processing Architecture} \\Tim Jenness} ;
-	\node(alp)[arcbox,right=2mm of sumw]{\textbf{ Algorithms and Pipelines } \\Yusra AlSayyad} ;
-	\node(spare)[arcbox,right=2mm of alp]{\textbf{ Service Quality and Reliability Engineering } \\Frossie Economou} ;
-	\node(infra)[arcbox,left=2mm of sumw]{\textbf{Infrastructure} \\ Richard Dubois} ;
-	\node(devops)[arcbox,left=2mm of infra]{\textbf{DevOps Support} \\ Cristi\'{a}n Silva} ;
-	\node(exec)[gbox,text width=30mm,below=2cm of infra]{\textbf{Proc. Execution} \\ Hsin-Fang Chiang} ;
-	\node(wan)[gbox,text width=30mm,left=2mm of exec]{\textbf{Wide Area Network} \\ Phil Demar} ;
-	\node(sinfra)[gbox,text width=30mm,right=2mm of exec]{\textbf{SLAC Infra} \\ Wei Yang } ;
-	\node(avs)[gbox,text width=30mm,right=2mm of sinfra]{\textbf{Alert Vetting Sys} \\ Michael Schneider } ;
-	\node(datac)[gbox,text width=30mm,right=2mm of avs]{\textbf{Data Curation} \\ Brandon White } ;
-	\node(adb)[gbox,text width=30mm,right=2mm of datac]{\textbf{Advanced DB} \\ Fritz Mueller } ;
+	\node(sumw)[arcbox,below=6cm of dpad]{\textbf{ Data Abstraction } \\Tim Jenness} ;
+	\node(alp)[arcbox,right=2mm of sumw]{\textbf{ Data Production } \\Yusra AlSayyad} ;
+	\node(ds)[arcbox,right=2mm of alp]{\textbf{ Data Services} \\Frossie Economou} ;
+	\node(infra)[arcbox,left=2mm of sumw]{\textbf{Infrastructure/Data Facilities} \\ Richard Dubois} ;
+	\node(devops)[arcbox,left=2mm of infra]{\textbf{Data Acquisition/LHN} \\ Cristi\'{a}n Silva} ;
+	%\node(wan)[gbox,text width=30mm,below=2cm of devops]{\textbf{Wide Area Network} \\ Cristi\'an Silva} ;
+	%\node(sinfra)[gbox,text width=30mm,right=6mm of wan]{\textbf{SLAC Infra} \\ Wei Yang } ;
+	%\node(datac)[gbox,text width=30mm,right=2mm of sinfra]{\textbf{Data Curation} \\ Brandon White } ;
+	%\node(avs)[gbox,text width=30mm,right=2mm of datac]{\textbf{Alert Vetting Sys} \\ Michael Schneider } ;
+	%\node(exec)[gbox,text width=30mm,right=6mm of avs]{\textbf{Proc. Execution} \\ open} ;
+	%\node(adb)[gbox,text width=30mm,right=6mm of exec]{\textbf{Advanced DB} \\ Fritz Mueller } ;
+	%\node(square)[gbox,right=2mm of adb]{\textbf{ Service Quality and Reliability Engineering } \\Frossie Economou} ;
 %Lines ..
 
    \draw[line] (dpad.north) -- ++(0,0.8) -| (dir.south);
@@ -65,17 +66,18 @@ noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 %dm lines second number is the proportional turning point of the line
 %\draw[line] (tfl.west)  -| (dpad.south);
    \draw[line] (sumw.north) --  (dpad.south);
-\draw[line] (spare.north)-- ++(0,0.5)  -| (dpad.south);
+\draw[line] (ds.north)-- ++(0,0.5)  -| (dpad.south);
 \draw[line] (alp.north) -- ++(0,0.5) -| (dpad.south);
 \draw[line] (infra.north)-- ++(0,0.5) -| (dpad.south);
 \draw[line] (devops.north)-- ++(0,0.5)  -| (dpad.south);
 
-  \draw[line] (exec.north) --  (infra.south);
-\draw[line] (wan.north)-- ++(0,0.5)  -| (infra.south);
-\draw[line] (adb.north)-- ++(0,0.5)  -| (infra.south);
-\draw[line] (datac.north)-- ++(0,0.5)  -| (infra.south);
-\draw[line] (sinfra.north)-- ++(0,0.5)  -| (infra.south);
-\draw[line] (avs.north)-- ++(0,0.5)  -| (infra.south);
+%  \draw[line] (exec.north) --  (alp.south);
+%\draw[line] (wan.north)-- ++(0,0.5)  -| (devops.south);
+%\draw[line] (adb.north)-- ++(0,0.5)  -| (ds.south);
+%\draw[line] (square.north)-- ++(0,0.5)  -| (ds.south);
+%\draw[line] (datac.north)-- ++(0,0.5)  -| (infra.south);
+%\draw[line] (sinfra.north)-- ++(0,0.5)  -| (infra.south);
+%\draw[line] (avs.north)-- ++(0,0.5)  -| (infra.south);
 %science
 \draw[sline] (spad.west) to (dpad.east);
 \draw[sline] (fdfa.north) |-  (dpad.west);

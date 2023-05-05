@@ -29,6 +29,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="DM_Application_Software_Arch.png" alt=" DM_Application_Software_Arch.png" width=200><td>DM_Application_Software_Arch.png<td> DM software stack on diagram (KT)
 <tr><td> <img src="DarkMatterPie.png" alt=" DarkMatterPie.png" width=200><td>DarkMatterPie.png<td>  Pie Chart of Dark Matter and Physical Matter - What do we know ?
 <tr><td> <img src="thumbs/DataBackbone.jpg" alt=" " width=200><td>DataBackbone.pdf<td> Components of Data BackBone from LDM-148
+<tr><td> <img src="DataMakingServing.png" alt=" " width=200><td>DataMakingServing.png<td> Data Making and ServingDM Opeatioons Diagram for RTN-046 <a url="https://docs.google.com/presentation/d/1Hcmjoh4ynfV4xbBbVSJ_0C-iAZc1xb5Vb-ceik3uh9g/edit#slide=id.g1c5060272ed_0_0" (original in google) </a> 
 <tr><td> <img src="DmMap.png " alt="DmMap.png " width=200><td>DmMap.png<td> Geographical map showing DM team locations
 <tr><td> <img src="thumbs/DmOrg.jpg" alt="pdf" width=200><td>DmOrg.pdf<td> DM Org chart from LDM-294
 <tr><td> <img src="thumbs/DocTree.jpg" alt="pdf " width=200><td>DocTree.pdf<td>DM Doc Tree  from LDM-294
@@ -93,6 +94,7 @@ You should have this in the root of dm-docs - other docs will sym link to it as 
 <tr><td> <img src="dilbertsl.png" alt="dilbertsl.png" width=200><td>dilbertsl.png<td> Dilbert on Software Licensing. 
 <tr><td> <img src="distribute-combine.png" alt="distribute-combine.png" width=200><td>distribute-combine.png<td> Distribute queries and combine results Qserv MPP - Fritz Muller
 <tr><td> <img src="dm2018.png" alt="dm2018.png" width=200><td>dm2018.png<td> Data Management Joint Meeting with System Engineering IPAC 2018
+<tr><td> <img src="dm_ops_org_arch.png" alt="dm_ops_org_arch.png" width=200><td>dm2018.png<td> Data Management Operations organisation around architecture (Frossie) 
 <tr><td> <img src="euclid.png" alt="euclid.png" width=200><td>euclid.png<td> Euclid  artists impression of satellite
 <tr><td> <img src="exm.png" alt="exm.png" width=200><td>exm.png<td> ExoMars strap line (ESA/ROSCOSMOS mission to Mars)
 <tr><td> <img src="fdphase.png" alt="fdphase.png" width=200><td>fdphase.png<td> Pre 2017 Org chart for DM 
