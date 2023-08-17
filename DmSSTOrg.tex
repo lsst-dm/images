@@ -13,8 +13,8 @@
 \usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
 \usetikzlibrary{backgrounds,calc}
 
-\usepackage[paperwidth=22.5cm,paperheight=19.5cm,
-left=3mm,top=3mm,bottom=0mm,right=0mm,
+\usepackage[paperwidth=25.5cm,paperheight=13.5cm,
+left=1mm,top=5mm,bottom=0mm,right=0mm,
 noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
 
 
@@ -34,71 +34,78 @@ pdfauthor={Leanne Guy}}
 \begin{tikzpicture}[node distance=0mm]
 
 
-    \node (dm) [arcbox, align=right, text width=15.5cm,  minimum height=10mm, rectangle split, rectangle split parts=2]
-    { \hspace{0.1cm} \textbf{Data Management Subsystem Science Team (DM-SST)}
-	   \nodepart{second} \vspace{110mm}
+    \node (dm) [arcbox, align=right, text width=19.5cm,  minimum height=13mm, rectangle split, rectangle split parts=2]
+    { \hspace{0.1cm} \textbf{Data Management  Science Team (DM-SST)}
+	   \nodepart{second} \vspace{90mm}
 	};
 
-    \node (dmpsanc) [above=-1.8 of dm.north]{};
-    \node (dmps) [psbox, left=1.55cm of dmpsanc, minimum height=12mm, text width=47mm] {\textbf{ DM Subsystem Scientist}\\ Leanne Guy };
-    \node (ddmps) [psbox, right=3.5cm of dmps, minimum height=12mm, text width=52mm] {\textbf{ Deputy DM Subsystem Scientist}\\ Colin Slater };
-    \node (ps) [psbox, above=1.8cm of dmps, minimum height=12mm] {\textbf{  Project Scientist}\\ Steve Ritz};
-    \node (dmpm) [divbox, left=1.8cm of dmps] {\textbf{ DM Project Manager} William O'Mullane};
+    \node (dmpsanc) [below=1.5cm of dm.north]{};   
+    \node (dmps) [psbox, left=4.0cm of dmpsanc, minimum height=12mm, text width=45mm] {\textbf{ DM Project Scientist}\\ Leanne Guy };
+    \node (ddmps) [psbox, right=3.0cm of dmpsanc, minimum height=12mm, text width=50mm] {\textbf{ Deputy DM Project Scientist}\\ Colin Slater };
+    \node (ps) [psbox, above=1.5cm of dmps, minimum height=12mm] {\textbf{  Project Scientist}\\ Steve Ritz};
+     \node (dmpm) [divbox, left=1.7cm of dmps] {\textbf{ DM Project Manager} William O'Mullane};
 
-    \node (udmpm) [below=49mm of dmpm, text width=0mm]{};
-    \node (udmpm1) [below=24mm of dmpm, text width=0mm]{};
-    \node (udmpm2) [below=125mm of dmpm, text width=0mm]{};
+ 
+% Validation Scientist
+    \node (valsci) [psbox, below=8mm of dmps.south , text width=45mm, minimum height=12mm] {\textbf{DM Science Validation \\Scientist}\\  Jeff Carlin};
 
-% Pipelines scientist
-    \node (pipesci) [psbox, below =3mm of ddmps, text width=52mm, minimum height=12mm] {\textbf{DM Science Pipelines Scientist}\\ Jim Bosch};
-
-% Calibration scientist
-    \node (calsci) [psbox, below =3mm of pipesci, text width=52mm, minimum height=12mm] {\textbf{DM Calibration Scientist}\\ Eli Rykoff};
-    
-% Verification Scientist
-    \node (valsci) [psbox, below=3mm of calsci, text width=52mm, minimum height=12mm] {\textbf{DM Science Validation Scientist}\\  Jeff Carlin};
-
-% Product Owners
-            \node (instleads) [mbox, text width=65mm, rectangle split, rectangle split parts=2,  below=15mm of dmps]
+   
+ %SST  analysts
+            \node (sstanal) [mbox, text width=45mm, rectangle split, rectangle split parts=2, below=9mm of valsci ]
                 {
-                Institutional Science Leads
-                \nodepart{second} \vspace{70mm}
-                };
-    \node (apsc) [psbox, below=6mm of instleads.north, text width=55mm] {\textbf{Alert Production Scientist}\\ Eric Bellm };
-    \node (drpsc) [psbox, below=1mm of apsc, text width=55mm] {\textbf{Data Release Production Scientist}\\ Jim Bosch};
-    \node (suitsc) [psbox, below=1mm of drpsc, text width=55mm] {\textbf{Science Platform Scientist}\\ Gregory Dubois-Felsmann};
-    \node (mwsc) [psbox, below=1mm of suitsc, text width=55mm] {\textbf{Middleware Scientist}\\ Jim Bosch};
-    \node (daxsc) [psbox, below=1mm of mwsc, text width=55mm] {\textbf{Data Access Services Scientist}\\ Colin Slater};
-    \node (sqsc) [psbox, below=1mm of daxsc, text width=55mm] {\textbf{SQuaRE Scientist}\\ Simon Krughoff};
-
-
-%SST  analysts
-            \node (sstanal) [mbox, text width=52mm, rectangle split, rectangle split parts=2, below=0.5cm of valsci.south ]
-                {
-                System Science Team Analysts
+                DM Science  Analysts
                 \nodepart{second} \vspace{23mm}
                 };
-    \node (sstanal-mlg) [psbox, below=7mm of sstanal.north, text width=40mm] {\textbf{ DM SST Analyst }\\ Melissa Graham };
-    \node (sstanal-cts) [psbox, below=1mm of sstanal-mlg, text width=40mm] {\textbf{DM SST Analyst}\\ Colin Slater};
+    \node (sstanal-mlg) [psbox, below=7mm of sstanal.north, text width=40mm] {\textbf{ Science Analyst }\\ Melissa Graham };
+    \node (sstanal-cts) [psbox, below=1mm of sstanal-mlg, text width=40mm] {\textbf{Science Analyst}\\ Colin Slater};
+%
+% Institutional Science Leads
+           \node (upo) [right=14mm of ddmps.west, text width=0mm]{};
+            \node (instleads) [mbox, text width=98mm, rectangle split, rectangle split parts=2,  below= 15mm of upo]
+                {
+                DM Scientists / Product Owners
+                \nodepart{second} \vspace{50mm}
+                };
+    \node (upo1) [left=23mm of instleads.north, text width=0mm]{};
+    %\node (pipesci) [psbox, below=6mm of upo1, text width=45mm] {\textbf{Science Pipelines }\\ Jim Bosch};
+    \node (apsc) [psbox, below=6mm of upo1, text width=45mm] {\textbf{Alert Production }\\ Eric Bellm };
+    \node (drpsc) [psbox, below=1mm of apsc, text width=45mm] {\textbf{Data Release \\Production}\\ Jim Bosch};
+    \node (calsci) [psbox, below =1mm of drpsc, text width=45mm] {\textbf{Middleware }\\ Jim Bosch};
+    \node (suitsc) [psbox, below=1mm of calsci, text width=45mm]  {\textbf{Calibration }\\ Eli Rykoff};
 
 
-%%% Legend
-%\node (leg) [lbox, below=4cm of admin, text width=35mm,  minimum height=10mm, rectangle split, rectangle split parts=2]
-%    { \hspace{0.1cm} \textbf{Legend}
-%           \nodepart{second} \vspace{30mm}
-%        };
- %\node(snode) [psbox,below=0.7cm of leg.north, text width=30mm] {Science Role};
- %\node(pnode) [mbox,below=0.1cm of snode, text width=30mm] {Technical Role};
- %\node(mnode) [mbox,below=0.1cm of pnode, text width=30mm] {Managment/other Role};
+      
+    \node (upo2) [right=23mm of instleads.north, text width=0mm]{};
+    \node (dfsc) [psbox, below=6mm of upo2, text width=45mm] {\textbf{Data Access  }\\ Colin Slater};
+    \node (nwsc) [psbox, below=1mm of dfsc, text width=45mm] {\textbf{Science Platform }\\ Gregory Dubois-Felsmann};
+   \node (mwsc) [psbox, below=1mm of nwsc, text width=45mm] {\textbf{IT, LHN, \\Base Facility  }\\  Steve Pietrowicz  };
+     % \node (daxsc) [psbox, below=1mm of mwsc, text width=45mm] {\textbf{Data Facility }\\  Leanne Guy }; 
+  %  \node (sqsc) [psbox, below=1mm of daxsc, text width=45mm] {\textbf{Software Quality (SQuaRE) }\\  Leanne Guy };
 
-   \draw[line] (dmps.north) --  (ps.south);
-    \draw[sline] (dmps.west) --  (dmpm.east);
-   \draw[line] (ddmps.west) --  (dmps.east);
 
-    \draw[line] (dmps.east) --  (pipesci.west);
-     \draw[line] (dmps.east) --  (valsci.west);
-     \draw[line] (dmps.south) --  (instleads.north);
-    \draw[line] (dmps.east) --  (sstanal.west);
+%%%% Legend
+%%\node (leg) [lbox, below=4cm of admin, text width=35mm,  minimum height=10mm, rectangle split, rectangle split parts=2]
+%%    { \hspace{0.1cm} \textbf{Legend}
+%%           \nodepart{second} \vspace{30mm}
+%%        };
+% %\node(snode) [psbox,below=0.7cm of leg.north, text width=30mm] {Science Role};
+% %\node(pnode) [mbox,below=0.1cm of snode, text width=30mm] {Technical Role};
+% %\node(mnode) [mbox,below=0.1cm of pnode, text width=30mm] {Managment/other Role};
+%
+\draw[sline] (dmps.north) --  (ps.south);
+ \draw[sline] (dmps.west) --  (dmpm.east);
+  \draw[line] (dmps.east) -- (ddmps.west);
+
+ \node (udmpm) [right=20mm of dmps, text width=0mm]{};
+ \node (anc1) [right=20mm of sstanal, text width=0mm]{};
+ 
+  \draw[line] (udmpm)  -| (anc1);  
+  \draw[line] (sstanal.east) -| (anc1);  
+  \draw[line] (instleads.west) -| (anc1);  
+ 
+ \node (anc2) [right=20mm of valsci, text width=0mm]{};
+ \draw[line] (valsci.east) -| (anc2);  
+
 
 \end{tikzpicture}
 \end{document}
