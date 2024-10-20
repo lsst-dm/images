@@ -90,6 +90,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
     \node (infrac)  [docbox, right=5mm of scipc] { Services \& Infrastructure LDM-129};
     \node (plc)  [docbox, right=5mm of infrac.east] {Pipeline Design LDM-151};
     \node (netc) [docbox, right=5mm of plc.east] { Network Design LSE-78};
+    \node (dmtn199) [docbox, right=5mm of netc.east] { Security Standards DMTN-199};
     \node (userd)  [docbox, right=85mm of compd] { User Documentation };
 
     %%%%%%%%%%% TEST SPECS %%%%%%%%%%%%%%
@@ -189,6 +190,7 @@ noheadfoot,marginparwidth=0pt,includemp=false
    \draw[tline] (scipt.south) to (scipc.north);
    \draw[tline] (actp.south) --  ++(0,-0.5) -| (dbc.north);
    \draw[tline] (actp.south) --  ++(0,-0.5) -| (netc.north);
+   \draw[tline] (actp.south) --  ++(0,-0.5) -| (dmtn199.north);
 
    \node(mwcap) [above=0.5 of mwc]{};
    \draw[tline]  (mwcap) -- (mwc.north) ;
