@@ -1,0 +1,90 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Document:      Dm  organisation chart reporting lines
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{article}
+
+\usepackage{times,layouts}
+\usepackage{tikz,hyperref,amsmath}
+\usetikzlibrary{positioning,arrows,shapes,decorations.shapes,shapes.arrows}
+\usetikzlibrary{backgrounds,calc}
+
+\usepackage[paperwidth=29cm,paperheight=13.0cm,
+left=-2mm,top=3mm,bottom=0mm,right=0mm,
+noheadfoot,marginparwidth=0pt,includemp=false ]{geometry}
+
+
+\newcommand\showpage{%
+\setlayoutscale{0.5}\setlabelfont{\tiny}\printheadingsfalse\printparametersfalse
+\currentpage\pagedesign}
+
+\hypersetup{pdftitle={DM organisation }, pdfsubject={Diagram illustrating the
+ reporting lines in LSST DM Group}, pdfauthor={ William O'Mullane}}
+
+\input{styles}
+
+
+\begin{document}
+
+\begin{tikzpicture}[node distance=0mm]
+
+
+    \node (ad) [divbox, text width=4cm] {\textbf{AD Data Management} William O'Mullane\\ \textbf{Deputy} Yusra AlSayyad};
+    \node (ddpad) [left=4.8cm of ad, text width = 0mm ] {}; % positioning
+    %\node (ddpad) [divbox, left=3cm of dpad] {\textbf{ DM Deputy } \\Yusra AlSayyad};
+    \node (dir) [divbox, above=1.0cm of ad, text width=5cm] {\textbf{ Rubin Operations Director} \\Robert Blum };
+    \node (dmsci) [arcbox, right=1.3cm of ad, minimum height=12mm, text width=39mm] {\textbf{ DM Science}\\ Leanne Guy \\\textbf{Deputy} Colin Slater };
+    %\node (dspad) [psbox, right=0.4cm of dmps, minimum height=12mm, text width=41mm] {\textbf{ SP Deputy }\\ Colin Slater };
+    %\node (ps) [psbox, right=1.5cm of pm, minimum height=12mm] {\textbf{  Project Scientist}\\ \u{Z}eljko Ivezi\'c};
+
+    \node (udfa) [psbox, below=2cm of ddpad, text width=4cm] {\textbf{Advisor \\US Data Facility}\\ Adam Bolton};
+    \node (fdfa) [psbox, right=0.2cm of udfa, text width=4cm] {\textbf{Advisor \\French Data Facility}\\ Fabio Hernandez};
+    \node (ukfa) [psbox, left=0.2cm of udfa, text width=4cm] {\textbf{Advisor \\UK Data Facility}\\ George Beckett };
+    %\node (udpad) [below=61mm of dpad, text width=0mm]{};
+
+%
+	%\node(tfl)[arcbox,below=2cm of spad.west]{\textbf{ DP0 Task Force Lead} \\Hsin-Fang Chiang } ;
+	\node(sumw)[arcbox,below=5cm of ad]{\textbf{ Data Abstraction } \\Tim Jenness} ;
+	\node(alp)[arcbox,right=2mm of sumw]{\textbf{ Data Production } \\Yusra AlSayyad} ;
+	\node(ds)[arcbox,right=2mm of alp]{\textbf{ Data Services} \\Frossie Economou} ;
+	\node(infra)[arcbox,left=2mm of sumw]{\textbf{Infrastructure/Data Facilities} \\ Adam Bolton} ;
+	\node(devops)[arcbox,left=2mm of infra]{\textbf{Data Acquisition/LHN} \\ Cristi\'{a}n Silva} ;
+	%\node(wan)[gbox,text width=30mm,below=2cm of devops]{\textbf{Wide Area Network} \\ Cristi\'an Silva} ;
+	%\node(sinfra)[gbox,text width=30mm,right=6mm of wan]{\textbf{SLAC Infra} \\ Wei Yang } ;
+	%\node(datac)[gbox,text width=30mm,right=2mm of sinfra]{\textbf{Data Curation} \\ Brandon White } ;
+	%\node(avs)[gbox,text width=30mm,right=2mm of datac]{\textbf{Alert Vetting Sys} \\ Michael Schneider } ;
+	%\node(exec)[gbox,text width=30mm,right=6mm of avs]{\textbf{Proc. Execution} \\ open} ;
+	%\node(adb)[gbox,text width=30mm,right=6mm of exec]{\textbf{Advanced DB} \\ Fritz Mueller } ;
+	%\node(square)[gbox,right=2mm of adb]{\textbf{ Service Quality and Reliability Engineering } \\Frossie Economou} ;
+%Lines ..
+
+   \draw[line] (ad.north) -- ++(0,0.8) -| (dir.south);
+   \draw[line] (dmsci.north) |- (dir.east);
+
+%dm lines second number is the proportional turning point of the line
+   \draw[line] (sumw.north) --  (ad.south);
+\draw[line] (ds.north)-- ++(0,0.5)  -| (ad.south);
+\draw[line] (alp.north) -- ++(0,0.5) -| (ad.south);
+\draw[line] (infra.north)-- ++(0,0.5) -| (ad.south);
+\draw[line] (devops.north)-- ++(0,0.5)  -| (ad.south);
+
+%  \draw[line] (exec.north) --  (alp.south);
+%\draw[line] (wan.north)-- ++(0,0.5)  -| (devops.south);
+%\draw[line] (adb.north)-- ++(0,0.5)  -| (ds.south);
+%\draw[line] (square.north)-- ++(0,0.5)  -| (ds.south);
+%\draw[line] (datac.north)-- ++(0,0.5)  -| (infra.south);
+%\draw[line] (sinfra.north)-- ++(0,0.5)  -| (infra.south);
+%\draw[line] (avs.north)-- ++(0,0.5)  -| (infra.south);
+%science
+\draw[sline] (dmsci.west) to (ad.east);
+\draw[sline] (fdfa.north) |-  (ad.west);
+\draw[sline] (udfa.north) |- ++(0,0.3) ;
+\draw[sline] (ukfa.north) |- ++(0,0.3) -- ++(8.7,0) ;
+
+
+
+\end{tikzpicture}
+\end{document}
